@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../../images/d-growlogo.png" />
+  <title>D-Grow</title>
+  <!-- css -->
+  <link rel="stylesheet" href="../../css/style.css" />
+  <!-- font - icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- ==============================HEADER ============================ -->
+  <header>
+      <div class="container">
+        <div class="logo">
+          <img src="/d-grownew/assets/images/d-growlogo.png" alt="" />
+        </div>
+        <nav>
+          <a href="/d-grownew/index.html">Home</a>
+          <a href="../about.html">About</a>
+          <div class="service-menu">
+            <a
+              class="service-menu-text"
+              onclick="window.open('../services/service.html', '_self')"
+              >Services
+              <i class="fa-solid fa-caret-down"></i>
+            </a>
+
+            <div class="sub-service">
+              <ul class="service-list">
+                <li>
+                  <h5>Digital Marketing Services</h5>
+                  <a href="./seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>SEO Service (Website
+                    Ranking)</a
+                  >
+                  <a href="./ppc.html"
+                    ><i class="fa-solid fa-angle-right"></i>Google Ads (PPC)</a
+                  >
+                  <a href="./smm.html"
+                    ><i class="fa-solid fa-angle-right"></i>Social Media
+                    Marketing</a
+                  >
+                  <a href="./socialmedia.html"
+                    ><i class="fa-solid fa-angle-right"></i>Social Media
+                    Management</a
+                  >
+                  <a href="./email.html"
+                    ><i class="fa-solid fa-angle-right"></i>Email Marketing</a
+                  >
+                  <a href="./gmb.html"
+                    ><i class="fa-solid fa-angle-right"></i>GMB Listing &
+                    Ranking</a
+                  >
+                  <a href="./whatsapp.html"
+                    ><i class="fa-solid fa-angle-right"></i>WhatsApp
+                    Marketing</a
+                  >
+                  <a href="./lead.html"
+                    ><i class="fa-solid fa-angle-right"></i>Leads Generation</a
+                  >
+                  <a href="./political.html"
+                    ><i class="fa-solid fa-angle-right"></i>Political Ads</a
+                  >
+                </li>
+                <li>
+                  <h5>Creative Services</h5>
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Content Writing &
+                    Marketing</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Graphic Designing</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Video Shooting &
+                    Editing</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Personal Branding</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>LinkedIn Personal
+                    Branding</a
+                  >
+                </li>
+                <li>
+                  <h5>Business Solutions & E-Commerce</h5>
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Website Design &
+                    Development</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Marketing
+                    Automation</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Lead Nurturing
+                    System</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Digital Marketing
+                    Consultation</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Product Listing +
+                    Amazon SEO</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="../consultation.html">Consultation</a>
+          <a href="#"
+            >Med<span></span>Grow
+            <div class="med-con">
+              Coming Soon <br />
+              for medical
+            </div></a
+          >
+          <a href="../blog.html">Blog</a>
+          <a href="../case.html">Case<span></span>Study</a>
+          <a href="../contact.html">Contact</a>
+        </nav>
+        <a class="btn" href="https://wa.me/917373509585" target="_blank"
+          >Start Now</a
+        >
+        <div onclick="showMenu()" class="menu-bar">
+          <div class="open">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="close">
+            <i class="fa-solid fa-x"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+  <!-- ==============================MOBILE MENU ============================ -->
+  <div class="mobile-menu">
+    <nav>
+      <a href="../../../index.html"><i class="fa-solid fa-house"></i>Home</a>
+      <a href="../about.html"><i class="fa-solid fa-address-card"></i>About</a>
+      <div class="mobile-service">
+        <a href="../services/service.html"><i class="fa-brands fa-digital-ocean"></i>Services</a>
+        <div class="mobile-sub-menu">
+          <a href="../services/seo.html"><i class="fa-solid fa-angles-right"></i>SEO</a>
+          <a href="../services/socialmedia.html"><i class="fa-solid fa-angles-right"></i>Social Media Marketing
+          </a>
+          <a href="#"><i class="fa-solid fa-angles-right"></i>Lead Generate
+          </a>
+          <a href="#"><i class="fa-solid fa-angles-right"></i>Web Designing &
+            Development</a>
+          <a href="#"><i class="fa-solid fa-angles-right"></i>Personal Branding</a>
+        </div>
+      </div>
+      <a href="../consultation.html"><i class="fa-solid fa-book"></i>Digital consultants</a>
+      <a href="#"><i class="fa-solid fa-book"></i>Med Grow (Coming Soon)</a>
+
+      <a href="../blog.html"><i class="fa-solid fa-book"></i>Blog</a>
+      <a href="./case.html"><i class="fa-solid fa-book"></i>Case Study</a>
+
+      <a href="../contact.html"><i class="fa-solid fa-phone-volume"></i>Contact</a>
+    </nav>
+    <div class="mobile-social">
+      <a href="https://wa.me/917373509585"><i class="fa-brands fa-whatsapp"></i></a>
+      <a
+        href="https://www.instagram.com/dgrowmarketingagency?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i
+          class="fa-brands fa-instagram"></i></a>
+      <a href="mailto:enquiry@dgrowmarketing.com"><i class="fa-solid fa-envelope"></i></a>
+      <a href="tel:+917373509585"><i class="fa-solid fa-phone"></i></a>
+    </div>
+  </div>
+  <!-- ==============================MOBILE MENU ============================ -->
+  <!-- ==============================HEADER ============================ -->
+  <!-- ==============================PAGE TOP SECTION ============================ -->
+  <div class="hero-section">
+    <div class="container">
+      <h1>Social Media Marketing</h1>
+      <p>
+        Rank your website on Google's first page and pull the traffic towards
+        your website within 90 Days!
+      </p>
+      <p>
+        <a class="inner-menu" href="../../../index.html">Home <i class="fa-solid fa-angle-right"></i></a>
+        <a href="./service.html">Service</a>
+      </p>
+    </div>
+  </div>
+  <!-- ==============================PAGE TOP SECTION ============================ -->
+  <div class="about seo">
+    <!-- ==============================SECTION 2 ============================ -->
+    <!-- ==============================SECTION 2 ============================ -->
+    <div class="container">
+      <div class="seo-input-text">
+        <p>Comprehensive Website Audit Tool</p>
+        <h3>How does your site score?</h3>
+      </div>
+
+      <form method="post"
+        action="https://script.google.com/macros/s/AKfycbxTMzLiidLN-A3ZSF7_f1HLvJ6nkZ-cIHHHeBgupMNXLCMM90K14sBxtWlcOroxt6c_/exec"
+        onsubmit="handleSubmit(event)">
+        <div class="seo-inputs">
+          <input type="text" placeholder="Enter Your Website URL" name="webLink" required />
+          <button type="submit" class="seo-btn" id="seoSubmitBtn">
+            Send
+          </button>
+        </div>
+      </form>
+    </div>
+    <!-- ==============================SECTION 2 ============================ -->
+    <section class="section section2">
+      <div class="container">
+        <div class="right">
+          <div class="section-img">
+            <img src="../../images/seo.png" alt="" />
+          </div>
+        </div>
+        <div class="left">
+          <div class="section-text">
+            <h3>Elevate Your Brand with Expert Social Media Marketing
+            </h3>
+            <p>
+              Struggling to stand out on social media? Does your social media presence feel flat or disconnected from
+              your business goals? You’re not alone. Many businesses face challenges in crafting a compelling social
+              media strategy that delivers real, measurable results.</p>
+            <p>At D-Grow Marketing Agency, we help businesses unlock the power of social media to build brand awareness,
+              engage with the right audience, and drive business growth. Whether you're just starting out or need to
+              fine-tune your existing social media presence, we’ve got the expertise to get you results.</p>
+
+            <p class="red">Are you confused or worried about how to grow your brand with social media marketing?D- Grow
+              is a Best choice whether you need any suggestion, advice or a service. </p>
+
+
+            <h4>Ready to see your website finally work for you?</h4>
+            <p>Let's transform your online presence today.</p>
+            <a href="../contact.html" class="btn">Book Your Free Consultation Now!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==============================SECTION 2 ============================ -->
+    <!-- ==============================SECTION 2============================ -->
+    <div class="about-section2">
+      <div class="container">
+        <div class="title">
+          <h2>The Problem: Why Social Media Isn't Delivering Results</h2>
+          <p>
+            Many business owners struggle with the following issues on social media:
+
+          </p>
+        </div>
+        <div class="boxs1 boxs2">
+          <div class="box">
+            <div class="box1">
+              <div class="icon">
+                <i class="fa-solid fa-lightbulb"></i>
+              </div>
+              <h4>
+                Low Engagement:
+              </h4>
+            </div>
+            <div class="box-text">
+              <p>
+                You’re posting regularly, but your followers aren’t interacting with your content.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box1">
+              <div class="icon">
+                <i class="fa-solid fa-paper-plane"></i>
+              </div>
+              <h4>
+                Inconsistent Branding:
+              </h4>
+            </div>
+            <div class="box-text">
+              <p>
+                Your social media doesn’t reflect your brand’s personality or values, leading to confusion among
+                potential customers.
+
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box1">
+              <div class="icon">
+                <i class="fa-solid fa-map"></i>
+              </div>
+              <h4>
+                Not Reaching the Right Audience:
+              </h4>
+            </div>
+            <div class="box-text">
+              <p>Your posts aren’t reaching your ideal clients, which means you’re missing out on potential business.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box1">
+              <div class="icon">
+                <i class="fa-solid fa-image"></i>
+              </div>
+              <h4>
+                Wasted Time and Effort:
+              </h4>
+            </div>
+            <div class="box-text">
+              <p> You’re putting in a lot of effort but seeing little return in terms of traffic, leads, or sales.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box1">
+              <div class="icon">
+                <i class="fa-solid fa-keyboard"></i>
+              </div>
+              <h4>No Clear Strategy:</h4>
+            </div>
+            <div class="box-text">
+              <p>You’re posting content without a clear plan or measurable objectives, which means your efforts lack
+                focus and direction.
+
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="title">
+          <p>These problems can be incredibly frustrating, but the good news is that we can help.
+          </p>
+        </div>
+      </div>
+
+    </div>
+    <!-- ==============================SECTION 2============================ -->
+    <!-- ==============================COUNTER ============================ -->
+    <!-- ==============================WORK ============================ -->
+    <div class="work">
+      <div class="container">
+        <div class="left">
+          <h2>Here’s how we turn things around for you:</h2>
+          <div class="step-box">
+            <div class="step">
+              <div class="step-list">
+                <div class="inner-box"></div>
+              </div>
+              <div class="step-text">
+                <h3>1. Audience Research & Targeting</h3>
+                <p>We dive deep into your business and customer profile to create social media content that speaks directly to your ideal audience. This ensures that we reach the right people at the right time, maximizing engagement and conversions.
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-list">
+                <div class="inner-box"></div>
+              </div>
+              <div class="step-text">
+                <h3>2. Content Strategy Development</h3>
+                <p>Our team designs a tailored content strategy that aligns with your business goals, brand voice, and target audience. From informative posts to creative visuals and storytelling, we keep your social media fresh, engaging, and purposeful.
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-list">
+                <div class="inner-box"></div>
+              </div>
+              <div class="step-text">
+                <h3>3. Platform-Specific Optimization</h3>
+                <p>Each social media platform has its unique best practices. Whether it's Instagram, Facebook, LinkedIn, or Twitter, we optimize content to suit the platform, ensuring you get maximum visibility and engagement.
+
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-list">
+                <div class="inner-box"></div>
+              </div>
+              <div class="step-text">
+                <h3>4. Creative Content Creation
+</h3>
+                <p>Our in-house team of graphic designers, copywriters, and videographers work together to create eye-catching visuals and compelling content that resonates with your audience. Whether it’s images, infographics, videos, or polls, we deliver content that sparks interaction.
+
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-list">
+                <div class="inner-box"></div>
+              </div>
+              <div class="step-text">
+                <h3>5. Community Engagement & Management
+</h3>
+                <p>Social media isn’t just about posting content; it’s about engaging with your community. We help you build meaningful relationships with your followers by responding to comments, messages, and initiating conversations that encourage engagement.
+
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-list">
+                <div class="inner-box"></div>
+              </div>
+              <div class="step-text">
+                <h3>6. Paid Social Media Advertising
+                </h3>
+                <p>Organic reach is great, but paid ads amplify your efforts. We run targeted ads on platforms like Facebook, Instagram, LinkedIn, and others, to ensure that you get in front of your ideal customers and drive quality traffic to your business.
+
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-list">
+                <div class="inner-box"></div>
+              </div>
+              <div class="step-text">
+                <h3>7. Performance Tracking & Reporting
+                </h3>
+                <p>We provide regular reports to track the performance of your campaigns, including metrics like reach, engagement, clicks, and conversions. This allows us to adjust strategies and tactics to maximize the impact of your social media marketing.
+
+                </p>
+              </div>
+            </div>
+            <!-- <div class="step">
+                <div class="step-list">
+                  <div class="inner-box"></div>
+                </div>
+                <div class="step-text">
+                  <h3>Continuous Optimization & Support</h3>
+                  <p>
+                    Ongoing adjustments and support to adapt to changing search
+                    algorithms and market trends, ensuring long-term success.
+                  </p>
+                </div>
+              </div> -->
+          </div>
+        </div>
+        <div class="right">
+          <div class="">
+            <h2>Our Solution: Comprehensive Social Media Marketing Strategies</h2>
+            <p>We’re not just about posting pretty pictures or memes. We’re about creating strategic, results-driven social media marketing campaigns that build real connections with your audience and drive your business forward.
+
+            </p>
+          </div>
+          <img src="../../images/hero.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <section class="why-dgrow-luxury">
+      <div class="container">
+
+        <div class="luxury-header">
+          <h2>Why D-Grow Marketing Agency?</h2>
+          <p>
+            We know that every business is unique, and we tailor our approach to match your goals and industry. Here's why D-Grow is the ideal partner for your social media marketing:
+
+          </p>
+        </div>
+
+        <div class="luxury-wrapper">
+
+          <div class="luxury-left">
+            <div class="luxury-item">
+              <span>01</span>
+              <div>
+                <h3>Proven Track Record:</h3>
+                <p>
+                   We have helped numerous brands grow their social presence, increasing engagement and driving sales through effective social media strategies.
+                </p>
+              </div>
+            </div>
+
+            <div class="luxury-item">
+              <span>02</span>
+              <div>
+                <h3>Targeted Approach:</h3>
+                <p>
+                   We focus on delivering results that matter to you — from increased traffic to higher sales and lead generation.
+
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="luxury-right">
+            <div class="luxury-item">
+              <span>03</span>
+              <div>
+                <h3>Creative & Fresh Content:</h3>
+                <p>
+                   Our team stays on top of social media trends to ensure your brand stays relevant and stands out in a crowded marketplace.
+                </p>
+              </div>
+            </div>
+
+            <div class="luxury-item highlight">
+              <span>04</span>
+              <div>
+                <h3>Transparent Reporting:</h3>
+                <p>
+                  We keep you informed every step of the way with clear, data-driven reports showing how your social media efforts are contributing to your business goals.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================COUNTER ============================ -->
+    <div class="container">
+      <div class="title1">
+        <h2>The Power of Social Media: Key Statistics
+        </h2>
+        <p>Still wondering why social media marketing is essential for your business? Here are some key statistics that show just how powerful social media can be:
+</p>
+        <div class="counters">
+
+          <div class="counter">
+            <h2><span data-count="54">0</span>%</h2>
+            <h4> consumers use social media to research products and services</h4>
+            <div class="bg-img">
+              <img src="../../images/mobile-arrow.webp" alt="" />
+            </div>
+          </div>
+          <div class="counter">
+            <h2><span data-count="73">0</span>%</h2>
+            <h4>marketers believe their efforts through social media have been “somewhat effective” or “very effective” for their business </h4>
+            <div class="bg-img">
+              <img src="../../images/mobile-arrow.webp" alt="" />
+            </div>
+          </div>
+          <div class="counter">
+            <h2><span data-count="78">0</span>%</h2>
+            <h4>consumers say a company’s social media posts influence their purchasing decisions</h4>
+            <div class="bg-img tab">
+              <img src="../../images/mobile-arrow.webp" alt="" />
+            </div>
+          </div>
+          <div class="counter">
+            <h2><span data-count="53">0</span>%</h2>
+            <h4>buyers will visit a company’s website after seeing its social media posts </h4>
+          </div>
+        </div>
+        <p>These numbers prove the impact of social media marketing. When done right, it can help you generate high-quality leads, build brand loyalty, and drive sales.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- ==============================COUNTER ============================ -->
+    <section class="social-luxury">
+  <div class="container">
+
+    <div class="social-head">
+      <span class="tag">SOCIAL MEDIA MARKETING</span>
+      <h2>We Don’t Just Post. <br>We Build Brands on Social Media.</h2>
+      <p>
+        Every scroll is an opportunity. Our social media services are designed
+        to capture attention, build trust, and convert audiences into loyal customers.
+      </p>
+    </div>
+
+    <div class="social-grid">
+
+      <div class="social-card">
+        <h3>01</h3>
+        <h4>Social Media Strategy Development</h4>
+        <p>
+          We create a clear, data-backed social media roadmap aligned with
+          your business goals, audience behavior, and brand voice.
+        </p>
+      </div>
+
+      <div class="social-card">
+        <h3>02</h3>
+        <h4>Content Creation & Curation</h4>
+        <p>
+          From scroll-stopping visuals to videos, blogs, and infographics,
+          we produce content that educates, engages, and converts.
+        </p>
+      </div>
+
+      <div class="social-card">
+        <h3>03</h3>
+        <h4>Social Media Account Management</h4>
+        <p>
+          We manage posting, engagement, monitoring, and optimization,
+          so your brand stays active, consistent, and relevant.
+        </p>
+      </div>
+
+      <div class="social-card highlight">
+        <h3>04</h3>
+        <h4>Paid Ads Management</h4>
+        <p>
+          We plan and execute high-performing paid campaigns across
+          Facebook, Instagram, LinkedIn, and more—focused on ROI.
+        </p>
+      </div>
+
+      <div class="social-card">
+        <h3>05</h3>
+        <h4>Community Engagement</h4>
+        <p>
+          We build and nurture an active community by engaging with
+          followers and turning conversations into conversions.
+        </p>
+      </div>
+
+      <div class="social-card">
+        <h3>06</h3>
+        <h4>Influencer Marketing</h4>
+        <p>
+          We collaborate with relevant influencers to increase reach,
+          strengthen credibility, and boost brand awareness.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- ==============================CTA 4============================ -->
+    <section class="social-cta-premium">
+  <div class="container">
+
+    <div class="social-cta-content">
+      <span class="cta-tag">READY TO SCALE?</span>
+
+      <h2>Let’s Take Your Social Media <br>to the Next Level</h2>
+
+      <p class="cta-lead">
+        Don’t let your brand get lost in the noise of social media.
+        We help you cut through the clutter, connect with your audience,
+        and turn engagement into real business growth.
+      </p>
+
+      <p>
+        From building a strong brand presence to driving leads and sales,
+        our social media marketing services are designed to deliver
+        measurable, long-term results.
+      </p>
+
+      <a href="../contact.html" class="btn">Schedule a Free Consultation</a>
+    </div>
+
+    <div class="social-packages-intro">
+      <h3>Social Media Marketing Packages</h3>
+      <p>
+        Whether you’re a local business or a well-established brand,
+        we offer flexible social media marketing packages tailored
+        to your goals, audience, and budget.
+      </p>
+      <p class="highlight-text">
+        Choose D-Grow and make the right move for your brand’s growth.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- ==============================CTA 4============================ -->
+    <!-- ==============================FOOTER============================ -->
+    <footer>
+      <div class="container">
+        <div class="footer-box">
+          <a href="../../index.html">Home </a>
+          <a href="../page/about.html">About Us </a>
+          <a href="#">Services </a>
+          <a href="#">SEO Service </a>
+          <a href="#">Social Media Marketing </a>
+          <a href="../page/contact.html">Contact Us</a>
+          <div class="social-icon">
+            <a href="#"></a>
+          </div>
+        </div>
+        <div class="footer-box address">
+          <img src="../images/d-grow-footer.png" alt="" />
+          <p>
+            Plot No. 141, SF No: 14/3 Radha Avenue Main Road, Valasaravakkam,
+            Chennai - 600087
+          </p>
+          <a href="#">+91 7373509585</a>
+          <a href="#"> enquiry@dgrowmarketing.com</a>
+        </div>
+      </div>
+      <hr />
+      <a href="">
+        <p class="copy">Copyright © 2024 D-Grow Marketing Agency</p>
+      </a>
+    </footer>
+    <!-- ==============================FOOTER============================ -->
+    <!-- ==============================Float menu============================ -->
+    <button id="scrollToTop">
+      <a class="bg-icon" onclick="showSocial()" title="Social Media"><i class="fa-solid fa-share-alt"></i></a>
+      <a class="bg-icon" href="#" title="Go to top"><i class="fa-solid fa-arrow-up"></i></a>
+
+      <div class="float-social">
+        <a class="whatsapp" href="https://wa.me/917373509585" target="_blank" title="WhatsApp"><i
+            class="fa-brands fa-whatsapp"></i></a>
+        <a class="insta"
+          href="https://www.instagram.com/dgrowmarketingagency?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a class="env" href="mailto:enquiry@dgrowmarketing.com" target="_blank" title="Email Me"><i
+            class="fa-solid fa-envelope"></i></a>
+        <a class="phone" href="tel:+917373509585" target="_blank" title="Contact "><i class="fa-solid fa-phone"></i></a>
+      </div>
+    </button>
+  </div>
+  <!-- js -->
+  <script src="../../js/main.js"></script>
+  <script>
+    function handleSubmit(e) {
+      const btn = document.getElementById("seoSubmitBtn");
+      btn.textContent = "Sending...";
+      btn.disabled = true;
+
+      // Allow form to continue submitting, then wait for a moment before showing the alert
+      // Prevent default form submission to allow async fetch
+      e.preventDefault();
+
+      const form = e.target;
+      const data = new FormData(form);
+
+      fetch(form.action, {
+        method: "POST",
+        body: data,
+      })
+        .then((response) => {
+          if (response.ok) {
+            alert("Form submitted successfully!");
+            location.reload();
+          } else {
+            alert("There was an error submitting the form.");
+          }
+          btn.textContent = "Send";
+          btn.disabled = false;
+          form.reset();
+        })
+        .catch((error) => {
+          alert("Something went wrong!");
+          console.error(error);
+          btn.textContent = "Send";
+          btn.disabled = false;
+        });
+    }
+  </script>
+</body>
+
+</html>

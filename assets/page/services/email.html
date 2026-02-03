@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../../images/d-growlogo.png" />
+  <title>D-Grow</title>
+  <!-- css -->
+  <link rel="stylesheet" href="../../css/style.css" />
+  <!-- font - icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- ==============================HEADER ============================ -->
+ <header>
+      <div class="container">
+        <div class="logo">
+          <img src="/d-grownew/assets/images/d-growlogo.png" alt="" />
+        </div>
+        <nav>
+          <a href="/d-grownew/index.html">Home</a>
+          <a href="../about.html">About</a>
+          <div class="service-menu">
+            <a
+              class="service-menu-text"
+              onclick="window.open('../services/service.html', '_self')"
+              >Services
+              <i class="fa-solid fa-caret-down"></i>
+            </a>
+
+            <div class="sub-service">
+              <ul class="service-list">
+                <li>
+                  <h5>Digital Marketing Services</h5>
+                  <a href="./seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>SEO Service (Website
+                    Ranking)</a
+                  >
+                  <a href="./ppc.html"
+                    ><i class="fa-solid fa-angle-right"></i>Google Ads (PPC)</a
+                  >
+                  <a href="./smm.html"
+                    ><i class="fa-solid fa-angle-right"></i>Social Media
+                    Marketing</a
+                  >
+                  <a href="./socialmedia.html"
+                    ><i class="fa-solid fa-angle-right"></i>Social Media
+                    Management</a
+                  >
+                  <a href="./email.html"
+                    ><i class="fa-solid fa-angle-right"></i>Email Marketing</a
+                  >
+                  <a href="./gmb.html"
+                    ><i class="fa-solid fa-angle-right"></i>GMB Listing &
+                    Ranking</a
+                  >
+                  <a href="./whatsapp.html"
+                    ><i class="fa-solid fa-angle-right"></i>WhatsApp
+                    Marketing</a
+                  >
+                  <a href="./lead.html"
+                    ><i class="fa-solid fa-angle-right"></i>Leads Generation</a
+                  >
+                  <a href="./political.html"
+                    ><i class="fa-solid fa-angle-right"></i>Political Ads</a
+                  >
+                </li>
+                <li>
+                  <h5>Creative Services</h5>
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Content Writing &
+                    Marketing</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Graphic Designing</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Video Shooting &
+                    Editing</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Personal Branding</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>LinkedIn Personal
+                    Branding</a
+                  >
+                </li>
+                <li>
+                  <h5>Business Solutions & E-Commerce</h5>
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Website Design &
+                    Development</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Marketing
+                    Automation</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Lead Nurturing
+                    System</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Digital Marketing
+                    Consultation</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Product Listing +
+                    Amazon SEO</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="../consultation.html">Consultation</a>
+          <a href="#"
+            >Med<span></span>Grow
+            <div class="med-con">
+              Coming Soon <br />
+              for medical
+            </div></a
+          >
+          <a href="../blog.html">Blog</a>
+          <a href="../case.html">Case<span></span>Study</a>
+          <a href="../contact.html">Contact</a>
+        </nav>
+        <a class="btn" href="https://wa.me/917373509585" target="_blank"
+          >Start Now</a
+        >
+        <div onclick="showMenu()" class="menu-bar">
+          <div class="open">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="close">
+            <i class="fa-solid fa-x"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+  <!-- ==============================MOBILE MENU ============================ -->
+  <div class="mobile-menu">
+    <nav>
+      <a href="../../../index.html"><i class="fa-solid fa-house"></i>Home</a>
+      <a href="../about.html"><i class="fa-solid fa-address-card"></i>About</a>
+      <div class="mobile-service">
+        <a href="../services/service.html"><i class="fa-brands fa-digital-ocean"></i>Services</a>
+        <div class="mobile-sub-menu">
+          <a href="../services/seo.html"><i class="fa-solid fa-angles-right"></i>SEO</a>
+          <a href="../services/socialmedia.html"><i class="fa-solid fa-angles-right"></i>Social Media Marketing
+          </a>
+          <a href="#"><i class="fa-solid fa-angles-right"></i>Lead Generate
+          </a>
+          <a href="#"><i class="fa-solid fa-angles-right"></i>Web Designing &
+            Development</a>
+          <a href="#"><i class="fa-solid fa-angles-right"></i>Personal Branding</a>
+        </div>
+      </div>
+      <a href="../consultation.html"><i class="fa-solid fa-book"></i>Digital consultants</a>
+      <a href="#"><i class="fa-solid fa-book"></i>Med Grow (Coming Soon)</a>
+
+      <a href="../blog.html"><i class="fa-solid fa-book"></i>Blog</a>
+      <a href="./case.html"><i class="fa-solid fa-book"></i>Case Study</a>
+
+      <a href="../contact.html"><i class="fa-solid fa-phone-volume"></i>Contact</a>
+    </nav>
+    <div class="mobile-social">
+      <a href="https://wa.me/917373509585"><i class="fa-brands fa-whatsapp"></i></a>
+      <a
+        href="https://www.instagram.com/dgrowmarketingagency?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i
+          class="fa-brands fa-instagram"></i></a>
+      <a href="mailto:enquiry@dgrowmarketing.com"><i class="fa-solid fa-envelope"></i></a>
+      <a href="tel:+917373509585"><i class="fa-solid fa-phone"></i></a>
+    </div>
+  </div>
+  <!-- ==============================MOBILE MENU ============================ -->
+  <!-- ==============================HEADER ============================ -->
+  <!-- ==============================PAGE TOP SECTION ============================ -->
+  <div class="hero-section">
+    <div class="container">
+      <h1>Email Marketing</h1>
+      <p>
+        Rank your website on Google's first page and pull the traffic towards
+        your website within 90 Days!
+      </p>
+      <p>
+        <a class="inner-menu" href="../../../index.html">Home <i class="fa-solid fa-angle-right"></i></a>
+        <a href="./service.html">Service</a>
+      </p>
+    </div>
+  </div>
+  <!-- ==============================PAGE TOP SECTION ============================ -->
+  <div class="about seo">
+    <!-- ==============================SECTION 2 ============================ -->
+    <!-- ==============================SECTION 2 ============================ -->
+    <div class="container">
+      <div class="seo-input-text">
+        <p>Comprehensive Website Audit Tool</p>
+        <h3>How does your site score?</h3>
+      </div>
+
+      <form method="post"
+        action="https://script.google.com/macros/s/AKfycbxTMzLiidLN-A3ZSF7_f1HLvJ6nkZ-cIHHHeBgupMNXLCMM90K14sBxtWlcOroxt6c_/exec"
+        onsubmit="handleSubmit(event)">
+        <div class="seo-inputs">
+          <input type="text" placeholder="Enter Your Website URL" name="webLink" required />
+          <button type="submit" class="seo-btn" id="seoSubmitBtn">
+            Send
+          </button>
+        </div>
+      </form>
+    </div>
+    <!-- ==============================SECTION 2 ============================ -->
+    <section class="section section2">
+      <div class="container">
+        <div class="right">
+          <div class="section-img">
+            <img src="../../images/seo.png" alt="" />
+          </div>
+        </div>
+        <div class="left">
+          <div class="section-text">
+            <h3>Email Marketing: Reach Your Audience, Boost Your Conversions
+
+            </h3>
+            <p>Struggling to convert leads into loyal customers? Are your email campaigns failing to engage your audience? Email marketing is one of the most powerful tools for building relationships with your customers and driving sales, but only when done right.
+</p>
+            <p>At D-Grow Marketing Agency, we specialize in creating highly-targeted email marketing campaigns that not only engage your audience but also convert them into paying customers. From creating compelling copy to designing beautiful templates, we ensure your email marketing campaigns deliver measurable results.</p>
+
+            <!-- <p class="red">Are you confused or worried about how to grow your brand with social media marketing?D- Grow
+              is a Best choice whether you need any suggestion, advice or a service. </p> -->
+
+
+            <h4>Ready to see your website finally work for you?</h4>
+            <p>Let's transform your online presence today.</p>
+            <a href="../contact.html" class="btn">Book Your Free Consultation Now!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==============================SECTION 2 ============================ -->
+    <!-- ==============================SECTION 2============================ -->
+    <div class="about-section2">
+      <div class="container">
+        <div class="title">
+          <h2>The Problem: Why Your Email Marketing Isn’t Working</h2>
+          <p>Many businesses face challenges when it comes to email marketing, including:
+
+          </p>
+        </div>
+        <div class="boxs1 boxs2">
+          <div class="box">
+            <div class="box1">
+              <div class="icon">
+                <i class="fa-solid fa-lightbulb"></i>
+              </div>
+              <h4>
+                Low Open Rates: 
+              </h4>
+            </div>
+            <div class="box-text">
+              <p>
+                 Your emails aren't getting opened because your subject lines aren't compelling enough.
+
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box1">
+              <div class="icon">
+                <i class="fa-solid fa-paper-plane"></i>
+              </div>
+              <h4>
+                Weak Engagement:
+              </h4>
+            </div>
+            <div class="box-text">
+              <p>
+                 Even if people open your emails, they aren’t taking action because your content doesn’t resonate with them.
+
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box1">
+              <div class="icon">
+                <i class="fa-solid fa-map"></i>
+              </div>
+              <h4>
+                Poor List Management:
+              </h4>
+            </div>
+            <div class="box-text">
+              <p> An outdated or irrelevant email list can lead to wasted efforts and low returns on your email campaigns.
+
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box1">
+              <div class="icon">
+                <i class="fa-solid fa-image"></i>
+              </div>
+              <h4>
+                No Personalization:
+              </h4>
+            </div>
+            <div class="box-text">
+              <p>  Generic emails fail to build the deep connections needed to convert leads into customers.
+
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box1">
+              <div class="icon">
+                <i class="fa-solid fa-keyboard"></i>
+              </div>
+              <h4>Ineffective Calls-to-Action:</h4>
+            </div>
+            <div class="box-text">
+              <p> Your emails lack a clear, strong call-to-action, leading to missed opportunities for conversions.
+
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="title">
+          <p>If these problems sound familiar, we can help.
+          </p>
+        </div>
+      </div>
+
+    </div>
+    <!-- ==============================SECTION 2============================ -->
+    <!-- ==============================COUNTER ============================ -->
+    <!-- ==============================WORK ============================ -->
+    <div class="work">
+      <div class="container">
+        <div class="left">
+          
+          <div class="step-box">
+            <div class="step">
+              <div class="step-list">
+                <div class="inner-box"></div>
+              </div>
+              <div class="step-text">
+                <h3>1. Targeted Email List Management</h3>
+                <p>We ensure that your email list is clean, segmented, and targeted, so you only send emails to those who are most likely to convert.
+
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-list">
+                <div class="inner-box"></div>
+              </div>
+              <div class="step-text">
+                <h3>2. Compelling Subject Lines</h3>
+                <p>Your emails will get noticed with attention-grabbing subject lines that entice your audience to open them and take action.
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-list">
+                <div class="inner-box"></div>
+              </div>
+              <div class="step-text">
+                <h3>3. Personalized Content</h3>
+                <p>We personalize your emails to speak directly to your audience’s interests, needs, and pain points, ensuring higher engagement rates.
+
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-list">
+                <div class="inner-box"></div>
+              </div>
+              <div class="step-text">
+                <h3>4. High-Converting Email Copy</h3>
+                <p>We write email content that drives action. Whether you want recipients to buy a product, sign up for a webinar, or schedule a consultation, our emails are crafted to generate results.
+
+
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-list">
+                <div class="inner-box"></div>
+              </div>
+              <div class="step-text">
+                <h3>5. Visually Engaging Templates
+</h3>
+                <p>We design beautiful, mobile-friendly email templates that make it easy for recipients to read and engage with your content.
+
+
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-list">
+                <div class="inner-box"></div>
+              </div>
+              <div class="step-text">
+                <h3>6. A/B Testing for Optimization
+                </h3>
+                <p>We perform A/B testing to determine which subject lines, content, and design elements perform best. This helps us optimize future campaigns for even better results.
+
+
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-list">
+                <div class="inner-box"></div>
+              </div>
+              <div class="step-text">
+                <h3>7. Automated Email Campaigns
+
+                </h3>
+                <p>From welcome series to abandoned cart reminders, we set up automated email workflows that engage customers and drive conversions, even when you’re not actively sending emails.
+
+                </p>
+              </div>
+            </div>
+            <div class="step">
+                <div class="step-list">
+                  <div class="inner-box"></div>
+                </div>
+                <div class="step-text">
+                  <h3>8. Performance Tracking & Analytics</h3>
+                  <p>We track key email metrics like open rates, click-through rates, and conversions to continuously refine your email campaigns and ensure they’re delivering results.
+
+                  </p>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="">
+            <h2>Our Solution: Data-Driven, Results-Oriented Email Marketing</h2>
+            <p>We help businesses craft effective email marketing campaigns that nurture leads, boost engagement, and drive higher conversions. Here's how we do it:
+            </p>
+          </div>
+          <img src="../../images/hero.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <section class="why-dgrow-luxury">
+      <div class="container">
+
+        <div class="luxury-header">
+          <h2> Why Choose D-Grow Marketing Agency for Your Email Marketing?
+</h2>
+          <p>
+           Partnering with D-Grow Marketing Agency for email marketing ensures you get:
+
+
+          </p>
+        </div>
+
+        <div class="luxury-wrapper">
+
+          <div class="luxury-left">
+            <div class="luxury-item">
+              <span>01</span>
+              <div>
+                <h3>Expert Strategy:</h3>
+                <p>
+                   Our team crafts data-driven strategies designed to achieve your business goals.
+                </p>
+              </div>
+            </div>
+
+            <div class="luxury-item">
+              <span>02</span>
+              <div>
+                <h3>Creative Excellence:</h3>
+                <p>
+                 
+
+ From subject lines to email design, we focus on creativity and quality to ensure your emails stand out in the inbox.
+
+
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="luxury-right">
+            <div class="luxury-item">
+              <span>03</span>
+              <div>
+                <h3>Result-Driven Campaigns:</h3>
+                <p>
+                    We focus on generating tangible results, whether it’s higher sales, more leads, or improved brand awareness.
+
+                </p>
+              </div>
+            </div>
+
+            <div class="luxury-item highlight">
+              <span>04</span>
+              <div>
+                <h3>Continuous Optimization:</h3>
+                <p> We don’t stop once the email is sent. We continuously analyze and optimize for the best performance.
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================COUNTER ============================ -->
+    <div class="container">
+      <div class="title1">
+        <h2>Why Email Marketing is Crucial for Your Business
+
+        </h2>
+        <p>Email marketing is one of the highest ROI marketing channels available. Here are some key stats to show its effectiveness:
+
+</p>
+        <div class="counters">
+
+          <div class="counter">
+            <h2><span data-count="42">0</span>%</h2>
+            <h4> consumers prefer to receive promotional emails over other communication channels </h4>
+            <div class="bg-img">
+              <img src="../../images/mobile-arrow.webp" alt="" />
+            </div>
+          </div>
+          <div class="counter">
+            <h2><span data-count="4400">0</span>%</h2>
+            <h4>meaning for every $1 spent, businesses earn $44 in return </h4>
+            <div class="bg-img">
+              <img src="../../images/mobile-arrow.webp" alt="" />
+            </div>
+          </div>
+          <div class="counter">
+            <h2><span data-count="81">0</span>%</h2>
+            <h4> small businesses rely on email as their primary customer acquisition channel</h4>
+            <div class="bg-img tab">
+              <img src="../../images/mobile-arrow.webp" alt="" />
+            </div>
+          </div>
+          <div class="counter">
+            <h2><span data-count="70">0</span>%</h2>
+            <h4>consumers say they prefer to receive email communication for brand updates and promotions </h4>
+          </div>
+        </div>
+        <p>These statistics highlight the incredible potential email marketing holds to grow your business and build lasting relationships with your audience.
+
+        </p>
+      </div>
+
+    </div>
+
+    <!-- ==============================COUNTER ============================ -->
+  <section class="industries-email">
+  <div class="container">
+
+    <div class="industries-head">
+      <h2>Industries We Serve: Email Marketing That Works Across Sectors</h2>
+      <p>
+        Email marketing is a versatile and effective strategy for virtually any business, 
+        but it’s particularly impactful in the following industries:
+      </p>
+    </div>
+
+    <div class="industries-list">
+
+      <div class="industry-item">
+        <span>01</span>
+        <div class="text">
+          <h4>E-commerce & Retail</h4>
+          <p>
+            Keep customers coming back with targeted product recommendations, 
+            exclusive offers, and abandoned cart reminders.
+          </p>
+        </div>
+      </div>
+
+      <div class="industry-item">
+        <span>02</span>
+        <div class="text">
+          <h4>Health & Wellness</h4>
+          <p>
+            Nurture relationships with patients or clients through educational content, 
+            appointment reminders, and promotional offers.
+          </p>
+        </div>
+      </div>
+
+      <div class="industry-item">
+        <span>03</span>
+        <div class="text">
+          <h4>Education & Online Courses</h4>
+          <p>
+            Drive enrollments with promotional offers, updates on new courses, 
+            and lead nurturing email sequences.
+          </p>
+        </div>
+      </div>
+
+      <div class="industry-item">
+        <span>04</span>
+        <div class="text">
+          <h4>Real Estate</h4>
+          <p>
+            Engage leads with property listings, virtual tours, and market updates, 
+            encouraging them to take the next step in their buying journey.
+          </p>
+        </div>
+      </div>
+
+      <div class="industry-item">
+        <span>05</span>
+        <div class="text">
+          <h4>B2B & Professional Services</h4>
+          <p>
+            Build trust and educate leads with case studies, service offers, 
+            and newsletters that keep your business top of mind.
+          </p>
+        </div>
+      </div>
+
+      <div class="industry-item">
+        <span>06</span>
+        <div class="text">
+          <h4>Non-Profits</h4>
+          <p>
+            Keep donors and volunteers engaged with newsletters, event invitations, 
+            and donation appeals to drive continuous support.
+          </p>
+        </div>
+      </div>
+
+      <div class="industry-item">
+        <span>07</span>
+        <div class="text">
+          <h4>Hospitality & Travel</h4>
+          <p>
+            Promote special offers, last-minute deals, and personalized recommendations 
+            to keep your audience excited about upcoming trips or stays.
+          </p>
+        </div>
+      </div>
+
+      <div class="industry-item">
+        <span>08</span>
+        <div class="text">
+          <h4>Technology & SaaS</h4>
+          <p>
+            Keep clients informed with product updates, feature announcements, 
+            and helpful content that enhances their user experience.
+          </p>
+        </div>
+      </div>
+
+      <div class="industry-item">
+        <span>09</span>
+        <div class="text">
+          <h4>Finance & Insurance</h4>
+          <p>
+            Engage customers with policy reminders, new product offers, 
+            and financial tips that align with their goals and needs.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="industries-footer">
+      <p>
+        Whether you run a local small business or a global e-commerce store, 
+        email marketing is an essential tool for boosting engagement and driving growth. 
+        Our team specializes in adapting our email strategies to meet the unique needs of 
+        businesses in various industries.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+
+    <!-- ==============================CTA 4============================ -->
+   <section class="email-cta">
+  <div class="container">
+
+    <div class="email-cta-box">
+      <h2>Ready to Transform Your Email Marketing?</h2>
+      <p>
+        If you’re ready to leverage the power of email marketing to boost sales,
+        nurture leads, and grow your brand, then D-Grow Marketing Agency is here to help.
+        Our expert team will develop a customized email marketing strategy designed to deliver results.
+      </p>
+
+      <div class="cta-actions">
+        <a href="../contact.html" class="btn">Book a Free Consultation</a>
+        <span>No long-term contracts. Results-focused strategy.</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- ==============================CTA 4============================ -->
+    <!-- ==============================FOOTER============================ -->
+    <footer>
+      <div class="container">
+        <div class="footer-box">
+          <a href="../../index.html">Home </a>
+          <a href="../page/about.html">About Us </a>
+          <a href="../page/service/service.html">Services </a>
+          <a href="#">SEO Service </a>
+          <a href="#">Social Media Marketing </a>
+          <a href="../page/contact.html">Contact Us</a>
+          <div class="social-icon">
+            <a href="#"></a>
+          </div>
+        </div>
+        <div class="footer-box address">
+          <img src="../images/d-grow-footer.png" alt="" />
+          <p>
+            Plot No. 141, SF No: 14/3 Radha Avenue Main Road, Valasaravakkam,
+            Chennai - 600087
+          </p>
+          <a href="#">+91 7373509585</a>
+          <a href="#"> enquiry@dgrowmarketing.com</a>
+        </div>
+      </div>
+      <hr />
+      <a href="">
+        <p class="copy">Copyright © 2024 D-Grow Marketing Agency</p>
+      </a>
+    </footer>
+    <!-- ==============================FOOTER============================ -->
+    <!-- ==============================Float menu============================ -->
+    <button id="scrollToTop">
+      <a class="bg-icon" onclick="showSocial()" title="Social Media"><i class="fa-solid fa-share-alt"></i></a>
+      <a class="bg-icon" href="#" title="Go to top"><i class="fa-solid fa-arrow-up"></i></a>
+
+      <div class="float-social">
+        <a class="whatsapp" href="https://wa.me/917373509585" target="_blank" title="WhatsApp"><i
+            class="fa-brands fa-whatsapp"></i></a>
+        <a class="insta"
+          href="https://www.instagram.com/dgrowmarketingagency?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a class="env" href="mailto:enquiry@dgrowmarketing.com" target="_blank" title="Email Me"><i
+            class="fa-solid fa-envelope"></i></a>
+        <a class="phone" href="tel:+917373509585" target="_blank" title="Contact "><i class="fa-solid fa-phone"></i></a>
+      </div>
+    </button>
+  </div>
+  <!-- js -->
+  <script src="../../js/main.js"></script>
+  <script>
+    function handleSubmit(e) {
+      const btn = document.getElementById("seoSubmitBtn");
+      btn.textContent = "Sending...";
+      btn.disabled = true;
+
+      // Allow form to continue submitting, then wait for a moment before showing the alert
+      // Prevent default form submission to allow async fetch
+      e.preventDefault();
+
+      const form = e.target;
+      const data = new FormData(form);
+
+      fetch(form.action, {
+        method: "POST",
+        body: data,
+      })
+        .then((response) => {
+          if (response.ok) {
+            alert("Form submitted successfully!");
+            location.reload();
+          } else {
+            alert("There was an error submitting the form.");
+          }
+          btn.textContent = "Send";
+          btn.disabled = false;
+          form.reset();
+        })
+        .catch((error) => {
+          alert("Something went wrong!");
+          console.error(error);
+          btn.textContent = "Send";
+          btn.disabled = false;
+        });
+    }
+  </script>
+</body>
+
+</html>

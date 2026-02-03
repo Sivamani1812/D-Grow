@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../../images/d-growlogo.png" />
+    <title>D-Grow</title>
+    <!-- css -->
+    <link rel="stylesheet" href="../../css/style.css" />
+    <!-- font - icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- ==============================HEADER ============================ -->
+ <header>
+      <div class="container">
+        <div class="logo">
+          <img src="/d-grownew/assets/images/d-growlogo.png" alt="" />
+        </div>
+        <nav>
+          <a href="/d-grownew/index.html">Home</a>
+          <a href="../about.html">About</a>
+          <div class="service-menu">
+            <a
+              class="service-menu-text"
+              onclick="window.open('../services/service.html', '_self')"
+              >Services
+              <i class="fa-solid fa-caret-down"></i>
+            </a>
+
+            <div class="sub-service">
+              <ul class="service-list">
+                <li>
+                  <h5>Digital Marketing Services</h5>
+                  <a href="./seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>SEO Service (Website
+                    Ranking)</a
+                  >
+                  <a href="./ppc.html"
+                    ><i class="fa-solid fa-angle-right"></i>Google Ads (PPC)</a
+                  >
+                  <a href="./smm.html"
+                    ><i class="fa-solid fa-angle-right"></i>Social Media
+                    Marketing</a
+                  >
+                  <a href="./socialmedia.html"
+                    ><i class="fa-solid fa-angle-right"></i>Social Media
+                    Management</a
+                  >
+                  <a href="./email.html"
+                    ><i class="fa-solid fa-angle-right"></i>Email Marketing</a
+                  >
+                  <a href="./gmb.html"
+                    ><i class="fa-solid fa-angle-right"></i>GMB Listing &
+                    Ranking</a
+                  >
+                  <a href="./whatsapp.html"
+                    ><i class="fa-solid fa-angle-right"></i>WhatsApp
+                    Marketing</a
+                  >
+                  <a href="./lead.html"
+                    ><i class="fa-solid fa-angle-right"></i>Leads Generation</a
+                  >
+                  <a href="./political.html"
+                    ><i class="fa-solid fa-angle-right"></i>Political Ads</a
+                  >
+                </li>
+                <li>
+                  <h5>Creative Services</h5>
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Content Writing &
+                    Marketing</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Graphic Designing</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Video Shooting &
+                    Editing</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Personal Branding</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>LinkedIn Personal
+                    Branding</a
+                  >
+                </li>
+                <li>
+                  <h5>Business Solutions & E-Commerce</h5>
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Website Design &
+                    Development</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Marketing
+                    Automation</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Lead Nurturing
+                    System</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Digital Marketing
+                    Consultation</a
+                  >
+                  <a href="../services/seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Product Listing +
+                    Amazon SEO</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="../consultation.html">Consultation</a>
+          <a href="#"
+            >Med<span></span>Grow
+            <div class="med-con">
+              Coming Soon <br />
+              for medical
+            </div></a
+          >
+          <a href="../blog.html">Blog</a>
+          <a href="../case.html">Case<span></span>Study</a>
+          <a href="../contact.html">Contact</a>
+        </nav>
+        <a class="btn" href="https://wa.me/917373509585" target="_blank"
+          >Start Now</a
+        >
+        <div onclick="showMenu()" class="menu-bar">
+          <div class="open">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="close">
+            <i class="fa-solid fa-x"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ==============================MOBILE MENU ============================ -->
+    <div class="mobile-menu">
+      <nav>
+        <a href="../../../index.html"><i class="fa-solid fa-house"></i>Home</a>
+        <a href="../about.html"
+          ><i class="fa-solid fa-address-card"></i>About</a
+        >
+        <div class="mobile-service">
+          <a href="../services/service.html"
+            ><i class="fa-brands fa-digital-ocean"></i>Services</a
+          >
+          <div class="mobile-sub-menu">
+            <a href="../services/seo.html"
+              ><i class="fa-solid fa-angles-right"></i>SEO</a
+            >
+            <a href="../services/socialmedia.html"
+              ><i class="fa-solid fa-angles-right"></i>Social Media Marketing
+            </a>
+            <a href="#"
+              ><i class="fa-solid fa-angles-right"></i>Lead Generate
+            </a>
+            <a href="#"
+              ><i class="fa-solid fa-angles-right"></i>Web Designing &
+              Development</a
+            >
+            <a href="#"
+              ><i class="fa-solid fa-angles-right"></i>Personal Branding</a
+            >
+          </div>
+        </div>
+        <a href="../consultation.html"
+          ><i class="fa-solid fa-book"></i>Digital consultants</a
+        >
+        <a href="#"><i class="fa-solid fa-book"></i>Med Grow (Coming Soon)</a>
+
+        <a href="../blog.html"><i class="fa-solid fa-book"></i>Blog</a>
+        <a href="./case.html"><i class="fa-solid fa-book"></i>Case Study</a>
+
+        <a href="../contact.html"
+          ><i class="fa-solid fa-phone-volume"></i>Contact</a
+        >
+      </nav>
+      <div class="mobile-social">
+        <a href="https://wa.me/917373509585"
+          ><i class="fa-brands fa-whatsapp"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/dgrowmarketingagency?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="mailto:enquiry@dgrowmarketing.com"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+        <a href="tel:+917373509585"><i class="fa-solid fa-phone"></i></a>
+      </div>
+    </div>
+    <!-- ==============================MOBILE MENU ============================ -->
+    <!-- ==============================HEADER ============================ -->
+    <!-- ==============================PAGE TOP SECTION ============================ -->
+    <div class="hero-section">
+      <div class="container">
+        <h1>PPC Service</h1>
+        <p>
+          Rank your website on Google's first page and pull the traffic towards
+          your website within 90 Days!
+        </p>
+        <p>
+          <a class="inner-menu" href="../../../index.html"
+            >Home <i class="fa-solid fa-angle-right"></i
+          ></a>
+          <a href="./service.html">Service</a>
+        </p>
+      </div>
+    </div>
+    <!-- ==============================PAGE TOP SECTION ============================ -->
+    <div class="about seo">
+      <!-- ==============================SECTION 2 ============================ -->
+      <!-- ==============================SECTION 2 ============================ -->
+      <div class="container">
+        <div class="seo-input-text">
+          <p>Comprehensive Website Audit Tool</p>
+          <h3>How does your site score?</h3>
+        </div>
+
+        <form
+          method="post"
+          action="https://script.google.com/macros/s/AKfycbxTMzLiidLN-A3ZSF7_f1HLvJ6nkZ-cIHHHeBgupMNXLCMM90K14sBxtWlcOroxt6c_/exec"
+          onsubmit="handleSubmit(event)"
+        >
+          <div class="seo-inputs">
+            <input
+              type="text"
+              placeholder="Enter Your Website URL"
+              name="webLink"
+              required
+            />
+            <button type="submit" class="seo-btn" id="seoSubmitBtn">
+              Send
+            </button>
+          </div>
+        </form>
+      </div>
+      <!-- ==============================SECTION 2 ============================ -->
+      <section class="section section2">
+        <div class="container">
+          <div class="right">
+            <div class="section-img">
+              <img src="../../images/seo.png" alt="" />
+            </div>
+          </div>
+          <div class="left">
+            <div class="section-text">
+              <h3>Maximize Your ROI with Google Ads (PPC) Services</h3>
+              <p>
+               Struggling to generate quality leads from your Google Ads campaigns? Are you frustrated with high costs and low conversions? You’re not alone. As a business owner, you need an effective strategy to ensure every dollar you spend on ads brings in measurable returns.
+              </p>
+              <p>At D-Grow Marketing Agency, we specialize in running high-performance Google Ads (PPC) campaigns that drive targeted traffic, boost conversions, and deliver real results. Whether you’re a local business or an international brand, we craft campaigns that drive your business forward. </p>
+              <h4>Ready to see your website finally work for you?</h4>
+              <p>Let's transform your online presence today.</p>
+              <a href="../contact.html" class="btn"
+                >Book Your Free Consultation Now!</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==============================SECTION 2 ============================ -->
+      <!-- ==============================SECTION 2============================ -->
+      <div class="about-section2">
+        <div class="container">
+          <div class="title">
+            <h2>The Problem: Why Google Ads Aren’t Working for You</h2>
+            <p>
+             Business owners often face these common problems with Google Ads:
+            </p>
+          </div>
+          <div class="boxs1 boxs2">
+            <div class="box">
+              <div class="box1">
+                <div class="icon">
+                  <i class="fa-solid fa-lightbulb"></i>
+                </div>
+                <h4>
+                 Poor ROI: 
+                </h4>
+              </div>
+              <div class="box-text">
+                <p>
+                  Your ads aren’t bringing in enough sales or leads to justify the spend.
+
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="box1">
+                <div class="icon">
+                  <i class="fa-solid fa-paper-plane"></i>
+                </div>
+                <h4>
+                 High Cost-per-Click (CPC): 
+                </h4>
+              </div>
+              <div class="box-text">
+                <p>
+                 Your ads cost more than you expected without the returns.
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="box1">
+                <div class="icon">
+                  <i class="fa-solid fa-map"></i>
+                </div>
+                <h4>
+                 Low Quality Traffic:
+                </h4>
+              </div>
+              <div class="box-text">
+                <p>Your ads are getting clicks, but they aren’t from the right customers, leading to low conversions.
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="box1">
+                <div class="icon">
+                  <i class="fa-solid fa-image"></i>
+                </div>
+                <h4>
+                  Overwhelming Complexity:
+                </h4>
+              </div>
+              <div class="box-text">
+                <p>
+                  Managing multiple campaigns, ad groups, and keywords is overwhelming, and you’re not seeing any clarity or direction.
+
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="box1">
+                <div class="icon">
+                  <i class="fa-solid fa-keyboard"></i>
+                </div>
+                <h4>Ineffective Targeting: </h4>
+              </div>
+              <div class="box-text">
+                <p>Your ads are not reaching the right audience, and you’re wasting money on irrelevant clicks.
+                </p>
+              </div>
+            </div>
+            <!-- <div class="box">
+              <div class="box1">
+                <div class="icon">
+                  <i class="fa-solid fa-lemon"></i>
+                </div>
+                <h4>
+                  Build Unshakable <br />
+                  Credibility
+                </h4>
+              </div>
+              <div class="box-text">
+                <p>
+                  Position your brand as a trusted leader, earning the loyalty
+                  and trust of your customers.
+                </p>
+              </div>
+            </div> -->
+          
+          </div> <br>
+          <div class="title"><p >
+
+These issues can quickly drain your marketing budget without delivering meaningful results, but we’re here to turn things around with the right approach.
+</p></div>
+            
+        </div>
+        
+      </div>
+      <!-- ==============================SECTION 2============================ -->
+
+
+      <!-- ==============================WORK ============================ -->
+      <div class="work">
+        <div class="container">
+          <div class="left">
+             <h2>Here's how we do it:</h2>
+            <div class="step-box">
+              <div class="step">
+                <div class="step-list">
+                  <div class="inner-box"></div>
+                </div>
+                <div class="step-text">
+                  <h3>1. In-Depth Campaign Strategy</h3>
+                  <p>
+                    We begin by understanding your business goals, your target audience, and your competitive landscape. This allows us to create a customized PPC strategy designed to meet your specific needs.
+                  </p>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step-list">
+                  <div class="inner-box"></div>
+                </div>
+                <div class="step-text">
+                  <h3>2. Advanced Keyword Research & Targeting</h3>
+                  <p>Using advanced tools, we research the most relevant keywords for your business. We target both short-tail and long-tail keywords to maximize your reach and capture high-intent prospects.
+                  </p>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step-list">
+                  <div class="inner-box"></div>
+                </div>
+                <div class="step-text">
+                  <h3>3. Compelling Ad Copy Creation</h3>
+                  <p>We craft attention-grabbing ad copies designed to drive clicks and conversions. Our persuasive and compelling copy aligns with the search intent of your target audience, making sure your ads stand out.
+                  </p>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step-list">
+                  <div class="inner-box"></div>
+                </div>
+                <div class="step-text">
+                  <h3>4. Optimized Landing Pages</h3>
+                  <p>Great ads lead to optimized landing pages that convert. We ensure your landing pages are optimized for speed, mobile-friendly, and contain compelling calls to action that increase the chances of conversion.
+                  </p>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step-list">
+                  <div class="inner-box"></div>
+                </div>
+                <div class="step-text">
+                  <h3>5. Continuous A/B Testing</h3>
+                  <p>To get the best results, we continuously test different ad versions, keywords, and landing pages. This allows us to optimize for higher click-through rates (CTR) and lower cost-per-conversion over time.
+
+                  </p>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step-list">
+                  <div class="inner-box"></div>
+                </div>
+                <div class="step-text">
+                  <h3>6. Bid Management & Budget Optimization
+</h3>
+                  <p>
+                    We actively manage your bids and budget to ensure you’re getting the most from your spend. Whether it’s adjusting bids for specific keywords or targeting ads at specific times of day, we make sure you stay within your budget while maximizing impact.
+                  </p>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step-list">
+                  <div class="inner-box"></div>
+                </div>
+                <div class="step-text">
+                  <h3>7. Ongoing Monitoring & Optimization
+</h3>
+                  <p>The work doesn’t stop once your ads are live. We continuously monitor your campaigns, analyze performance data, and make necessary adjustments to improve results and reduce wasted spend.
+
+                  </p>
+                </div>
+              </div>
+              <!-- <div class="step">
+                <div class="step-list">
+                  <div class="inner-box"></div>
+                </div>
+                <div class="step-text">
+                  <h3>Continuous Optimization & Support</h3>
+                  <p>
+                    Ongoing adjustments and support to adapt to changing search
+                    algorithms and market trends, ensuring long-term success.
+                  </p>
+                </div>
+              </div> -->
+            </div>
+          </div>
+          <div class="right">
+            <div class="">
+              <h2>Our Solution: Results-Driven Google Ads (PPC) Campaigns</h2>
+              <p>
+               At D-Grow Marketing Agency, we provide tailored Google Ads (PPC) services that help businesses like yours achieve maximum ROI. Our goal is simple: to make every dollar you spend on ads work harder for you.
+              </p>
+            </div>
+            <img src="../../images/hero.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+     <section class="why-dgrow-luxury">
+  <div class="container">
+
+    <div class="luxury-header">
+      <span class="luxury-tag">WHY D-GROW</span>
+      <h2>Performance-Driven Google Ads. <br>Built for Real Business Growth.</h2>
+      <p>
+        Anyone can run ads. We engineer systems that convert clicks into revenue.
+        That’s the D-Grow difference.
+      </p>
+    </div>
+
+    <div class="luxury-wrapper">
+
+      <div class="luxury-left">
+        <div class="luxury-item">
+          <span>01</span>
+          <div>
+            <h3>Proven Growth Framework</h3>
+            <p>
+              Our Google Ads strategies have helped brands across industries
+              scale leads, sales, and revenue with consistency.
+            </p>
+          </div>
+        </div>
+
+        <div class="luxury-item">
+          <span>02</span>
+          <div>
+            <h3>Radical Transparency</h3>
+            <p>
+              You see everything—ad spend, conversions, ROI.
+              No vanity metrics. No hidden numbers.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="luxury-right">
+        <div class="luxury-item">
+          <span>03</span>
+          <div>
+            <h3>Custom-Built Campaigns</h3>
+            <p>
+              Every campaign is engineered for your market,
+              audience psychology, and business goals.
+            </p>
+          </div>
+        </div>
+
+        <div class="luxury-item highlight">
+          <span>04</span>
+          <div>
+            <h3>Conversion-Obsessed Execution</h3>
+            <p>
+              We don’t chase clicks.
+              We optimize relentlessly for qualified leads and sales.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+      <!-- ==============================COUNTER ============================ -->
+      <div class="container">
+           <div class="title1"> <h2>Performance-Based Results
+           </h2>
+           <p>At D-Grow Marketing Agency, we believe in data-driven decisions. Here are some key statistics that highlight the importance of Google Ads for growing your business:</p>
+        <div class="counters">
+       
+          <div class="counter">
+            <h2><span data-count="50">0</span>%</h2>
+            <h4> users click on ads when searching for products</h4>
+            <div class="bg-img">
+              <img src="../../images/mobile-arrow.webp" alt="" />
+            </div>
+          </div>
+          <div class="counter">
+            <h2><span data-count="75">0</span>%</h2>
+            <h4>Google Ads is responsible</h4>
+            <div class="bg-img">
+              <img src="../../images/mobile-arrow.webp" alt="" />
+            </div>
+          </div>
+          <div class="counter">
+            <h2><span data-count="8">0</span>$</h2>
+            <h4>Businesses make an average of spent on Google Ads</h4>
+            <div class="bg-img tab">
+              <img src="../../images/mobile-arrow.webp" alt="" />
+            </div>
+          </div>
+          <div class="counter">
+            <h2><span data-count="96">0</span>%</h2>
+            <h4> users choose businesses that appear on the first page</h4>
+          </div>
+        </div><p >Your business can benefit from this too, and we’re here to make sure it does.
+</p></div>
+
+      </div> 
+      <!-- ==============================COUNTER ============================ -->
+      <div class="service-section">
+  <div class="container">
+    <div class="title">
+      <h2>Our Google Ads (PPC) Services Include</h2>
+      <p>End-to-end paid advertising solutions designed to maximize ROI</p>
+    </div>
+
+    <div class="service-boxes">
+
+      <!-- Search Ads -->
+      <div class="service-box">
+        <div class="service-img">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="service-text-list">
+          <h4>Search Ads</h4>
+          <p>
+            We target high-intent search queries with compelling text ads to
+            drive qualified traffic and generate leads directly from Google
+            search results.
+          </p>
+        </div>
+      </div>
+
+      <!-- Display Ads -->
+      <div class="service-box">
+        <div class="service-img">
+          <i class="fa-solid fa-image"></i>
+        </div>
+        <div class="service-text-list">
+          <h4>Display Ads</h4>
+          <p>
+            Visually engaging ads across Google’s display network that reach
+            users actively researching your industry or services.
+          </p>
+        </div>
+      </div>
+
+      <!-- Shopping Ads -->
+      <div class="service-box">
+        <div class="service-img">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div class="service-text-list">
+          <h4>Shopping Ads (E-commerce)</h4>
+          <p>
+            We set up and optimize Google Shopping Ads to showcase your products
+            to customers who are actively looking to buy.
+          </p>
+        </div>
+      </div>
+
+      <!-- Remarketing -->
+      <div class="service-box">
+        <div class="service-img">
+          <i class="fa-solid fa-rotate-right"></i>
+        </div>
+        <div class="service-text-list">
+          <h4>Remarketing Campaigns</h4>
+          <p>
+            Reconnect with users who visited your website but didn’t convert and
+            turn lost opportunities into conversions.
+          </p>
+        </div>
+      </div>
+
+      <!-- Video Ads -->
+      <div class="service-box">
+        <div class="service-img">
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="service-text-list">
+          <h4>Video Ads</h4>
+          <p>
+            High-impact YouTube video ads designed to capture attention, build
+            brand awareness, and drive engagement.
+          </p>
+        </div>
+      </div>
+
+      <!-- Local Ads -->
+      <div class="service-box">
+        <div class="service-img">
+          <i class="fa-solid fa-location-dot"></i>
+        </div>
+        <div class="service-text-list">
+          <h4>Local Ads</h4>
+          <p>
+            Geo-targeted Google Ads campaigns that help local businesses attract
+            nearby customers ready to take action.
+          </p>
+        </div>
+      </div>
+
+      <!-- Mobile Ads -->
+      <div class="service-box">
+        <div class="service-img">
+          <i class="fa-solid fa-mobile-screen"></i>
+        </div>
+        <div class="service-text-list">
+          <h4>Mobile Ads</h4>
+          <p>
+            Mobile-optimized ads to ensure your business reaches customers on
+            the go across smartphones and tablets.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+      
+      
+      <!-- ==============================CTA 4============================ -->
+      <div class="cta-5 seo-cta1 seo-cta">
+  <div class="container">
+    <div class="cta-text">
+      <h2>Let’s Get Started with a Free Consultation!</h2>
+
+      <p>
+        Tired of wasting money on underperforming Google Ads campaigns?
+        We’re here to turn things around and help you maximize your ROI.
+      </p>
+
+      <p>
+        Whether you’re a small business or a growing enterprise, our affordable
+        PPC services are designed to double your returns with smart,
+        data-driven Google Ads strategies.
+      </p>
+
+      <p>
+        Schedule your free consultation today and discover how targeted Google
+        Ads can drive measurable growth for your business.
+      </p>
+
+      <a href="../contact.html" class="btn">Book Your Free Consultation</a>
+    </div>
+
+    <div class="cta-btn">
+      <img src="../../images/cta2.png" alt="Free PPC Consultation">
+    </div>
+  </div>
+</div>
+
+      <!-- ==============================CTA 4============================ -->
+     
+     
+      <!-- ==============================FOOTER============================ -->
+      <footer>
+        <div class="container">
+          <div class="footer-box">
+            <a href="../../index.html">Home </a>
+            <a href="../page/about.html">About Us </a>
+            <a href="#">Services </a>
+            <a href="#">SEO Service </a>
+            <a href="#">Social Media Marketing </a>
+            <a href="../page/contact.html">Contact Us</a>
+            <div class="social-icon">
+              <a href="#"></a>
+            </div>
+          </div>
+          <div class="footer-box address">
+            <img src="../images/d-grow-footer.png" alt="" />
+            <p>
+              Plot No. 141, SF No: 14/3 Radha Avenue Main Road, Valasaravakkam,
+              Chennai - 600087
+            </p>
+            <a href="#">+91 7373509585</a>
+            <a href="#"> enquiry@dgrowmarketing.com</a>
+          </div>
+        </div>
+        <hr />
+        <a href="">
+          <p class="copy">Copyright © 2024 D-Grow Marketing Agency</p></a
+        >
+      </footer>
+      <!-- ==============================FOOTER============================ -->
+      <!-- ==============================Float menu============================ -->
+      <button id="scrollToTop">
+        <a class="bg-icon" onclick="showSocial()" title="Social Media"
+          ><i class="fa-solid fa-share-alt"></i
+        ></a>
+        <a class="bg-icon" href="#" title="Go to top"
+          ><i class="fa-solid fa-arrow-up"></i
+        ></a>
+
+        <div class="float-social">
+          <a
+            class="whatsapp"
+            href="https://wa.me/917373509585"
+            target="_blank"
+            title="WhatsApp"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+          <a
+            class="insta"
+            href="https://www.instagram.com/dgrowmarketingagency?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            target="_blank"
+            title="Instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            class="env"
+            href="mailto:enquiry@dgrowmarketing.com"
+            target="_blank"
+            title="Email Me"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+          <a
+            class="phone"
+            href="tel:+917373509585"
+            target="_blank"
+            title="Contact "
+            ><i class="fa-solid fa-phone"></i
+          ></a>
+        </div>
+      </button>
+    </div>
+    <!-- js -->
+    <script src="../../js/main.js"></script>
+    <script>
+      function handleSubmit(e) {
+        const btn = document.getElementById("seoSubmitBtn");
+        btn.textContent = "Sending...";
+        btn.disabled = true;
+
+        // Allow form to continue submitting, then wait for a moment before showing the alert
+        // Prevent default form submission to allow async fetch
+        e.preventDefault();
+
+        const form = e.target;
+        const data = new FormData(form);
+
+        fetch(form.action, {
+          method: "POST",
+          body: data,
+        })
+          .then((response) => {
+            if (response.ok) {
+              alert("Form submitted successfully!");
+              location.reload();
+            } else {
+              alert("There was an error submitting the form.");
+            }
+            btn.textContent = "Send";
+            btn.disabled = false;
+            form.reset();
+          })
+          .catch((error) => {
+            alert("Something went wrong!");
+            console.error(error);
+            btn.textContent = "Send";
+            btn.disabled = false;
+          });
+      }
+    </script>
+  </body>
+</html>
