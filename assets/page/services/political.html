@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../../images/d-growlogo.png" />
+    <title>D-Grow</title>
+    <!-- css -->
+    <link rel="stylesheet" href="../../css/style.css" />
+    <!-- font - icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- ==============================HEADER ============================ -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="/d-grownew/assets/images/d-growlogo.png" alt="" />
+            </div>
+            <nav>
+                <a href="/d-grownew/index.html">Home</a>
+                <a href="../about.html">About</a>
+                <div class="service-menu">
+                    <a class="service-menu-text" onclick="window.open('../services/service.html', '_self')">Services
+                        <i class="fa-solid fa-caret-down"></i>
+                    </a>
+
+                    <div class="sub-service">
+                        <ul class="service-list">
+                            <li>
+                                <h5>Digital Marketing Services</h5>
+                                <a href="./seo.html"><i class="fa-solid fa-angle-right"></i>SEO Service (Website
+                                    Ranking)</a>
+                                <a href="./ppc.html"><i class="fa-solid fa-angle-right"></i>Google Ads (PPC)</a>
+                                <a href="./smm.html"><i class="fa-solid fa-angle-right"></i>Social Media
+                                    Marketing</a>
+                                <a href="./socialmedia.html"><i class="fa-solid fa-angle-right"></i>Social Media
+                                    Management</a>
+                                <a href="./email.html"><i class="fa-solid fa-angle-right"></i>Email Marketing</a>
+                                <a href="./gmb.html"><i class="fa-solid fa-angle-right"></i>GMB Listing &
+                                    Ranking</a>
+                                <a href="./whatsapp.html"><i class="fa-solid fa-angle-right"></i>WhatsApp
+                                    Marketing</a>
+                                <a href="./lead.html"><i class="fa-solid fa-angle-right"></i>Leads Generation</a>
+                                <a href="./political.html"><i class="fa-solid fa-angle-right"></i>Political Ads</a>
+                            </li>
+                            <li>
+                                <h5>Creative Services</h5>
+                                <a href="../services/seo.html"><i class="fa-solid fa-angle-right"></i>Content Writing &
+                                    Marketing</a>
+                                <a href="../services/seo.html"><i class="fa-solid fa-angle-right"></i>Graphic
+                                    Designing</a>
+                                <a href="../services/seo.html"><i class="fa-solid fa-angle-right"></i>Video Shooting &
+                                    Editing</a>
+                                <a href="../services/seo.html"><i class="fa-solid fa-angle-right"></i>Personal
+                                    Branding</a>
+                                <a href="../services/seo.html"><i class="fa-solid fa-angle-right"></i>LinkedIn Personal
+                                    Branding</a>
+                            </li>
+                            <li>
+                                <h5>Business Solutions & E-Commerce</h5>
+                                <a href="../services/seo.html"><i class="fa-solid fa-angle-right"></i>Website Design &
+                                    Development</a>
+                                <a href="../services/seo.html"><i class="fa-solid fa-angle-right"></i>Marketing
+                                    Automation</a>
+                                <a href="../services/seo.html"><i class="fa-solid fa-angle-right"></i>Lead Nurturing
+                                    System</a>
+                                <a href="../services/seo.html"><i class="fa-solid fa-angle-right"></i>Digital Marketing
+                                    Consultation</a>
+                                <a href="../services/seo.html"><i class="fa-solid fa-angle-right"></i>Product Listing +
+                                    Amazon SEO</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="../consultation.html">Consultation</a>
+                <a href="#">Med<span></span>Grow
+                    <div class="med-con">
+                        Coming Soon <br />
+                        for medical
+                    </div>
+                </a>
+                <a href="../blog.html">Blog</a>
+                <a href="../case.html">Case<span></span>Study</a>
+                <a href="../contact.html">Contact</a>
+            </nav>
+            <a class="btn" href="https://wa.me/917373509585" target="_blank">Start Now</a>
+            <div onclick="showMenu()" class="menu-bar">
+                <div class="open">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="close">
+                    <i class="fa-solid fa-x"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ==============================MOBILE MENU ============================ -->
+    <div class="mobile-menu">
+        <nav>
+            <a href="../../../index.html"><i class="fa-solid fa-house"></i>Home</a>
+            <a href="../about.html"><i class="fa-solid fa-address-card"></i>About</a>
+            <div class="mobile-service">
+                <a href="../services/service.html"><i class="fa-brands fa-digital-ocean"></i>Services</a>
+                <div class="mobile-sub-menu">
+                    <a href="../services/seo.html"><i class="fa-solid fa-angles-right"></i>SEO</a>
+                    <a href="../services/socialmedia.html"><i class="fa-solid fa-angles-right"></i>Social Media
+                        Marketing
+                    </a>
+                    <a href="#"><i class="fa-solid fa-angles-right"></i>Lead Generate
+                    </a>
+                    <a href="#"><i class="fa-solid fa-angles-right"></i>Web Designing &
+                        Development</a>
+                    <a href="#"><i class="fa-solid fa-angles-right"></i>Personal Branding</a>
+                </div>
+            </div>
+            <a href="../consultation.html"><i class="fa-solid fa-book"></i>Digital consultants</a>
+            <a href="#"><i class="fa-solid fa-book"></i>Med Grow (Coming Soon)</a>
+
+            <a href="../blog.html"><i class="fa-solid fa-book"></i>Blog</a>
+            <a href="./case.html"><i class="fa-solid fa-book"></i>Case Study</a>
+
+            <a href="../contact.html"><i class="fa-solid fa-phone-volume"></i>Contact</a>
+        </nav>
+        <div class="mobile-social">
+            <a href="https://wa.me/917373509585"><i class="fa-brands fa-whatsapp"></i></a>
+            <a
+                href="https://www.instagram.com/dgrowmarketingagency?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="mailto:enquiry@dgrowmarketing.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="tel:+917373509585"><i class="fa-solid fa-phone"></i></a>
+        </div>
+    </div>
+    <!-- ==============================MOBILE MENU ============================ -->
+    <!-- ==============================HEADER ============================ -->
+    <!-- ==============================PAGE TOP SECTION ============================ -->
+    <div class="hero-section">
+        <div class="container">
+            <h1>Political Ads</h1>
+            <p>
+                Rank your website on Google's first page and pull the traffic towards
+                your website within 90 Days!
+            </p>
+            <p>
+                <a class="inner-menu" href="../../../index.html">Home <i class="fa-solid fa-angle-right"></i></a>
+                <a href="./service.html">Service</a>
+            </p>
+        </div>
+    </div>
+    <!-- ==============================PAGE TOP SECTION ============================ -->
+    <div class="about seo">
+        <!-- ==============================SECTION 2 ============================ -->
+        <!-- ==============================SECTION 2 ============================ -->
+        <div class="container">
+            <div class="seo-input-text">
+                <p>Comprehensive Website Audit Tool</p>
+                <h3>How does your site score?</h3>
+            </div>
+
+            <form method="post"
+                action="https://script.google.com/macros/s/AKfycbxTMzLiidLN-A3ZSF7_f1HLvJ6nkZ-cIHHHeBgupMNXLCMM90K14sBxtWlcOroxt6c_/exec"
+                onsubmit="handleSubmit(event)">
+                <div class="seo-inputs">
+                    <input type="text" placeholder="Enter Your Website URL" name="webLink" required />
+                    <button type="submit" class="seo-btn" id="seoSubmitBtn">
+                        Send
+                    </button>
+                </div>
+            </form>
+        </div>
+        <!-- ==============================SECTION 2 ============================ -->
+        <section class="section section2">
+            <div class="container">
+                <div class="right">
+                    <div class="section-img">
+                        <img src="../../images/seo.png" alt="" />
+                    </div>
+                </div>
+                <div class="left">
+                    <div class="section-text">
+                        <h3>Political Ads Services
+                        </h3>
+                        <p>Political advertising is an essential tool for political parties, candidates, and advocacy
+                            groups to reach voters, promote key messages, and influence public opinion. At D-Grow
+                            Marketing Agency, we specialize in creating compliance-driven, impactful political ads
+                            designed to engage your audience while adhering to all platform guidelines and regulations.
+                            We help ensure your political campaign stays within the rules, amplifies your message, and
+                            avoids costly mistakes like account suspensions.</p>
+
+                        <!-- <p class="red">Are you confused or worried about how to grow your brand with social media marketing?D- Grow
+              is a Best choice whether you need any suggestion, advice or a service. </p> -->
+
+
+                        <h4>Ready to see your website finally work for you?</h4>
+                        <p>Let's transform your online presence today.</p>
+                        <a href="../contact.html" class="btn">Book Your Free Consultation Now!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==============================SECTION 2 ============================ -->
+        <!-- ==============================WORK ============================ -->
+        <div class="work">
+            <div class="container">
+                <div class="left">
+
+                    <div class="step-box">
+                        <div class="step">
+                            <div class="step-list">
+                                <div class="inner-box"></div>
+                            </div>
+                            <div class="step-text">
+                                <h3>1. Not Adhering to Platform Guidelines</h3>
+                                <p>Political parties often overlook the strict advertising guidelines set by social
+                                    media platforms and search engines. This failure can result in ad rejection or
+                                    account suspension.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-list">
+                                <div class="inner-box"></div>
+                            </div>
+                            <div class="step-text">
+                                <h3>2. Lack of Transparency in Campaign Funding</h3>
+                                <p>Political ads must clearly state the source of funding and identify the sponsoring
+                                    party. Without this transparency, campaigns can face ad disqualification and
+                                    platform bans.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-list">
+                                <div class="inner-box"></div>
+                            </div>
+                            <div class="step-text">
+                                <h3>3. Targeting the Wrong Audience</h3>
+                                <p>Political ads should be targeted to specific regions and voter demographics. Broad or
+                                    irrelevant targeting leads to ads being flagged for non-compliance or poor
+                                    performance.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-list">
+                                <div class="inner-box"></div>
+                            </div>
+                            <div class="step-text">
+                                <h3>4. Overtly Misleading or Manipulative Content </h3>
+                                <p>Ads that contain misleading claims or manipulative tactics violate platform policies
+                                    and can lead to account suspension or ad removal.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-list">
+                                <div class="inner-box"></div>
+                            </div>
+                            <div class="step-text">
+                                <h3>5. Failure to Properly Label Political Ads
+                                </h3>
+                                <p>Political ads must be properly labeled with disclaimers that they are sponsored by a
+                                    political party. Failure to do this can result in ad bans and account restrictions.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-list">
+                                <div class="inner-box"></div>
+                            </div>
+                            <div class="step-text">
+                                <h3>6. Inadequate Monitoring and Reporting of Ad Performance
+                                </h3>
+                                <p>Not tracking or submitting required ad performance reports can raise red flags,
+                                    leading to account suspension or ad removal.
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-list">
+                                <div class="inner-box"></div>
+                            </div>
+                            <div class="step-text">
+                                <h3>7. Ignoring Regional Sensitivities
+
+                                </h3>
+                                <p>Political ads must be sensitive to regional laws and cultural nuances. Ignoring these
+                                    factors can result in ad rejection or being flagged for policy violations.
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-list">
+                                <div class="inner-box"></div>
+                            </div>
+                            <div class="step-text">
+                                <h3>8. Inconsistent Messaging Across Platforms
+                                </h3>
+                                <p>
+                                    Running conflicting messages across various platforms creates confusion and
+                                    compliance issues, resulting in account suspensions on platforms like Facebook and
+                                    Google.
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-list">
+                                <div class="inner-box"></div>
+                            </div>
+                            <div class="step-text">
+                                <h3>9. Unapproved Political Messaging
+                                </h3>
+                                <p>
+                                    Certain political messages or narratives may require special approval by the platform. Running them without proper authorization can lead to account bans.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-list">
+                                <div class="inner-box"></div>
+                            </div>
+                            <div class="step-text">
+                                <h3>10. Inadequate Budget Management
+                                </h3>
+                                <p>
+                                    Misallocating your advertising budget or failing to strategize effectively leads to inefficient spending and potential ad suspension.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="">
+                        <h2> Common Mistakes Political Parties Make with Political Ads</h2>
+                        <p>Running political ads requires a deep understanding of platform-specific regulations,
+                            regional laws, and the ever-evolving landscape of digital advertising. Many political
+                            parties and campaigns make critical mistakes that can lead to account suspensions, ad
+                            rejection, and loss of visibility. Here are the common mistakes:
+                        </p>
+                    </div>
+                    <img src="../../images/hero.png" alt="" />
+                </div>
+            </div>
+        </div>
+         <!-- ==============================SECTION 2============================ -->
+          <section class="why-dgrow-luxury">
+  <div class="container">
+
+    <div class="luxury-header">
+      <span class="luxury-tag">WHY D-GROW</span>
+      <h2>Why Choose D-Grow for Political Advertising?
+</h2>
+      <p>
+       At D-Grow Marketing Agency, we understand the intricacies of political advertising. We ensure that your political ads are:
+
+      </p>
+    </div>
+
+    <div class="luxury-wrapper">
+
+      <div class="luxury-left">
+        <div class="luxury-item">
+          <span>01</span>
+          <div>
+          
+            <p>Fully compliant with all platform and legal requirements.
+            </p>
+          </div>
+        </div>
+
+        <div class="luxury-item">
+          <span>02</span>
+          <div>
+            
+            <p>Effective in reaching your target audience with the right message at the right time.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="luxury-right">
+        <div class="luxury-item">
+          <span>03</span>
+          <div>
+            
+            <p>
+              Transparent, with full disclosure of ad spending and sources of funding.
+
+            </p>
+          </div>
+        </div>
+
+        <div class="luxury-item highlight">
+          <span>04</span>
+          <div>
+            
+            <p>
+             Optimized for maximum engagement and voter interaction.
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> <br> 
+<p>Our team of experienced political ad specialists combines industry expertise with cutting-edge technology to create campaigns that not only meet platform guidelines but also drive results.</p>
+  </div>
+</section>
+        <!-- ==============================SECTION 2============================ -->
+          <!-- ==============================COUNTER ============================ -->
+      <div class="service-section">
+  <div class="container">
+    <div class="title">
+      <h2> Our Political Advertising Services</h2>
+      
+    </div>
+
+    <div class="service-boxes">
+
+      <!-- Search Ads -->
+      <div class="service-box">
+        <div class="service-img">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="service-text-list">
+          <h4>1. Political Ad Strategy Development</h4>
+          <p>We work closely with you to understand your campaign objectives, identify your target audience, and develop a comprehensive strategy to reach voters effectively. Our strategies are designed to maximize impact while staying compliant with advertising policies.
+
+          </p>
+        </div>
+      </div>
+
+      <!-- Display Ads -->
+      <div class="service-box">
+        <div class="service-img">
+          <i class="fa-solid fa-image"></i>
+        </div>
+        <div class="service-text-list">
+          <h4>2. Ad Creation and Design</h4>
+          <p>Our creative team develops high-converting ads, whether they are text, images, videos, or interactive content. We focus on creating compelling narratives that resonate with voters while adhering to platform requirements.
+          </p>
+        </div>
+      </div>
+
+      <!-- Shopping Ads -->
+      <div class="service-box">
+        <div class="service-img">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div class="service-text-list">
+          <h4>3. Platform-Specific Campaigns</h4>
+          <p>Whether it’s Facebook, Google, Instagram, or YouTube, we tailor your ads for each platform’s unique features and audience. Our expertise ensures that your ads are designed to perform optimally on every channel.
+
+          </p>
+        </div>
+      </div>
+
+      <!-- Remarketing -->
+      <div class="service-box">
+        <div class="service-img">
+          <i class="fa-solid fa-rotate-right"></i>
+        </div>
+        <div class="service-text-list">
+          <h4>4. Ad Monitoring & Optimization</h4>
+          <p>We continuously monitor ad performance and make necessary adjustments to improve CTR, engagement rates, and conversion. Our real-time optimization ensures that your campaign is always on track.
+
+          </p>
+        </div>
+      </div>
+
+      <!-- Video Ads -->
+      <div class="service-box">
+        <div class="service-img">
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="service-text-list">
+          <h4>5. Compliance and Reporting</h4>
+          <p>We manage all necessary disclaimers, funding transparency, and performance reports, ensuring that your campaign stays compliant and avoids any policy violations.
+
+
+
+          </p>
+        </div>
+      </div>
+
+      <!-- Local Ads -->
+      <div class="service-box">
+        <div class="service-img">
+          <i class="fa-solid fa-location-dot"></i>
+        </div>
+        <div class="service-text-list">
+          <h4>6. Lead Generation & Voter Engagement</h4>
+          <p>Our campaigns are designed to not only inform but also engage voters. Through targeted ads and compelling CTAs, we generate high-quality leads and increase engagement, driving real results.
+          </p>
+        </div>
+      </div>
+
+     
+
+    </div>
+  </div>
+</div>
+<!-- =================================================================== -->
+ <section class="gmb-comparison">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Before & After: Political Ads with D-Grow
+                    </h2>
+                  
+                </div>
+
+                <div class="comparison-grid">
+
+                    <!-- BEFORE -->
+                    <div class="comparison-box before">
+                        <h3>Before Joining D-Grow</h3>
+
+                        <ul>
+                            <li>Account Suspension Risk – Ads run without proper compliance, leading to frequent account suspensions and ad rejections.</li>
+                            <li>Unoptimized Ads – Campaigns are not targeted or crafted to resonate with voters, leading to low engagement.</li>
+                            <li>Wasted Budget – Ads are not performing well, leading to high costs and ineffective spending.</li>
+                            <li>Low Transparency – Lack of transparency in ad spending, leading to trust issues with voters.
+
+</li>
+                           
+                        </ul>
+                    </div>
+
+                    <!-- AFTER -->
+                    <div class="comparison-box after">
+                        <h3>After Joining D-Grow</h3>
+
+                        <ul>
+                            <li>Full Compliance – We ensure your ads are fully compliant with platform rules, reducing the risk of suspension and penalties.
+
+
+                            </li>
+                            <li>Targeted & Engaging Ads – We craft compelling, targeted ads that engage voters and encourage them to take action.
+
+</li>
+                            <li>Cost-Effective Campaigns – Our strategies ensure better ROI by optimizing ads and budgets for maximum performance.
+
+</li>
+                            <li>Complete Transparency – We provide full visibility into your ad spend, ensuring that all campaign funding is clearly labeled and compliant.</li>
+
+                            
+
+
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+<!-- ================ -->
+      <section class="dg-pol-center">
+  <div class="container">
+
+    <div class="dg-pol-head">
+      <h2>Industries That Benefit from Political Ads</h2>
+      <p>
+        Political advertising is essential for a wide range of organizations and individuals,
+        including:
+      </p>
+    </div>
+
+    <div class="dg-pol-timeline">
+
+      <div class="dg-pol-line"></div>
+
+      <div class="dg-pol-item dg-left">
+        <div class="dg-pol-card">Political Parties & Candidates</div>
+      </div>
+
+      <div class="dg-pol-item dg-right">
+        <div class="dg-pol-card">Advocacy Groups</div>
+      </div>
+
+      <div class="dg-pol-item dg-left">
+        <div class="dg-pol-card">Government Agencies</div>
+      </div>
+
+      <div class="dg-pol-item dg-right">
+        <div class="dg-pol-card">Public Figures & Celebrities</div>
+      </div>
+
+      <div class="dg-pol-item dg-left">
+        <div class="dg-pol-card">Non-Profit Organizations</div>
+      </div>
+
+      <div class="dg-pol-item dg-right">
+        <div class="dg-pol-card">Election Campaigns</div>
+      </div>
+
+      <div class="dg-pol-item dg-center">
+        <div class="dg-pol-card dg-highlight">
+          Issue-Based Campaigns
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+        <!-- ==============================COUNTER ============================ -->
+
+
+
+
+
+
+
+       
+
+        <!-- ======================================= -->
+
+        <div class="cta-5 seo-cta1 seo-cta">
+            <div class="container">
+                <div class="cta-text">
+                    <h2> Political Ads for Global Reach</h2>
+
+                    <p>At D-Grow Marketing Agency, we offer global reach for political campaigns. Whether you’re campaigning locally, nationally, or internationally, we ensure that your message resonates with the right voters, in the right places, with maximum impact.
+                    </p>
+                    <h4>Let’s Build a Winning Campaign Together!</h4>
+                    <p>Ready to take your political ads to the next level? Reach out to D-Grow Marketing Agency and let us help you create impactful, compliant, and results-driven political campaigns. Contact us today to schedule a consultation and start building your winning strategy.
+</p>
+
+
+
+                    <a href="../contact.html" class="btn">Book Your Free Consultation</a>
+                </div>
+
+                <div class="cta-btn">
+                    <img src="../../images/cta2.png" alt="Free PPC Consultation">
+                </div>
+            </div>
+        </div>
+
+        <!-- ==============================FOOTER============================ -->
+        <footer>
+            <div class="container">
+                <div class="footer-box">
+                    <a href="../../index.html">Home </a>
+                    <a href="../page/about.html">About Us </a>
+                    <a href="#">Services </a>
+                    <a href="#">SEO Service </a>
+                    <a href="#">Social Media Marketing </a>
+                    <a href="../page/contact.html">Contact Us</a>
+                    <div class="social-icon">
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="footer-box address">
+                    <img src="/d-grownew/assets/images/d-grow-footer.png" alt="" />
+                    <p>
+                        Plot No. 141, SF No: 14/3 Radha Avenue Main Road, Valasaravakkam,
+                        Chennai - 600087
+                    </p>
+                    <a href="#">+91 7373509585</a>
+                    <a href="#"> enquiry@dgrowmarketing.com</a>
+                </div>
+            </div>
+            <hr />
+            <a href="">
+                <p class="copy">Copyright © 2024 D-Grow Marketing Agency</p>
+            </a>
+        </footer>
+        <!-- ==============================FOOTER============================ -->
+        <!-- ==============================Float menu============================ -->
+        <button id="scrollToTop">
+            <a class="bg-icon" onclick="showSocial()" title="Social Media"><i class="fa-solid fa-share-alt"></i></a>
+            <a class="bg-icon" href="#" title="Go to top"><i class="fa-solid fa-arrow-up"></i></a>
+
+            <div class="float-social">
+                <a class="whatsapp" href="https://wa.me/917373509585" target="_blank" title="WhatsApp"><i
+                        class="fa-brands fa-whatsapp"></i></a>
+                <a class="insta"
+                    href="https://www.instagram.com/dgrowmarketingagency?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a class="env" href="mailto:enquiry@dgrowmarketing.com" target="_blank" title="Email Me"><i
+                        class="fa-solid fa-envelope"></i></a>
+                <a class="phone" href="tel:+917373509585" target="_blank" title="Contact "><i
+                        class="fa-solid fa-phone"></i></a>
+            </div>
+        </button>
+    </div>
+    <!-- js -->
+    <script src="../../js/main.js"></script>
+    <script>
+        function handleSubmit(e) {
+            const btn = document.getElementById("seoSubmitBtn");
+            btn.textContent = "Sending...";
+            btn.disabled = true;
+
+            // Allow form to continue submitting, then wait for a moment before showing the alert
+            // Prevent default form submission to allow async fetch
+            e.preventDefault();
+
+            const form = e.target;
+            const data = new FormData(form);
+
+            fetch(form.action, {
+                method: "POST",
+                body: data,
+            })
+                .then((response) => {
+                    if (response.ok) {
+                        alert("Form submitted successfully!");
+                        location.reload();
+                    } else {
+                        alert("There was an error submitting the form.");
+                    }
+                    btn.textContent = "Send";
+                    btn.disabled = false;
+                    form.reset();
+                })
+                .catch((error) => {
+                    alert("Something went wrong!");
+                    console.error(error);
+                    btn.textContent = "Send";
+                    btn.disabled = false;
+                });
+        }
+    </script>
+</body>
+
+</html>
