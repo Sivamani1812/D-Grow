@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../../images/d-growlogo.png" />
+  <title>D-Grow</title>
+  <!-- css -->
+  <link rel="stylesheet" href="../../css/style.css" />
+  <!-- font - icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- ==============================HEADER ============================ -->
+ <header>
+      <div class="container">
+        <div class="logo">
+          <img src="/d-grownew/assets/images/d-growlogo.png" alt="" />
+        </div>
+        <nav>
+          <a href="/d-grownew/index.html">Home</a>
+          <a href="../about.html">About</a>
+          <div class="service-menu">
+            <a
+              class="service-menu-text"
+              onclick="window.open('../services/service.html', '_self')"
+              >Services
+              <i class="fa-solid fa-caret-down"></i>
+            </a>
+
+            <div class="sub-service">
+              <ul class="service-list">
+                <li>
+                  <h5>Digital Marketing Services</h5>
+                  <a href="./seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>SEO Service (Website
+                    Ranking)</a
+                  >
+                  <a href="./ppc.html"
+                    ><i class="fa-solid fa-angle-right"></i>Google Ads (PPC)</a
+                  >
+                  <a href="./smm.html"
+                    ><i class="fa-solid fa-angle-right"></i>Social Media
+                    Marketing</a
+                  >
+                  <a href="./socialmedia.html"
+                    ><i class="fa-solid fa-angle-right"></i>Social Media
+                    Management</a
+                  >
+                  <a href="./email.html"
+                    ><i class="fa-solid fa-angle-right"></i>Email Marketing</a
+                  >
+                  <a href="./gmb.html"
+                    ><i class="fa-solid fa-angle-right"></i>GMB Listing &
+                    Ranking</a
+                  >
+                  <a href="./whatsapp.html"
+                    ><i class="fa-solid fa-angle-right"></i>WhatsApp
+                    Marketing</a
+                  >
+                  <a href="./lead.html"
+                    ><i class="fa-solid fa-angle-right"></i>Leads Generation</a
+                  >
+                  <a href="./political.html"
+                    ><i class="fa-solid fa-angle-right"></i>Political Ads</a
+                  >
+                </li>
+                <li>
+                  <h5>Creative Services</h5>
+                  <a href="./cwm.html"
+                    ><i class="fa-solid fa-angle-right"></i>Content Writing &
+                    Marketing</a
+                  >
+                  <a href="./gd.html"
+                    ><i class="fa-solid fa-angle-right"></i>Graphic Designing</a
+                  >
+                  <a href="./vse.html"
+                    ><i class="fa-solid fa-angle-right"></i>Video Shooting &
+                    Editing</a
+                  >
+                  <a href="./pb.html"
+                    ><i class="fa-solid fa-angle-right"></i>Personal Branding</a
+                  >
+                  <a href="./lbp.html"
+                    ><i class="fa-solid fa-angle-right"></i>LinkedIn Personal
+                    Branding</a
+                  >
+                </li>
+                <li>
+                  <h5>Business Solutions & E-Commerce</h5>
+                  <a href="./wdd.html"
+                    ><i class="fa-solid fa-angle-right"></i>Website Design &
+                    Development</a
+                  >
+                  <a href="./ma.html"
+                    ><i class="fa-solid fa-angle-right"></i>Marketing
+                    Automation</a
+                  >
+                  <a href="./lns.html"
+                    ><i class="fa-solid fa-angle-right"></i>Lead Nurturing
+                    System</a
+                  >
+                  <a href="./dmc.html"
+                    ><i class="fa-solid fa-angle-right"></i>Digital Marketing
+                    Consultation</a
+                  >
+                  <a href="./pl+aseo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Product Listing +
+                    Amazon SEO</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="../consultation.html">Consultation</a>
+          <a href="https://medgrowdigi.com/"
+            >Med<span></span>Grow
+            <div class="med-con">
+              Coming Soon <br />
+              for medical
+            </div></a
+          >
+          <a href="../blog.html">Blog</a>
+          <a href="../services/case.html">Case<span></span>Study</a>
+          <a href="../contact.html">Contact</a>
+        </nav>
+        <a class="btn" href="https://wa.me/917373509585" target="_blank"
+          >Start Now</a
+        >
+        <div onclick="showMenu()" class="menu-bar">
+          <div class="open">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="close">
+            <i class="fa-solid fa-x"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+  <!-- ==============================MOBILE MENU ============================ -->
+  <div class="mobile-menu">
+    <nav>
+      <a href="../../../index.html"><i class="fa-solid fa-house"></i>Home</a>
+      <a href="../about.html"><i class="fa-solid fa-address-card"></i>About</a>
+      <div class="mobile-service">
+        <a href="../services/service.html"><i class="fa-brands fa-digital-ocean"></i>Services</a>
+        <div class="mobile-sub-menu">
+          <a href="../services/seo.html"><i class="fa-solid fa-angles-right"></i>SEO</a>
+          <a href="../services/socialmedia.html"><i class="fa-solid fa-angles-right"></i>Social Media Marketing
+          </a>
+          <a href="#"><i class="fa-solid fa-angles-right"></i>Lead Generate
+          </a>
+          <a href="#"><i class="fa-solid fa-angles-right"></i>Web Designing &
+            Development</a>
+          <a href="#"><i class="fa-solid fa-angles-right"></i>Personal Branding</a>
+        </div>
+      </div>
+      <a href="../consultation.html"><i class="fa-solid fa-book"></i>Digital consultants</a>
+      <a href="#"><i class="fa-solid fa-book"></i>Med Grow (Coming Soon)</a>
+
+      <a href="../blog.html"><i class="fa-solid fa-book"></i>Blog</a>
+      <a href="./case.html"><i class="fa-solid fa-book"></i>Case Study</a>
+
+      <a href="../contact.html"><i class="fa-solid fa-phone-volume"></i>Contact</a>
+    </nav>
+    <div class="mobile-social">
+      <a href="https://wa.me/917373509585"><i class="fa-brands fa-whatsapp"></i></a>
+      <a
+        href="https://www.instagram.com/dgrowmarketingagency?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i
+          class="fa-brands fa-instagram"></i></a>
+      <a href="mailto:enquiry@dgrowmarketing.com"><i class="fa-solid fa-envelope"></i></a>
+      <a href="tel:+917373509585"><i class="fa-solid fa-phone"></i></a>
+    </div>
+  </div>
+  <!-- ==============================MOBILE MENU ============================ -->
+  <!-- ==============================HEADER ============================ -->
+  <!-- ==============================PAGE TOP SECTION ============================ -->
+  <div class="hero-section">
+    <div class="container">
+      <h1>Lead Nurturing System</h1>
+      <p>
+        Rank your website on Google's first page and pull the traffic towards
+        your website within 90 Days!
+      </p>
+      <p>
+        <a class="inner-menu" href="../../../index.html">Home <i class="fa-solid fa-angle-right"></i></a>
+        <a href="./service.html">Service</a>
+      </p>
+    </div>
+  </div>
+  <!-- ==============================PAGE TOP SECTION ============================ -->
+  <div class="about seo">
+    <!-- ==============================SECTION 2 ============================ -->
+    <!-- ==============================SECTION 2 ============================ -->
+    <div class="container">
+      <div class="seo-input-text">
+        <p>Comprehensive Website Audit Tool</p>
+        <h3>How does your site score?</h3>
+      </div>
+
+      <form method="post"
+        action="https://script.google.com/macros/s/AKfycbxTMzLiidLN-A3ZSF7_f1HLvJ6nkZ-cIHHHeBgupMNXLCMM90K14sBxtWlcOroxt6c_/exec"
+        onsubmit="handleSubmit(event)">
+        <div class="seo-inputs">
+          <input type="text" placeholder="Enter Your Website URL" name="webLink" required />
+          <button type="submit" class="seo-btn" id="seoSubmitBtn">
+            Send
+          </button>
+        </div>
+      </form>
+    </div>
+    <!-- ==============================SECTION 2 ============================ -->
+    <section class="section section2">
+      <div class="container">
+        <div class="right">
+          <div class="section-img">
+            <img src="../../images/seo.png" alt="" />
+          </div>
+        </div>
+        <div class="left">
+          <div class="section-text">
+            <h3>Lead Nurturing System
+            </h3>
+            <p>Turn Cold Leads into Paying Customers — with Automation, Emotion & Consistency.
+</p>
+    
+
+            <h4>Ready to see your website finally work for you?</h4>
+            <p>Let's transform your online presence today.</p>
+            <a href="../contact.html" class="btn">Book Your Free Consultation Now!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =========================================================================== -->
+   <section class="dg-lead-truth">
+  <div class="container">
+
+    <div class="dg-lead-wrap">
+
+      <h2>The Hidden Reason You’re Losing Leads Daily</h2>
+
+      <div class="dg-lead-intro">
+        <p>Generating leads isn’t the real problem anymore.</p>
+        <p class="highlight">The real struggle?</p>
+        <p>Keeping leads warm, engaged, and emotionally connected until they buy.</p>
+      </div>
+
+      <div class="dg-lead-points">
+        <p>Most businesses:</p>
+
+        <ul>
+          <li>Ghost their leads after one sales call</li>
+          <li>Spam with “Buy Now” messages</li>
+          <li>Forget leads who said “Not now” but meant “Follow up later”</li>
+          <li>Have no system to emotionally build trust over time</li>
+        </ul>
+      </div>
+
+      <div class="dg-lead-footer">
+        If that sounds like you — it’s time for a <span>Lead Nurturing System.</span>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+ <!-- ==============================COUNTER ============================ -->
+    <!-- <div class="container">
+      <div class="title1">
+        <h2>Why Your Website Matters More Than Ever
+        </h2>
+      
+        <div class="counters counters1">
+
+          <div class="counter">
+            <h2><span data-count="75">0</span>%</h2>
+            <h4>  users judge your business credibility based on your website design </h4>
+            <div class="bg-img">
+              <img src="../../images/mobile-arrow.webp" alt="" />
+            </div>
+          </div>
+          <div class="counter">
+            <h2><span data-count="94">0</span>%</h2>
+            <h4>first impressions are design-related </h4>
+            <div class="bg-img">
+              <img src="../../images/mobile-arrow.webp" alt="" />
+            </div>
+          </div>
+          <div class="counter">
+            <h2><span data-count="200">0</span>%</h2>
+            <h4>A well-structured website can increase conversion rates by up to</h4>
+            <div class="bg-img tab">
+              
+            </div>
+          </div>
+          
+        </div>
+        <p>In short: A poor website isn’t just "not helping" — it's actively hurting your brand.
+        </p>
+      </div>
+
+    </div> -->
+
+
+     <!-- ==============================WORK ============================ -->
+       <section class="dg-wrong-section">
+  <div class="container">
+
+    <div class="dg-wrong-wrap">
+      <h2>What Business Owners Commonly Do Wrong</h2>
+
+      <ul class="dg-wrong-list">
+        <li>Rely only on ads to “close the deal”</li>
+        <li>Think nurturing is manual follow-up only</li>
+        <li>Use generic templates with no emotional pull</li>
+        <li>Spam leads with offers, not value</li>
+        <li>Run ads and courses without a backend strategy</li>
+        <li>Watch YouTube tutorials and set up DIY email/WhatsApp flows</li>
+        <li>Ignore segmentation — treating all leads the same</li>
+        <li>Miss re-engagement windows when leads go cold</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+
+ <!-- ==============================SECTION 2 ============================ -->
+  <section class="dg-nurture-section">
+  <div class="container">
+
+    <div class="dg-nurture-wrap">
+
+      <h2>What is a Lead Nurturing System?</h2>
+
+      <p class="dg-nurture-intro">
+        It’s a smart, automated communication system that:
+      </p>
+
+      <ul class="dg-nurture-list">
+        <li>Educates</li>
+        <li>Connects emotionally</li>
+        <li>Builds trust</li>
+        <li>Keeps your brand top-of-mind</li>
+        <li>Converts when the lead is ready</li>
+      </ul>
+
+      <p class="dg-nurture-footer">
+        Using WhatsApp, email, storytelling, and automation — we guide your lead
+        through their buyer journey.
+      </p>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+      
+
+    <!-- ==============================SECTION 2 ============================ -->
+<section class="dg-drip-section">
+  <div class="container">
+
+    <h2 class="dg-drip-title">
+      WhatsApp & Email Drip Campaigns: The Game Changers
+    </h2>
+
+    <div class="dg-drip-grid">
+
+      <!-- WhatsApp -->
+      <div class="dg-drip-card">
+        <h3>💬 WhatsApp Drip Marketing</h3>
+        <ul>
+          <li>Timed welcome messages</li>
+          <li>Follow-ups after download/form fill</li>
+          <li>Educational content drops (PDFs, videos, tips)</li>
+          <li>Testimonials, reviews & social proof over time</li>
+          <li>Interactive CTA buttons (Book Now, Learn More, etc.)</li>
+        </ul>
+      </div>
+
+      <!-- Email -->
+      <div class="dg-drip-card">
+        <h3>📧 Email Drip Marketing</h3>
+        <ul>
+          <li>Welcome sequences with storytelling</li>
+          <li>Nurture flows with insights, case studies & behind-the-scenes</li>
+          <li>Problem-solution series tied to buyer emotions</li>
+          <li>Event/webinar follow-ups</li>
+          <li>Scarcity-driven launch campaigns</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ===================================================== -->
+<section class="dg-emotion-section">
+  <div class="container">
+
+    <div class="dg-emotion-wrap">
+
+      <h2>Emotional Marketing Matters <span>(Because People Buy with Emotion First)</span></h2>
+
+      <div class="dg-emotion-intro">
+        <p>We don’t just send messages.</p>
+        <p>We tell stories.</p>
+        <p>We solve emotional problems.</p>
+      </div>
+
+      <div class="dg-emotion-examples">
+        <div class="dg-emotion-card">
+          <p><strong>Real estate drip:</strong> “What if your child could grow up in a safe, green environment?”</p>
+        </div>
+
+        <div class="dg-emotion-card">
+          <p><strong>Clinic drip:</strong> “Don’t ignore that pain. It might be stopping you from living fully.”</p>
+        </div>
+
+        <div class="dg-emotion-card">
+          <p><strong>Coaching drip:</strong> “You were made for more than 9–5. Let’s unlock your potential.”</p>
+        </div>
+      </div>
+
+      <div class="dg-emotion-footer">
+        <p>People don’t remember facts. They remember how you made them feel.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ================================================================== -->
+ <section class="dg-nurture-system">
+  <div class="container">
+
+    <h2 class="dg-nurture-title">What’s Included in Our Lead Nurturing System</h2>
+
+    <div class="dg-nurture-grid">
+
+      <div class="dg-nurture-item">
+        <span class="dg-icon">🎯</span>
+        <h4>Segmentation</h4>
+        <p>Custom paths for leads based on interest, source, or behavior</p>
+      </div>
+
+      <div class="dg-nurture-item">
+        <span class="dg-icon">📲</span>
+        <h4>WhatsApp Automation</h4>
+        <p>Personalized, time-triggered messaging flows</p>
+      </div>
+
+      <div class="dg-nurture-item">
+        <span class="dg-icon">📧</span>
+        <h4>Email Automation</h4>
+        <p>Emotion-led drip marketing campaigns with storytelling</p>
+      </div>
+
+      <div class="dg-nurture-item">
+        <span class="dg-icon">🔄</span>
+        <h4>CRM Integration</h4>
+        <p>Score, track, and move leads automatically</p>
+      </div>
+
+      <div class="dg-nurture-item">
+        <span class="dg-icon">📊</span>
+        <h4>Analytics & Optimization</h4>
+        <p>Monitor open rates, clicks, and conversion patterns</p>
+      </div>
+
+      <div class="dg-nurture-item">
+        <span class="dg-icon">🔁</span>
+        <h4>Cold Lead Revival</h4>
+        <p>Re-engagement campaigns to revive dead leads</p>
+      </div>
+
+      <div class="dg-nurture-item">
+        <span class="dg-icon">🎥</span>
+        <h4>Multimedia Touchpoints</h4>
+        <p>Send videos, reels, and client stories mid-funnel</p>
+      </div>
+
+      <div class="dg-nurture-item">
+        <span class="dg-icon">💡</span>
+        <h4>Human + AI Content</h4>
+        <p>Timed messaging with emotional content prompts</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================================ -->
+
+<section class="dg-automation-compare">
+  <div class="container">
+
+    <div class="dg-compare-head">
+      <h2>Before vs After – The Truth About Your Follow-Up Game</h2>
+    </div>
+
+    <div class="dg-compare-grid">
+
+      <!-- BEFORE -->
+      <div class="dg-compare-card before">
+        <h3>Before D-Grow</h3>
+        <ul>
+          <li>Manual, scattered follow-up</li>
+          <li>Leads forget your brand</li>
+          <li>Email open rate < 10%</li>
+          <li>WhatsApp = only broadcast</li>
+          <li>1% lead-to-sale ratio</li>
+         
+        </ul>
+      </div>
+
+      <!-- DIVIDER -->
+      <div class="dg-compare-divider">
+        <span>VS</span>
+      </div>
+
+      <!-- AFTER -->
+      <div class="dg-compare-card after">
+        <h3>After D-Grow</h3>
+        <ul>
+          <li>Automated, consistent messaging</li>
+          <li>Leads grow to trust your brand</li>
+          <li>Email open rate 25–40% with emotional content</li>
+          <li>WhatsApp = interactive drip journey</li>
+          <li>8–12% lead-to-sale ratio with nurture</li>
+        
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================================ -->
+
+
+
+ <!-- ============================== SECTION 2============================ -->
+  <section class="dg-auto-industry">
+  <div class="container">
+
+    <div class="dg-auto-industry-head">
+      <h2> Industries That See the Best Results</h2>
+     
+    </div>
+
+    <div class="dg-auto-table-wrap">
+      <table class="dg-auto-table">
+        <thead>
+          <tr>
+            <th>Industry</th>
+            <th>Use Cases</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>🏗️ Real Estate</td>
+            <td>Site visit nurturing, EMI breakdowns, buyer emotion journey</td>
+          </tr>
+          <tr>
+            <td>🏥 Clinics & Hospitals</td>
+            <td>Treatment drip info, recovery tips, follow-up messages </td>
+          </tr>
+          <tr>
+            <td>🛍️ E-commerce</td>
+            <td>Abandoned cart series, benefit-led product stories</td>
+          </tr>
+          <tr>
+            <td>🎓 Online Coaches</td>
+            <td>Webinar reminder flows, objection handling, scarcity push</td>
+          </tr>
+          
+          <tr>
+            <td>📈 Finance</td>
+            <td>Trust-building drips, document education, consultation reminders</td>
+          </tr>
+          <tr>
+            <td>🧘  Fitness & Wellness</td>
+            <td>Transformation stories, check-ins, package reminders</td>
+          </tr>
+          <tr>
+            <td>🏢 B2B Services</td>
+            <td>Lead qualification, proposal nurturing, demo follow-ups</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+    <!-- ==============================SECTION 2============================ -->
+<section class="dg-global-v2">
+  <div class="container">
+
+    <div class="dg-global-grid">
+
+      <!-- LEFT -->
+      <div class="dg-global-content">
+        <h2>Why You’re Still Struggling to Convert Leads
+</h2>
+
+        <p>
+          Because you:
+        </p>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="dg-global-points">
+
+        <div class="dg-point">
+          <span></span>
+          <p>Don’t have a nurturing system
+</p>
+        </div>
+
+        <div class="dg-point">
+          <span></span>
+          <p>Don’t speak to leads emotionally
+</p>
+        </div>
+
+        <div class="dg-point">
+          <span></span>
+          <p>Wait too long to follow up
+</p>
+        </div>
+
+        <div class="dg-point">
+          <span></span>
+          <p>Don’t use multiple channels
+</p>
+        </div>
+
+         <div class="dg-point">
+          <span></span>
+          <p>Forget cold leads still have buying potential
+</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<!-- ====================================================================== -->
+
+ <section class="dg-global-workflow">
+  <div class="container">
+
+    <!-- TOP: GLOBAL WORKFLOWS -->
+    <div class="dg-global-head">
+      <h2>Global-Friendly Workflows</h2>
+      <ul class="dg-global-points">
+        <li>Timezone-adjusted.</li>
+        <li>Multilingual if needed.</li>
+        <li>Behavior-based triggers.</li>
+      </ul>
+      <p class="dg-global-desc">
+        We build lead nurturing systems that work whether your audience is in
+        India, USA, UAE, or Europe.
+      </p>
+    </div>
+
+    <!-- BOTTOM: BEFORE / AFTER -->
+    <div class="dg-compare-wrap">
+
+      <div class="dg-compare-box dg-before">
+        <h3>Imagine Not Having a Nurturing System…</h3>
+        <ul>
+          <li>❌ Leads go cold within 24 hours</li>
+          <li>❌ You waste money running ads without a backend</li>
+          <li>❌ You burn out following up manually</li>
+          <li>❌ Your competitor builds trust — and wins your lead</li>
+        </ul>
+      </div>
+
+      <div class="dg-compare-box dg-after">
+        <h3>With D-Grow’s Lead Nurturing System</h3>
+        <ul>
+          <li>✔️ Your sales pipeline runs 24/7</li>
+          <li>✔️ You build emotional trust — not just leads</li>
+          <li>✔️ Automation does the heavy lifting</li>
+          <li>✔️ You increase conversion without increasing ad spend</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- ============================================ -->
+
+
+
+  <div class="cta-5 seo-cta1 seo-cta">
+  <div class="container">
+    <div class="cta-text">
+      <h2>Ready to create your own lead-converting machine ?
+</h2>
+
+      <p> Let D-Grow set up your WhatsApp, email, and emotional automation system — the smart way.
+</p>
+      
+      <a href="../contact.html" class="btn">Book a strategy session today.</a>
+    </div>
+
+    <div class="cta-btn">
+      <img src="../../images/cta2.png" alt="Free PPC Consultation">
+    </div>
+  </div>
+</div>
+
+    <!-- ==============================FOOTER============================ -->
+    <footer>
+      <div class="container">
+        <div class="footer-box">
+          <a href="../../index.html">Home </a>
+          <a href="../page/about.html">About Us </a>
+          <a href="#">Services </a>
+          <a href="#">SEO Service </a>
+          <a href="#">Social Media Marketing </a>
+          <a href="../page/contact.html">Contact Us</a>
+          <div class="social-icon">
+            <a href="#"></a>
+          </div>
+        </div>
+        <div class="footer-box address">
+          <img src="/d-grownew/assets/images/d-grow-footer.png" alt="" />
+          <p>
+            Plot No. 141, SF No: 14/3 Radha Avenue Main Road, Valasaravakkam,
+            Chennai - 600087
+          </p>
+          <a href="#">+91 7373509585</a>
+          <a href="#"> enquiry@dgrowmarketing.com</a>
+        </div>
+      </div>
+      <hr />
+      <a href="">
+        <p class="copy">Copyright © 2024 D-Grow Marketing Agency</p>
+      </a>
+    </footer>
+    <!-- ==============================FOOTER============================ -->
+    <!-- ==============================Float menu============================ -->
+    <button id="scrollToTop">
+      <a class="bg-icon" onclick="showSocial()" title="Social Media"><i class="fa-solid fa-share-alt"></i></a>
+      <a class="bg-icon" href="#" title="Go to top"><i class="fa-solid fa-arrow-up"></i></a>
+
+      <div class="float-social">
+        <a class="whatsapp" href="https://wa.me/917373509585" target="_blank" title="WhatsApp"><i
+            class="fa-brands fa-whatsapp"></i></a>
+        <a class="insta"
+          href="https://www.instagram.com/dgrowmarketingagency?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a class="env" href="mailto:enquiry@dgrowmarketing.com" target="_blank" title="Email Me"><i
+            class="fa-solid fa-envelope"></i></a>
+        <a class="phone" href="tel:+917373509585" target="_blank" title="Contact "><i class="fa-solid fa-phone"></i></a>
+      </div>
+    </button>
+  </div>
+  <!-- js -->
+  <script src="../../js/main.js"></script>
+  <script>
+    function handleSubmit(e) {
+      const btn = document.getElementById("seoSubmitBtn");
+      btn.textContent = "Sending...";
+      btn.disabled = true;
+
+      // Allow form to continue submitting, then wait for a moment before showing the alert
+      // Prevent default form submission to allow async fetch
+      e.preventDefault();
+
+      const form = e.target;
+      const data = new FormData(form);
+
+      fetch(form.action, {
+        method: "POST",
+        body: data,
+      })
+        .then((response) => {
+          if (response.ok) {
+            alert("Form submitted successfully!");
+            location.reload();
+          } else {
+            alert("There was an error submitting the form.");
+          }
+          btn.textContent = "Send";
+          btn.disabled = false;
+          form.reset();
+        })
+        .catch((error) => {
+          alert("Something went wrong!");
+          console.error(error);
+          btn.textContent = "Send";
+          btn.disabled = false;
+        });
+    }
+
+
+   
+  const items = document.querySelectorAll('.lm-item');
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+      }
+    });
+  }, { threshold: 0.2 });
+
+  items.forEach(item => observer.observe(item));
+
+
+  </script>
+</body>
+
+</html>

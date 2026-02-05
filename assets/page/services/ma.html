@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../../images/d-growlogo.png" />
+  <title>D-Grow</title>
+  <!-- css -->
+  <link rel="stylesheet" href="../../css/style.css" />
+  <!-- font - icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- ==============================HEADER ============================ -->
+  <header>
+      <div class="container">
+        <div class="logo">
+          <img src="/d-grownew/assets/images/d-growlogo.png" alt="" />
+        </div>
+        <nav>
+          <a href="/d-grownew/index.html">Home</a>
+          <a href="../about.html">About</a>
+          <div class="service-menu">
+            <a
+              class="service-menu-text"
+              onclick="window.open('../services/service.html', '_self')"
+              >Services
+              <i class="fa-solid fa-caret-down"></i>
+            </a>
+
+            <div class="sub-service">
+              <ul class="service-list">
+                <li>
+                  <h5>Digital Marketing Services</h5>
+                  <a href="./seo.html"
+                    ><i class="fa-solid fa-angle-right"></i>SEO Service (Website
+                    Ranking)</a
+                  >
+                  <a href="./ppc.html"
+                    ><i class="fa-solid fa-angle-right"></i>Google Ads (PPC)</a
+                  >
+                  <a href="./smm.html"
+                    ><i class="fa-solid fa-angle-right"></i>Social Media
+                    Marketing</a
+                  >
+                  <a href="./socialmedia.html"
+                    ><i class="fa-solid fa-angle-right"></i>Social Media
+                    Management</a
+                  >
+                  <a href="./email.html"
+                    ><i class="fa-solid fa-angle-right"></i>Email Marketing</a
+                  >
+                  <a href="./gmb.html"
+                    ><i class="fa-solid fa-angle-right"></i>GMB Listing &
+                    Ranking</a
+                  >
+                  <a href="./whatsapp.html"
+                    ><i class="fa-solid fa-angle-right"></i>WhatsApp
+                    Marketing</a
+                  >
+                  <a href="./lead.html"
+                    ><i class="fa-solid fa-angle-right"></i>Leads Generation</a
+                  >
+                  <a href="./political.html"
+                    ><i class="fa-solid fa-angle-right"></i>Political Ads</a
+                  >
+                </li>
+                <li>
+                  <h5>Creative Services</h5>
+                  <a href="./cwm.html"
+                    ><i class="fa-solid fa-angle-right"></i>Content Writing &
+                    Marketing</a
+                  >
+                  <a href="./gd.html"
+                    ><i class="fa-solid fa-angle-right"></i>Graphic Designing</a
+                  >
+                  <a href="./vse.html"
+                    ><i class="fa-solid fa-angle-right"></i>Video Shooting &
+                    Editing</a
+                  >
+                  <a href="./pb.html"
+                    ><i class="fa-solid fa-angle-right"></i>Personal Branding</a
+                  >
+                  <a href="./lbp.html"
+                    ><i class="fa-solid fa-angle-right"></i>LinkedIn Personal
+                    Branding</a
+                  >
+                </li>
+                <li>
+                  <h5>Business Solutions & E-Commerce</h5>
+                  <a href="./wdd.html"
+                    ><i class="fa-solid fa-angle-right"></i>Website Design &
+                    Development</a
+                  >
+                  <a href="./ma.html"
+                    ><i class="fa-solid fa-angle-right"></i>Marketing
+                    Automation</a
+                  >
+                  <a href="./lns.html"
+                    ><i class="fa-solid fa-angle-right"></i>Lead Nurturing
+                    System</a
+                  >
+                  <a href="./dmc.html"
+                    ><i class="fa-solid fa-angle-right"></i>Digital Marketing
+                    Consultation</a
+                  >
+                  <a href="./pl+aseo.html"
+                    ><i class="fa-solid fa-angle-right"></i>Product Listing +
+                    Amazon SEO</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="../consultation.html">Consultation</a>
+          <a href="https://medgrowdigi.com/"
+            >Med<span></span>Grow
+            <div class="med-con">
+              Coming Soon <br />
+              for medical
+            </div></a
+          >
+          <a href="../blog.html">Blog</a>
+          <a href="../services/case.html">Case<span></span>Study</a>
+          <a href="../contact.html">Contact</a>
+        </nav>
+        <a class="btn" href="https://wa.me/917373509585" target="_blank"
+          >Start Now</a
+        >
+        <div onclick="showMenu()" class="menu-bar">
+          <div class="open">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="close">
+            <i class="fa-solid fa-x"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+  <!-- ==============================MOBILE MENU ============================ -->
+  <div class="mobile-menu">
+    <nav>
+      <a href="../../../index.html"><i class="fa-solid fa-house"></i>Home</a>
+      <a href="../about.html"><i class="fa-solid fa-address-card"></i>About</a>
+      <div class="mobile-service">
+        <a href="../services/service.html"><i class="fa-brands fa-digital-ocean"></i>Services</a>
+        <div class="mobile-sub-menu">
+          <a href="../services/seo.html"><i class="fa-solid fa-angles-right"></i>SEO</a>
+          <a href="../services/socialmedia.html"><i class="fa-solid fa-angles-right"></i>Social Media Marketing
+          </a>
+          <a href="#"><i class="fa-solid fa-angles-right"></i>Lead Generate
+          </a>
+          <a href="#"><i class="fa-solid fa-angles-right"></i>Web Designing &
+            Development</a>
+          <a href="#"><i class="fa-solid fa-angles-right"></i>Personal Branding</a>
+        </div>
+      </div>
+      <a href="../consultation.html"><i class="fa-solid fa-book"></i>Digital consultants</a>
+      <a href="#"><i class="fa-solid fa-book"></i>Med Grow (Coming Soon)</a>
+
+      <a href="../blog.html"><i class="fa-solid fa-book"></i>Blog</a>
+      <a href="./case.html"><i class="fa-solid fa-book"></i>Case Study</a>
+
+      <a href="../contact.html"><i class="fa-solid fa-phone-volume"></i>Contact</a>
+    </nav>
+    <div class="mobile-social">
+      <a href="https://wa.me/917373509585"><i class="fa-brands fa-whatsapp"></i></a>
+      <a
+        href="https://www.instagram.com/dgrowmarketingagency?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i
+          class="fa-brands fa-instagram"></i></a>
+      <a href="mailto:enquiry@dgrowmarketing.com"><i class="fa-solid fa-envelope"></i></a>
+      <a href="tel:+917373509585"><i class="fa-solid fa-phone"></i></a>
+    </div>
+  </div>
+  <!-- ==============================MOBILE MENU ============================ -->
+  <!-- ==============================HEADER ============================ -->
+  <!-- ==============================PAGE TOP SECTION ============================ -->
+  <div class="hero-section">
+    <div class="container">
+      <h1>Marketing Automation</h1>
+      <p>
+        Rank your website on Google's first page and pull the traffic towards
+        your website within 90 Days!
+      </p>
+      <p>
+        <a class="inner-menu" href="../../../index.html">Home <i class="fa-solid fa-angle-right"></i></a>
+        <a href="./service.html">Service</a>
+      </p>
+    </div>
+  </div>
+  <!-- ==============================PAGE TOP SECTION ============================ -->
+  <div class="about seo">
+    <!-- ==============================SECTION 2 ============================ -->
+    <!-- ==============================SECTION 2 ============================ -->
+    <div class="container">
+      <div class="seo-input-text">
+        <p>Comprehensive Website Audit Tool</p>
+        <h3>How does your site score?</h3>
+      </div>
+
+      <form method="post"
+        action="https://script.google.com/macros/s/AKfycbxTMzLiidLN-A3ZSF7_f1HLvJ6nkZ-cIHHHeBgupMNXLCMM90K14sBxtWlcOroxt6c_/exec"
+        onsubmit="handleSubmit(event)">
+        <div class="seo-inputs">
+          <input type="text" placeholder="Enter Your Website URL" name="webLink" required />
+          <button type="submit" class="seo-btn" id="seoSubmitBtn">
+            Send
+          </button>
+        </div>
+      </form>
+    </div>
+    <!-- ==============================SECTION 2 ============================ -->
+    <section class="section section2">
+      <div class="container">
+        <div class="right">
+          <div class="section-img">
+            <img src="../../images/seo.png" alt="" />
+          </div>
+        </div>
+        <div class="left">
+          <div class="section-text">
+            <h3>Marketing Automation Services
+            </h3>
+            <p>Automate. Accelerate. Amplify.
+ Build a marketing engine that works 24/7 – so you don’t have to.
+</p>
+    
+
+            <h4>Ready to see your website finally work for you?</h4>
+            <p>Let's transform your online presence today.</p>
+            <a href="../contact.html" class="btn">Book Your Free Consultation Now!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =========================================================================== -->
+     <section class="growth-truth-section">
+  <div class="growth-container">
+
+    <h2>Why Most Businesses Stay Stuck (Without Automation)
+</h2>
+
+    <p class="growth-text">
+      You’re running ads, replying to DMs, following up on leads… manually.
+ It’s exhausting. You feel like you’re doing everything — yet conversions are unpredictable.
+
+    </p>
+
+
+    <div class="truth-box">
+      <h3>Here’s the truth:
+</h3>
+
+      <p> <strong> Here’s the truth:
+If you're still running your marketing manually, you're burning time, money, and opportunities.</strong>
+      </p>
+
+     
+    </div>
+
+    
+
+  </div>
+</section>
+
+
+ <!-- ==============================COUNTER ============================ -->
+    <!-- <div class="container">
+      <div class="title1">
+        <h2>Why Your Website Matters More Than Ever
+        </h2>
+      
+        <div class="counters counters1">
+
+          <div class="counter">
+            <h2><span data-count="75">0</span>%</h2>
+            <h4>  users judge your business credibility based on your website design </h4>
+            <div class="bg-img">
+              <img src="../../images/mobile-arrow.webp" alt="" />
+            </div>
+          </div>
+          <div class="counter">
+            <h2><span data-count="94">0</span>%</h2>
+            <h4>first impressions are design-related </h4>
+            <div class="bg-img">
+              <img src="../../images/mobile-arrow.webp" alt="" />
+            </div>
+          </div>
+          <div class="counter">
+            <h2><span data-count="200">0</span>%</h2>
+            <h4>A well-structured website can increase conversion rates by up to</h4>
+            <div class="bg-img tab">
+              
+            </div>
+          </div>
+          
+        </div>
+        <p>In short: A poor website isn’t just "not helping" — it's actively hurting your brand.
+        </p>
+      </div>
+
+    </div> -->
+
+
+     <!-- ==============================WORK ============================ -->
+       <section class="industry-fit-section">
+  <div class="container industry-box">
+
+    <h2>Common Mistakes Business Owners Make
+</h2>
+
+
+    <ul class="industry-list">
+      <li>Manually following up with leads — then forgetting most of them
+</li>
+      <li>Using spreadsheets to track prospects (instead of an automated CRM)
+
+</li>
+      <li>Not sending reminders or nurturing emails
+
+</li>
+      <li>
+No abandoned cart recovery for ecommerce
+
+</li>
+      <li>Delayed responses → Lost leads
+</li>
+      <li>No WhatsApp or email automation after someone shows interest
+
+</li>
+<li>No pipeline to track lead movement
+</li>
+<li>Relying too much on team bandwidth instead of systemising growth
+</li>
+      
+    </ul>
+
+    
+
+  </div>
+       </section>
+
+
+ <!-- ==============================SECTION 2 ============================ -->
+    <section class="dg-auto-section">
+  <div class="container dg-auto-wrap">
+
+    <div class="dg-auto-left">
+      <h2>What Is Marketing Automation?</h2>
+      <p>
+        Marketing automation is the process of using tech tools and workflows to:
+      </p>
+
+      <ul class="dg-auto-points">
+        <li>Capture leads</li>
+        <li>Nurture them with content</li>
+        <li>Follow up at the right time</li>
+        <li>Convert them into paying customers — on autopilot</li>
+      </ul>
+
+      <p class="dg-auto-note">
+        It connects your website, social media, WhatsApp, email, landing pages,
+        CRM, and even payment systems into one seamless lead-to-customer journey.
+      </p>
+    </div>
+
+    <div class="dg-auto-right">
+      <div class="dg-auto-flow">
+        <span>Website</span>
+        <span>Social Media</span>
+        <span>WhatsApp</span>
+        <span>Email</span>
+        <span>CRM</span>
+        <span>Payments</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+      
+
+    <!-- ==============================SECTION 2 ============================ -->
+ <section class="dg-automation-services">
+  <div class="container">
+
+    <div class="dg-auto-head">
+      <h2>Our Marketing Automation Services Include</h2>
+      <p>At D-Grow, we set up a full system tailored to your business model:</p>
+    </div>
+
+    <div class="dg-auto-grid">
+
+      <!-- Lead Capture -->
+      <div class="dg-auto-card">
+        <h4>Lead Capture Automation</h4>
+        <ul>
+          <li>Landing pages with auto-responders</li>
+          <li>WhatsApp click-to-chat setup</li>
+          <li>Lead generation forms connected to CRM</li>
+        </ul>
+      </div>
+
+      <!-- Email & WhatsApp -->
+      <div class="dg-auto-card">
+        <h4>Email & WhatsApp Sequences</h4>
+        <ul>
+          <li>Welcome emails</li>
+          <li>Drip campaigns for nurturing</li>
+          <li>Abandoned cart follow-up</li>
+          <li>Trigger-based reminders</li>
+        </ul>
+      </div>
+
+      <!-- CRM -->
+      <div class="dg-auto-card">
+        <h4>CRM Integration</h4>
+        <ul>
+          <li>Pipeline tracking</li>
+          <li>Lead tagging & segmentation</li>
+          <li>Notifications when a hot lead is active</li>
+        </ul>
+      </div>
+
+      <!-- Retargeting -->
+      <div class="dg-auto-card">
+        <h4>Retargeting Workflows</h4>
+        <ul>
+          <li>Facebook Pixel & Google Tag Manager</li>
+          <li>Smart ad retargeting for abandoned users</li>
+        </ul>
+      </div>
+
+      <!-- Follow Up -->
+      <div class="dg-auto-card">
+        <h4>Follow-Up Automation</h4>
+        <ul>
+          <li>Timely reminders for sales calls</li>
+          <li>Event / webinar reminders</li>
+          <li>Festive offers & re-engagement campaigns</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- ============================================================================ -->
+
+<section class="dg-automation-compare">
+  <div class="container">
+
+    <div class="dg-compare-head">
+      <h2>Before vs After Automation – The Reality Check</h2>
+    </div>
+
+    <div class="dg-compare-grid">
+
+      <!-- BEFORE -->
+      <div class="dg-compare-card before">
+        <h3>Before Automation</h3>
+        <ul>
+          <li>Missed follow-ups</li>
+          <li>Manual lead tracking</li>
+          <li>Slow responses</li>
+          <li>No nurturing</li>
+          <li>No segmentation</li>
+          <li>Team burnout</li>
+        </ul>
+      </div>
+
+      <!-- DIVIDER -->
+      <div class="dg-compare-divider">
+        <span>VS</span>
+      </div>
+
+      <!-- AFTER -->
+      <div class="dg-compare-card after">
+        <h3>After Automation with D-Grow</h3>
+        <ul>
+          <li>Automated emails + WhatsApp messages</li>
+          <li>CRM with real-time status updates</li>
+          <li>Instant response systems</li>
+          <li>Consistent brand communication</li>
+          <li>Tailored messages to every lead type</li>
+          <li>Systemized, smooth workflows</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- ============================================================================ -->
+
+<div class="container">
+      <div class="title1">
+        <h2>Why Marketing Automation Matters (Stats That Speak)
+        </h2>
+     
+        <div class="counters">
+
+          <div class="counter">
+            <h2><span data-count="80"> 0 </span>%</h2>
+            <h4>  marketers saw an increase in leads after automating</h4>
+            <div class="bg-img">
+              <img src="../../images/mobile-arrow.webp" alt="" />
+            </div>
+          </div>
+          <div class="counter">
+            <h2><span data-count="451">0</span>%</h2>
+            <h4>Businesses using automation experience - more qualified leads</h4>
+            <div class="bg-img">
+              <img src="../../images/mobile-arrow.webp" alt="" />
+            </div>
+          </div>
+          <div class="counter">
+            <h2><span data-count="320">0</span>%</h2>
+            <h4> Automated emails generate -  more revenue than manual ones
+</h4>
+            <div class="bg-img tab">
+              <img src="../../images/mobile-arrow.webp" alt="" />
+            </div>
+          </div>
+          <div class="counter">
+            <h2><span data-count="10">0</span>%</h2>
+            <h4>Companies with automated lead management generate - more revenue in 6–9 months</h4>
+          </div>
+        </div>
+       
+      </div>
+
+    </div>
+
+ <!-- ============================== SECTION 2============================ -->
+  <section class="dg-auto-industry">
+  <div class="container">
+
+    <div class="dg-auto-industry-head">
+      <h2>Industries That Benefit Most From Automation</h2>
+      <p>We customize automation flows based on your industry goals:</p>
+    </div>
+
+    <div class="dg-auto-table-wrap">
+      <table class="dg-auto-table">
+        <thead>
+          <tr>
+            <th>Industry</th>
+            <th>Use Cases</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>🏥 Healthcare Clinics</td>
+            <td>Appointment reminders, patient follow-ups</td>
+          </tr>
+          <tr>
+            <td>🛍️ E-commerce</td>
+            <td>Abandoned cart, order confirmations, promotions</td>
+          </tr>
+          <tr>
+            <td>🎓 Online Courses</td>
+            <td>Lead nurturing, webinar reminders, course follow-ups</td>
+          </tr>
+          <tr>
+            <td>🏗️ Real Estate</td>
+            <td>Site visit bookings, project updates, lead tracking</td>
+          </tr>
+          <tr>
+            <td>📈 Financial Services</td>
+            <td>Client onboarding, document collection</td>
+          </tr>
+          <tr>
+            <td>🧘 Coaches & Consultants</td>
+            <td>Discovery call bookings, value content drip</td>
+          </tr>
+          <tr>
+            <td>🛠️ B2B Service Providers</td>
+            <td>Lead segmentation, pipeline management</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+    <!-- ==============================SECTION 2============================ -->
+<section class="dg-global-v2">
+  <div class="container">
+
+    <div class="dg-global-grid">
+
+      <!-- LEFT -->
+      <div class="dg-global-content">
+        <h2>Automation for Global Reach</h2>
+
+        <p>
+          We help you build systems that work across time zones and geographies —
+          especially if you:
+        </p>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="dg-global-points">
+
+        <div class="dg-point">
+          <span></span>
+          <p>Sell digital products internationally</p>
+        </div>
+
+        <div class="dg-point">
+          <span></span>
+          <p>Run webinars/masterclasses</p>
+        </div>
+
+        <div class="dg-point">
+          <span></span>
+          <p>Have multiple lead sources (Google, Meta, WhatsApp, LinkedIn)</p>
+        </div>
+
+        <div class="dg-point">
+          <span></span>
+          <p>Need automated language-based follow-ups</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<!-- ====================================================================== -->
+
+ <section class="dg-ignore-auto">
+  <div class="container">
+
+    <div class="dg-ignore-wrap">
+
+      <h2>What If You Ignore Marketing Automation?</h2>
+      <p class="dg-ignore-sub">You’ll likely continue to…</p>
+
+      <div class="dg-ignore-list">
+        <div class="dg-ignore-item">Lose hot leads due to slow responses</div>
+        <div class="dg-ignore-item">Struggle with inconsistent sales</div>
+        <div class="dg-ignore-item">Keep hiring more people instead of building systems</div>
+        <div class="dg-ignore-item">Waste ad budget by not capturing and nurturing leads properly</div>
+        <div class="dg-ignore-item">Feel overwhelmed juggling marketing tasks</div>
+      </div>
+
+      <div class="dg-ignore-footer">
+        ⚙️ <span>Automate once. Scale forever.</span>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================ -->
+
+
+
+  <div class="cta-5 seo-cta1 seo-cta">
+  <div class="container">
+    <div class="cta-text">
+      <h2>Ready to Build a Scalable Marketing Engine?
+</h2>
+
+      <p>We don’t just set up tools. We build profit pipelines.
+      </p>
+      <p>If you’re tired of dropping the ball and want a business that runs even when you're offline — marketing automation is your next best move.
+</p>
+      <p class="red">👉 Let’s build your system.
+</p>
+<p> Book a free consultation and we’ll map your entire automation strategy.</p>
+
+     
+
+      <a href="../contact.html" class="btn">Book Your Free Consultation</a>
+    </div>
+
+    <div class="cta-btn">
+      <img src="../../images/cta2.png" alt="Free PPC Consultation">
+    </div>
+  </div>
+</div>
+
+    <!-- ==============================FOOTER============================ -->
+    <footer>
+      <div class="container">
+        <div class="footer-box">
+          <a href="../../index.html">Home </a>
+          <a href="../page/about.html">About Us </a>
+          <a href="#">Services </a>
+          <a href="#">SEO Service </a>
+          <a href="#">Social Media Marketing </a>
+          <a href="../page/contact.html">Contact Us</a>
+          <div class="social-icon">
+            <a href="#"></a>
+          </div>
+        </div>
+        <div class="footer-box address">
+          <img src="/d-grownew/assets/images/d-grow-footer.png" alt="" />
+          <p>
+            Plot No. 141, SF No: 14/3 Radha Avenue Main Road, Valasaravakkam,
+            Chennai - 600087
+          </p>
+          <a href="#">+91 7373509585</a>
+          <a href="#"> enquiry@dgrowmarketing.com</a>
+        </div>
+      </div>
+      <hr />
+      <a href="">
+        <p class="copy">Copyright © 2024 D-Grow Marketing Agency</p>
+      </a>
+    </footer>
+    <!-- ==============================FOOTER============================ -->
+    <!-- ==============================Float menu============================ -->
+    <button id="scrollToTop">
+      <a class="bg-icon" onclick="showSocial()" title="Social Media"><i class="fa-solid fa-share-alt"></i></a>
+      <a class="bg-icon" href="#" title="Go to top"><i class="fa-solid fa-arrow-up"></i></a>
+
+      <div class="float-social">
+        <a class="whatsapp" href="https://wa.me/917373509585" target="_blank" title="WhatsApp"><i
+            class="fa-brands fa-whatsapp"></i></a>
+        <a class="insta"
+          href="https://www.instagram.com/dgrowmarketingagency?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a class="env" href="mailto:enquiry@dgrowmarketing.com" target="_blank" title="Email Me"><i
+            class="fa-solid fa-envelope"></i></a>
+        <a class="phone" href="tel:+917373509585" target="_blank" title="Contact "><i class="fa-solid fa-phone"></i></a>
+      </div>
+    </button>
+  </div>
+  <!-- js -->
+  <script src="../../js/main.js"></script>
+  <script>
+    function handleSubmit(e) {
+      const btn = document.getElementById("seoSubmitBtn");
+      btn.textContent = "Sending...";
+      btn.disabled = true;
+
+      // Allow form to continue submitting, then wait for a moment before showing the alert
+      // Prevent default form submission to allow async fetch
+      e.preventDefault();
+
+      const form = e.target;
+      const data = new FormData(form);
+
+      fetch(form.action, {
+        method: "POST",
+        body: data,
+      })
+        .then((response) => {
+          if (response.ok) {
+            alert("Form submitted successfully!");
+            location.reload();
+          } else {
+            alert("There was an error submitting the form.");
+          }
+          btn.textContent = "Send";
+          btn.disabled = false;
+          form.reset();
+        })
+        .catch((error) => {
+          alert("Something went wrong!");
+          console.error(error);
+          btn.textContent = "Send";
+          btn.disabled = false;
+        });
+    }
+
+
+   
+  const items = document.querySelectorAll('.lm-item');
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+      }
+    });
+  }, { threshold: 0.2 });
+
+  items.forEach(item => observer.observe(item));
+
+
+  </script>
+</body>
+
+</html>
