@@ -39,7 +39,7 @@ body {
 }
 h1 {
   font-size: 52px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--white-color);
   line-height: 62px;
 }
@@ -256,7 +256,7 @@ nav .service-menu a:focus + .sub-service,
 }
 .mobile-menu nav a {
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 500;
   padding: 0px;
   text-align: start;
   padding: 10px 0px;
@@ -357,6 +357,12 @@ h3 span {
   padding: 60px 0px;
   gap: 50px;
 }
+.counters2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 30px 0px;
+  gap: 30px;
+}
 .counters1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -369,7 +375,7 @@ h3 span {
   align-items: center;
   text-align: center;
   background-color: var(--light-red-color);
-  padding: 28px;
+  padding: 18px;
   border-radius: 14px;
   position: relative;
 }
@@ -407,7 +413,7 @@ h3 span {
   align-items: center;
 }
 .cta .container h2 {
-  font-weight: 700;
+  font-weight: 500;
 }
 .cta-3 h2 {
   font-size: 32px;
@@ -589,7 +595,7 @@ h3 span {
 }
 .step h3 {
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--red-color);
 }
 .step p {
@@ -1065,7 +1071,7 @@ hr {
   text-align: center;
   margin-bottom: 30px;
   color: var(--med-red-color);
-  font-weight: 800;
+  font-weight: 500;
 }
 .com-profile {
   background: var(--red-and-black);
@@ -1176,7 +1182,7 @@ input {
   display: none;
 }
 .bold-lable {
-  font-weight: 600;
+  font-weight: 500;
 }
 .check-lists {
   display: flex;
@@ -1443,7 +1449,7 @@ input {
   gap: 20px;
 }
 .blog-text .text h3 {
-  font-weight: 800;
+  font-weight: 500;
   color: var(--red-color);
 }
 .blog-text .text h5 {
@@ -1467,12 +1473,12 @@ input {
 .blog-det-container h2 {
   color: var(--red-color);
   margin-bottom: 20px;
-  font-weight: 800;
+  font-weight: 500;
 }
 .blog-det-container h4 {
   color: var(--med-red-color);
   margin-bottom: 15px;
-  font-weight: 700;
+  font-weight: 500;
 }
 .blog-det-container h5 {
   font-size: 18px;
@@ -1565,7 +1571,7 @@ input {
 .digital .section-text h2 {
   margin-bottom: 0px;
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 500;
 }
 .digital .section-text h5 {
   margin-bottom: 10px;
@@ -1612,7 +1618,7 @@ input {
   margin-bottom: 20px;
 }
 .title-digital h2 {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 42px;
 }
 .sec3-digital {
@@ -1891,7 +1897,7 @@ input {
 .test-p {
   font-size: 16px;
   margin-top: 20px;
-  font-weight: 800;
+  font-weight: 500;
   text-align: end;
 }
 .work-imags {
@@ -1905,7 +1911,7 @@ input {
 }
 .sec-3 h3 {
   margin-bottom: 5px;
-  font-weight: 800;
+  font-weight: 500;
   font-size: 28px;
 }
 .sec-3 .section-text h4 {
@@ -1999,7 +2005,7 @@ input {
   .bg-img img {
     transform: rotate(0deg);
   }
-  .counters,.counters1
+  .counters,.counters1,.counters2
   .section3 .boxs,
   .people-box,
   .faq-container {
@@ -2183,6 +2189,9 @@ input {
     grid-template-columns: repeat(2, 1fr);
   }
   .counters1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .counters2 {
     grid-template-columns: repeat(2, 1fr);
   }
   .tab {
@@ -2425,7 +2434,7 @@ input {
 
 .luxury-header h2 {
   font-size: 46px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 58px;
   margin-bottom: 20px;
 }
@@ -2451,7 +2460,7 @@ input {
 
 .luxury-item span {
   font-size: 42px;
-  font-weight: 800;
+  font-weight: 500;
   color: rgba(255,255,255,0.15);
 }
 
@@ -2515,7 +2524,7 @@ input {
 
 .social-head h2 {
   font-size: 46px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 58px;
   color: var(--black-color);
   margin-bottom: 20px;
@@ -2623,7 +2632,7 @@ input {
 
 .social-cta-content h2 {
   font-size: 46px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 58px;
   margin-bottom: 25px;
 }
@@ -2660,7 +2669,7 @@ input {
 }
 
 .highlight-text {
-  font-weight: 600;
+  font-weight: 500;
   color: #530c0c;
 }
 
@@ -2705,7 +2714,7 @@ input {
 
 .insta-title h2 {
   font-size: 42px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 15px;
   color: var(--black-color);
 }
@@ -2816,7 +2825,7 @@ input {
 
 .industries-head h2 {
   font-size: 44px;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--black-color);
   margin-bottom: 15px;
 }
@@ -2858,7 +2867,7 @@ input {
 
 .industry-item span {
   font-size: 26px;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--med-red-color);
   min-width: 45px;
 }
@@ -3018,7 +3027,7 @@ input {
 .section-title h2 {
   color: var(--red-color);
   font-size: 42px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 15px;
 }
 
@@ -3044,7 +3053,7 @@ input {
 .comparison-box h3 {
   font-size: 26px;
   margin-bottom: 25px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 /* BEFORE */
@@ -3255,7 +3264,7 @@ input {
   background-color: var(--green-color);
   color: var(--white-color);
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 15px;
 }
 
@@ -3319,7 +3328,7 @@ input {
 
 .wa-card h4 {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--black-color);
   margin-bottom: 10px;
 }
@@ -3386,7 +3395,7 @@ input {
   border-radius: 30px;
   background: rgba(214, 43, 43, 0.1);
   color: var(--med-red-color);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   margin-bottom: 18px;
 }
@@ -3532,7 +3541,7 @@ input {
   border-radius: 50px;
   background: rgba(213, 8, 8, 0.12);
   color: #500307;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   margin-bottom: 18px;
 }
@@ -3573,14 +3582,14 @@ input {
   top: 25px;
   right: 30px;
   font-size: 52px;
-  font-weight: 800;
+  font-weight: 500;
   color: rgba(0, 0, 0, 0.082);
 }
 
 /* TEXT */
 .wa-why-card h4 {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--black-color);
   margin-bottom: 14px;
 }
@@ -3651,13 +3660,13 @@ input {
   border-radius: 40px;
   background: rgba(214,43,43,.12);
   color: var(--med-red-color);
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 18px;
 }
 
 .lm-header h2 {
   font-size: 46px;
-  font-weight: 800;
+  font-weight: 500;
   margin-bottom: 20px;
 }
 
@@ -3716,7 +3725,7 @@ input {
 
 .lm-card h4 {
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 
@@ -3774,13 +3783,13 @@ input {
   border-radius: 30px;
   background: rgba(214, 43, 43, 0.12);
   color: var(--med-red-color);
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 16px;
 }
 
 .ls-head h2 {
   font-size: 44px;
-  font-weight: 800;
+  font-weight: 500;
   margin-bottom: 18px;
 }
 
@@ -3815,7 +3824,7 @@ input {
 
 .ls-box h4 {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 14px;
 }
 
@@ -3877,7 +3886,7 @@ input {
 
 .dg-pol-head h2 {
   font-size: 42px;
-  font-weight: 800;
+  font-weight: 500;
   color: var(--black-color);
   margin-bottom: 12px;
 }
@@ -3966,7 +3975,7 @@ input {
   padding: 18px 30px;
   background: #ffffff;
   border-radius: 18px;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--black-color);
   box-shadow: 0 25px 70px rgba(0, 0, 0, 0.12);
   transition: all 0.35s ease;
@@ -4081,7 +4090,7 @@ input {
   top: 20px;
   right: 30px;
   font-size: 52px;
-  font-weight: 800;
+  font-weight: 500;
   color: rgba(0, 0, 0, 0.06);
 }
 
@@ -4365,7 +4374,7 @@ input {
 /* ---------- NOTE ---------- */
 .industry-note {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--black-color);
   margin-top: 10px;
 }
@@ -4464,7 +4473,7 @@ input {
 .highlight-line {
   margin-top: 40px;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--black-color);
   background: #ffffff;
   padding: 20px 26px;
@@ -4477,7 +4486,7 @@ input {
 .impact-line {
   margin-top: 30px;
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--white-color);
   background: var(--red-and-black);
   padding: 22px;
@@ -4551,7 +4560,7 @@ input {
 
 .dg-global-header h2 {
   font-size: 38px;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--red-color);
   margin-bottom: 15px;
 }
@@ -4582,7 +4591,7 @@ input {
 /* Number */
 .dg-global-item span {
   font-size: 34px;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--med-red-color);
   opacity: 0.25;
 }
@@ -4590,7 +4599,7 @@ input {
 /* Title */
 .dg-global-item h4 {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--black-color);
   margin: 10px 0 6px;
 }
@@ -4652,7 +4661,7 @@ input {
 
 .dg-why-header h2 {
   font-size: 38px;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--red-color);
 }
 
@@ -4689,7 +4698,7 @@ input {
 
 .dg-why-card h4 {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--black-color);
   margin-bottom: 12px;
 }
@@ -4757,7 +4766,7 @@ input {
 /* ---------- LEFT CONTENT ---------- */
 .dg-auto-left h2 {
   font-size: 38px;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--red-color);
   margin-bottom: 20px;
 }
@@ -4789,7 +4798,7 @@ input {
   position: absolute;
   left: 0;
   top: 0;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--med-red-color);
 }
 
@@ -4910,7 +4919,7 @@ input {
 /* Title */
 .dg-auto-card h4 {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--black-color);
   margin-bottom: 18px;
 }
@@ -4937,7 +4946,7 @@ input {
   left: 0;
   top: 0;
   color: var(--med-red-color);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* ---------- HOVER ---------- */
@@ -4994,7 +5003,7 @@ input {
 
 .dg-compare-head h2 {
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--red-color);
 }
 
@@ -5016,7 +5025,7 @@ input {
 
 .dg-compare-card h3 {
   font-size: 26px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 35px;
 }
 
@@ -5051,7 +5060,7 @@ input {
   left: 0;
   top: 0;
   color: #ff6b6b;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 /* ---------- AFTER ---------- */
@@ -5074,7 +5083,7 @@ input {
   left: 0;
   top: 0;
   color: var(--green-color);
-  font-weight: 700;
+  font-weight: 500;
 }
 
 /* ---------- DIVIDER ---------- */
@@ -5087,7 +5096,7 @@ input {
 .dg-compare-divider span {
   background: var(--med-red-color);
   color: var(--white-color);
-  font-weight: 700;
+  font-weight: 500;
   padding: 18px 22px;
   border-radius: 50%;
   font-size: 18px;
@@ -5196,7 +5205,7 @@ input {
 
 /* Industry column emphasis */
 .dg-auto-table td:first-child {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* ===============================
@@ -5238,7 +5247,7 @@ input {
   .dg-auto-table td:first-child {
     background: var(--black-color);
     color: var(--white-color);
-    font-weight: 600;
+    font-weight: 500;
   }
 }
 
@@ -5407,7 +5416,7 @@ input {
 .dg-ignore-footer {
   margin-top: 70px;
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--black-color);
   display: flex;
   align-items: center;
@@ -5475,7 +5484,7 @@ input {
 
 .dg-lead-intro .highlight {
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--red-color);
 }
 
@@ -5486,7 +5495,7 @@ input {
 
 .dg-lead-points > p {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 20px;
   color: var(--black-color);
 }
@@ -5519,7 +5528,7 @@ input {
 .dg-lead-footer {
   margin-top: 70px;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--black-color);
 }
 
@@ -5765,7 +5774,7 @@ input {
 /* ---------- HEAD ---------- */
 .dg-drip-card h3 {
   font-size: 26px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 30px;
   color: var(--black-color);
 }
@@ -5900,7 +5909,7 @@ input {
 /* ---------- FOOTER ---------- */
 .dg-emotion-footer p {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--red-color);
   line-height: 36px;
 }
@@ -5984,7 +5993,7 @@ input {
 /* ---------- TEXT ---------- */
 .dg-nurture-item h4 {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--red-color);
   margin-bottom: 12px;
 }
@@ -6097,7 +6106,7 @@ input {
 .dg-compare-box h3 {
   font-size: 26px;
   margin-bottom: 30px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 /* BEFORE */
@@ -6206,7 +6215,7 @@ input {
 
 .dg-pause {
   margin-top: 15px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .dg-result {
@@ -6223,7 +6232,7 @@ input {
 
 .dg-clarity-reasons p {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 10px;
   color: var(--black-color);
 }
@@ -6237,7 +6246,7 @@ input {
 /* ---------- FOOTER ---------- */
 .dg-clarity-footer p {
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 40px;
   color: var(--black-color);
 }
@@ -6294,7 +6303,7 @@ input {
 /* ---------- LEFT ---------- */
 .dg-profile-left h2 {
   font-size: 42px;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--black-color);
   margin-bottom: 40px;
 }
@@ -6335,7 +6344,7 @@ input {
 
 .dg-profile-highlight {
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 500;
   padding: 28px 34px;
   background: var(--light-red-color);
   border-left: 6px solid var(--med-red-color);
@@ -6426,12 +6435,12 @@ input {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .dg-consult-card h4 {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--black-color);
   margin-bottom: 14px;
 }
@@ -6572,7 +6581,7 @@ input {
   border-radius: 50px;
   background: #fff;
   border: 1px solid #ddd;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 15px;
 }
 
@@ -6637,7 +6646,7 @@ input {
 .dg-mistake-title {
   text-align: center;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 40px;
 }
 
@@ -6752,12 +6761,12 @@ input {
   display: grid;
   place-items: center;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .dg-step h4 {
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 14px;
   color: var(--black-color);
 }
@@ -6823,7 +6832,7 @@ input {
 /* LEFT CONTENT */
 .dg-next-content h2 {
   font-size: 42px;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--black-color);
   margin-bottom: 20px;
 }
@@ -6855,7 +6864,7 @@ input {
   left: 0;
   top: 2px;
   color: var(--med-red-color);
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .dg-next-note {
@@ -6922,7 +6931,7 @@ input {
 ================================ */
 
 .dg-amz-seo-section {
-  padding: 40px 0;
+  padding: 2cap 0;
   background:var(--black-color);
 }
 
@@ -6972,7 +6981,7 @@ input {
 
 .dg-amz-industry h4 {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--black-color);
   margin-bottom: 10px;
 }
@@ -7016,5 +7025,444 @@ input {
 
   .dg-amz-industry p {
     font-size: 15px;
+  }
+}
+
+
+/* ===============================
+   WEBSITE PROBLEM SECTION
+================================ */
+
+.dg-problem-section {
+  padding: 40px 0;
+  background: linear-gradient(180deg, #ffffff, #f9f9f9);
+}
+
+/* HEADER */
+.dg-problem-header {
+  max-width: 900px;
+  margin-bottom: 30px;
+}
+
+.dg-problem-header h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--black-color);
+  margin-bottom: 10px;
+}
+
+.dg-problem-header p {
+  font-size: 18px;
+  color: #444;
+  line-height: 28px;
+}
+
+/* GRID */
+.dg-problem-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+/* ITEM */
+.dg-problem-item {
+  background: #ffffff;
+  padding: 26px 40px;
+  border-radius: 22px;
+  border-left: 6px solid var(--med-red-color);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.06);
+  transition: all 0.35s ease;
+}
+
+.dg-problem-item p {
+  font-size: 16.5px;
+  line-height: 26px;
+  color: #333;
+}
+
+/* HOVER */
+.dg-problem-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 40px 100px rgba(0,0,0,0.12);
+}
+
+/* FOOTER */
+.dg-problem-footer {
+  max-width: 900px;
+}
+
+.dg-problem-footer p {
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--black-color);
+  font-weight: 500;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 768px) {
+  .dg-problem-section {
+    padding: 100px 0;
+  }
+
+  .dg-problem-header h2 {
+    font-size: 30px;
+  }
+
+  .dg-problem-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dg-problem-item {
+    padding: 26px;
+  }
+
+  .dg-problem-item p {
+    font-size: 15px;
+  }
+
+  .dg-problem-footer p {
+    font-size: 16px;
+  }
+}
+
+
+
+/* ===============================
+   SEO SERVICES – PREMIUM
+================================ */
+
+.dg-seo-services {
+  padding: 50px 0;
+  background: linear-gradient(180deg, #ffffff, #f7f7f7);
+}
+
+/* HEADER */
+.dg-seo-header {
+  max-width: 900px;
+  margin-bottom: 40px;
+}
+
+.dg-seo-header h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--black-color);
+  margin-bottom: 18px;
+}
+
+.dg-seo-header p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #444;
+}
+
+/* BLOCK */
+.dg-seo-block {
+  background: #ffffff;
+  padding: 50px 60px;
+  border-radius: 26px;
+  margin-bottom: 30px;
+  border-left: 7px solid var(--med-red-color);
+  box-shadow: 0 30px 90px rgba(0,0,0,0.06);
+}
+
+.dg-seo-block h3 {
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--red-color);
+  margin-bottom: 16px;
+}
+
+.dg-seo-block p {
+  font-size: 16.5px;
+  line-height: 28px;
+  color: #333;
+  margin-bottom: 18px;
+}
+
+/* LIST */
+.dg-seo-block ul {
+  padding-left: 22px;
+  margin-bottom: 20px;
+}
+
+.dg-seo-block ul li {
+  font-size: 16px;
+  line-height: 26px;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.dg-seo-block ul li strong {
+  color: var(--black-color);
+}
+
+/* NOTE */
+.dg-seo-note {
+  font-weight: 500;
+  color: var(--black-color);
+  border-left: 4px solid var(--med-red-color);
+  padding-left: 16px;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 768px) {
+  .dg-seo-services {
+    padding: 100px 0;
+  }
+
+  .dg-seo-header h2 {
+    font-size: 32px;
+  }
+
+  .dg-seo-block {
+    padding: 30px;
+  }
+
+  .dg-seo-block h3 {
+    font-size: 22px;
+  }
+
+  .dg-seo-block p,
+  .dg-seo-block ul li {
+    font-size: 15px;
+  }
+}
+
+
+/* ===============================
+   GUARANTEE SECTION – PREMIUM
+================================ */
+
+.dg-guarantee-section {
+  padding: 60px 0;
+  background: linear-gradient(
+    135deg,
+    #120509 0%,
+    #2b0815 60%,
+    #120509 100%
+  );
+  color: #ffffff;
+}
+
+.dg-guarantee-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 70px;
+  align-items: center;
+}
+
+/* LEFT */
+.dg-guarantee-content h2 {
+  font-size: 48px;
+  font-weight:500;
+  line-height: 56px;
+  margin-bottom: 20px;
+}
+
+.dg-guarantee-content p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #e2e2e2;
+  max-width: 520px;
+}
+
+/* RIGHT */
+.dg-guarantee-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.dg-guarantee-card {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 32px 36px;
+  border-radius: 22px;
+  border-left: 5px solid var(--med-red-color);
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+}
+.dg-guarantee-card:hover{
+  background: linear-gradient(
+    135deg,
+    var(--med-red-color),
+    #7a0f1c
+  );
+}
+
+.dg-guarantee-card h4 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.dg-guarantee-card p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #f1f1f1;
+}
+
+/* HIGHLIGHT CARD */
+.dg-guarantee-card.highlight {
+  background: linear-gradient(
+    135deg,
+    var(--med-red-color),
+    #7a0f1c
+  );
+  border-left: none;
+  cursor: pointer;
+}
+/* .dg-guarantee-card.highlight:hover{
+  background: rgba(255, 255, 255, 0.08);
+} */
+
+/* ===============================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 768px) {
+  .dg-guarantee-section {
+    padding: 100px 0;
+  }
+
+  .dg-guarantee-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .dg-guarantee-content h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .dg-guarantee-content p {
+    font-size: 16px;
+  }
+
+  .dg-guarantee-card {
+    padding: 26px;
+  }
+}
+
+
+/* ===============================
+   CLIENT SUCCESS STORIES
+================================ */
+
+.dg-case-section {
+  padding: 60px 0;
+  background: #f9f9f9;
+}
+
+/* HEADER */
+.dg-case-header {
+  max-width: 700px;
+  margin-bottom: 40px;
+}
+
+.dg-case-header h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--black-color);
+  margin-bottom: 14px;
+}
+
+.dg-case-header p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* GRID */
+.dg-case-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+/* CARD */
+.dg-case-card {
+  background: #ffffff;
+  padding: 38px;
+  border-radius: 26px;
+  box-shadow: 0 25px 70px rgba(0,0,0,0.06);
+  border-top: 6px solid var(--med-red-color);
+  transition: transform 0.35s ease;
+}
+
+.dg-case-card:hover {
+  transform: translateY(-8px);
+}
+
+.dg-case-card h3 {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--black-color);
+  margin-bottom: 24px;
+}
+
+/* RESULT & STRATEGY */
+.dg-case-result span,
+.dg-case-strategy span {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--med-red-color);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.dg-case-result p,
+.dg-case-strategy p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.dg-case-result strong {
+  color: var(--black-color);
+}
+
+/* HIGHLIGHT */
+.dg-case-card.highlight {
+  background: linear-gradient(
+    145deg,
+    #2b0815,
+    #120509
+  );
+  color: #ffffff;
+  border-top: none;
+}
+
+.dg-case-card.highlight h3,
+.dg-case-card.highlight p,
+.dg-case-card.highlight strong {
+  color: #ffffff;
+}
+
+.dg-case-card.highlight span {
+  color: #ffd6d6;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 992px) {
+  .dg-case-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dg-case-card {
+    padding: 30px;
+  }
+
+  .dg-case-header h2 {
+    font-size: 32px;
   }
 }

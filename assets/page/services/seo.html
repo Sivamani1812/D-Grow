@@ -1,775 +1,732 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="../../images/d-growlogo.png" />
-    <title>D-Grow</title>
-    <!-- css -->
-    <link rel="stylesheet" href="../../css/style.css" />
-    <!-- font - icon -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <!-- ==============================HEADER ============================ -->
- <header>
-      <div class="container">
-        <div class="logo">
-          <img src="/d-grownew/assets/images/d-growlogo.png" alt="" />
-        </div>
-        <nav>
-          <a href="/d-grownew/index.html">Home</a>
-          <a href="../about.html">About</a>
-          <div class="service-menu">
-            <a
-              class="service-menu-text"
-              onclick="window.open('../services/service.html', '_self')"
-              >Services
-              <i class="fa-solid fa-caret-down"></i>
-            </a>
 
-            <div class="sub-service">
-              <ul class="service-list">
-                <li>
-                  <h5>Digital Marketing Services</h5>
-                  <a href="./seo.html"
-                    ><i class="fa-solid fa-angle-right"></i>SEO Service (Website
-                    Ranking)</a
-                  >
-                  <a href="./ppc.html"
-                    ><i class="fa-solid fa-angle-right"></i>Google Ads (PPC)</a
-                  >
-                  <a href="./smm.html"
-                    ><i class="fa-solid fa-angle-right"></i>Social Media
-                    Marketing</a
-                  >
-                  <a href="./socialmedia.html"
-                    ><i class="fa-solid fa-angle-right"></i>Social Media
-                    Management</a
-                  >
-                  <a href="./email.html"
-                    ><i class="fa-solid fa-angle-right"></i>Email Marketing</a
-                  >
-                  <a href="./gmb.html"
-                    ><i class="fa-solid fa-angle-right"></i>GMB Listing &
-                    Ranking</a
-                  >
-                  <a href="./whatsapp.html"
-                    ><i class="fa-solid fa-angle-right"></i>WhatsApp
-                    Marketing</a
-                  >
-                  <a href="./lead.html"
-                    ><i class="fa-solid fa-angle-right"></i>Leads Generation</a
-                  >
-                  <a href="./political.html"
-                    ><i class="fa-solid fa-angle-right"></i>Political Ads</a
-                  >
-                </li>
-                <li>
-                  <h5>Creative Services</h5>
-                  <a href="./cwm.html"
-                    ><i class="fa-solid fa-angle-right"></i>Content Writing &
-                    Marketing</a
-                  >
-                  <a href="./gd.html"
-                    ><i class="fa-solid fa-angle-right"></i>Graphic Designing</a
-                  >
-                  <a href="./vse.html"
-                    ><i class="fa-solid fa-angle-right"></i>Video Shooting &
-                    Editing</a
-                  >
-                  <a href="./pb.html"
-                    ><i class="fa-solid fa-angle-right"></i>Personal Branding</a
-                  >
-                  <a href="./lbp.html"
-                    ><i class="fa-solid fa-angle-right"></i>LinkedIn Personal
-                    Branding</a
-                  >
-                </li>
-                <li>
-                  <h5>Business Solutions & E-Commerce</h5>
-                  <a href="./wdd.html"
-                    ><i class="fa-solid fa-angle-right"></i>Website Design &
-                    Development</a
-                  >
-                  <a href="./ma.html"
-                    ><i class="fa-solid fa-angle-right"></i>Marketing
-                    Automation</a
-                  >
-                  <a href="./lns.html"
-                    ><i class="fa-solid fa-angle-right"></i>Lead Nurturing
-                    System</a
-                  >
-                  <a href="./dmc.html"
-                    ><i class="fa-solid fa-angle-right"></i>Digital Marketing
-                    Consultation</a
-                  >
-                  <a href="./pl+aseo.html"
-                    ><i class="fa-solid fa-angle-right"></i>Product Listing +
-                    Amazon SEO</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-          <a href="../consultation.html">Consultation</a>
-          <a href="https://medgrowdigi.com/"
-            >Med<span></span>Grow
-            <div class="med-con">
-              Coming Soon <br />
-              for medical
-            </div></a
-          >
-          <a href="../blog.html">Blog</a>
-          <a href="../services/case.html">Case<span></span>Study</a>
-          <a href="../contact.html">Contact</a>
-        </nav>
-        <a class="btn" href="https://wa.me/917373509585" target="_blank"
-          >Start Now</a
-        >
-        <div onclick="showMenu()" class="menu-bar">
-          <div class="open">
-            <i class="fa-solid fa-bars"></i>
-          </div>
-          <div class="close">
-            <i class="fa-solid fa-x"></i>
-          </div>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../../images/d-growlogo.png" />
+  <title>D-Grow</title>
+  <!-- css -->
+  <link rel="stylesheet" href="../../css/style.css" />
+  <!-- font - icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- ==============================HEADER ============================ -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="/d-grownew/assets/images/d-growlogo.png" alt="" />
       </div>
-    </header>
-    <!-- ==============================MOBILE MENU ============================ -->
-    <div class="mobile-menu">
       <nav>
-        <a href="../../../index.html"><i class="fa-solid fa-house"></i>Home</a>
-        <a href="../about.html"
-          ><i class="fa-solid fa-address-card"></i>About</a
-        >
-        <div class="mobile-service">
-          <a href="../services/service.html"
-            ><i class="fa-brands fa-digital-ocean"></i>Services</a
-          >
-          <div class="mobile-sub-menu">
-            <a href="../services/seo.html"
-              ><i class="fa-solid fa-angles-right"></i>SEO</a
-            >
-            <a href="../services/socialmedia.html"
-              ><i class="fa-solid fa-angles-right"></i>Social Media Marketing
-            </a>
-            <a href="#"
-              ><i class="fa-solid fa-angles-right"></i>Lead Generate
-            </a>
-            <a href="#"
-              ><i class="fa-solid fa-angles-right"></i>Web Designing &
-              Development</a
-            >
-            <a href="#"
-              ><i class="fa-solid fa-angles-right"></i>Personal Branding</a
-            >
+        <a href="/d-grownew/index.html">Home</a>
+        <a href="../about.html">About</a>
+        <div class="service-menu">
+          <a class="service-menu-text" onclick="window.open('../services/service.html', '_self')">Services
+            <i class="fa-solid fa-caret-down"></i>
+          </a>
+
+          <div class="sub-service">
+            <ul class="service-list">
+              <li>
+                <h5>Digital Marketing Services</h5>
+                <a href="./seo.html"><i class="fa-solid fa-angle-right"></i>SEO Service (Website
+                  Ranking)</a>
+                <a href="./ppc.html"><i class="fa-solid fa-angle-right"></i>Google Ads (PPC)</a>
+                <a href="./smm.html"><i class="fa-solid fa-angle-right"></i>Social Media
+                  Marketing</a>
+                <a href="./socialmedia.html"><i class="fa-solid fa-angle-right"></i>Social Media
+                  Management</a>
+                <a href="./email.html"><i class="fa-solid fa-angle-right"></i>Email Marketing</a>
+                <a href="./gmb.html"><i class="fa-solid fa-angle-right"></i>GMB Listing &
+                  Ranking</a>
+                <a href="./whatsapp.html"><i class="fa-solid fa-angle-right"></i>WhatsApp
+                  Marketing</a>
+                <a href="./lead.html"><i class="fa-solid fa-angle-right"></i>Leads Generation</a>
+                <a href="./political.html"><i class="fa-solid fa-angle-right"></i>Political Ads</a>
+              </li>
+              <li>
+                <h5>Creative Services</h5>
+                <a href="./cwm.html"><i class="fa-solid fa-angle-right"></i>Content Writing &
+                  Marketing</a>
+                <a href="./gd.html"><i class="fa-solid fa-angle-right"></i>Graphic Designing</a>
+                <a href="./vse.html"><i class="fa-solid fa-angle-right"></i>Video Shooting &
+                  Editing</a>
+                <a href="./pb.html"><i class="fa-solid fa-angle-right"></i>Personal Branding</a>
+                <a href="./lbp.html"><i class="fa-solid fa-angle-right"></i>LinkedIn Personal
+                  Branding</a>
+              </li>
+              <li>
+                <h5>Business Solutions & E-Commerce</h5>
+                <a href="./wdd.html"><i class="fa-solid fa-angle-right"></i>Website Design &
+                  Development</a>
+                <a href="./ma.html"><i class="fa-solid fa-angle-right"></i>Marketing
+                  Automation</a>
+                <a href="./lns.html"><i class="fa-solid fa-angle-right"></i>Lead Nurturing
+                  System</a>
+                <a href="./dmc.html"><i class="fa-solid fa-angle-right"></i>Digital Marketing
+                  Consultation</a>
+                <a href="./pl+aseo.html"><i class="fa-solid fa-angle-right"></i>Product Listing +
+                  Amazon SEO</a>
+              </li>
+            </ul>
           </div>
         </div>
-        <a href="../consultation.html"
-          ><i class="fa-solid fa-book"></i>Digital consultants</a
-        >
-        <a href="#"><i class="fa-solid fa-book"></i>Med Grow (Coming Soon)</a>
-
-        <a href="../blog.html"><i class="fa-solid fa-book"></i>Blog</a>
-        <a href="./case.html"><i class="fa-solid fa-book"></i>Case Study</a>
-
-        <a href="../contact.html"
-          ><i class="fa-solid fa-phone-volume"></i>Contact</a
-        >
+        <a href="../consultation.html">Consultation</a>
+        <a href="https://medgrowdigi.com/">Med<span></span>Grow
+          <div class="med-con">
+            Coming Soon <br />
+            for medical
+          </div>
+        </a>
+        <a href="../blog.html">Blog</a>
+        <a href="../services/case.html">Case<span></span>Study</a>
+        <a href="../contact.html">Contact</a>
       </nav>
-      <div class="mobile-social">
-        <a href="https://wa.me/917373509585"
-          ><i class="fa-brands fa-whatsapp"></i
-        ></a>
-        <a
-          href="https://www.instagram.com/dgrowmarketingagency?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-          ><i class="fa-brands fa-instagram"></i
-        ></a>
-        <a href="mailto:enquiry@dgrowmarketing.com"
-          ><i class="fa-solid fa-envelope"></i
-        ></a>
-        <a href="tel:+917373509585"><i class="fa-solid fa-phone"></i></a>
-      </div>
-    </div>
-    <!-- ==============================MOBILE MENU ============================ -->
-    <!-- ==============================HEADER ============================ -->
-    <!-- ==============================PAGE TOP SECTION ============================ -->
-    <div class="hero-section">
-      <div class="container">
-        <h1>SEO Service</h1>
-        <p>
-          Rank your website on Google's first page and pull the traffic towards
-          your website within 90 Days!
-        </p>
-        <p>
-          <a class="inner-menu" href="../../../index.html"
-            >Home <i class="fa-solid fa-angle-right"></i
-          ></a>
-          <a href="./service.html">Service</a>
-        </p>
-      </div>
-    </div>
-    <!-- ==============================PAGE TOP SECTION ============================ -->
-    <div class="about seo">
-      <!-- ==============================SECTION 2 ============================ -->
-      <!-- ==============================SECTION 2 ============================ -->
-      <div class="container">
-        <div class="seo-input-text">
-          <p>Comprehensive Website Audit Tool</p>
-          <h3>How does your site score?</h3>
+      <a class="btn" href="https://wa.me/917373509585" target="_blank">Start Now</a>
+      <div onclick="showMenu()" class="menu-bar">
+        <div class="open">
+          <i class="fa-solid fa-bars"></i>
         </div>
-
-        <form
-          method="post"
-          action="https://script.google.com/macros/s/AKfycbxTMzLiidLN-A3ZSF7_f1HLvJ6nkZ-cIHHHeBgupMNXLCMM90K14sBxtWlcOroxt6c_/exec"
-          onsubmit="handleSubmit(event)"
-        >
-          <div class="seo-inputs">
-            <input
-              type="text"
-              placeholder="Enter Your Website URL"
-              name="webLink"
-              required
-            />
-            <button type="submit" class="seo-btn" id="seoSubmitBtn">
-              Send
-            </button>
-          </div>
-        </form>
+        <div class="close">
+          <i class="fa-solid fa-x"></i>
+        </div>
       </div>
-      <!-- ==============================SECTION 2 ============================ -->
-      <section class="section section2">
-        <div class="container">
-          <div class="right">
-            <div class="section-img">
-              <img src="../../images/seo.png" alt="" />
-            </div>
+    </div>
+  </header>
+  <!-- ==============================MOBILE MENU ============================ -->
+  <div class="mobile-menu">
+    <nav>
+      <a href="../../../index.html"><i class="fa-solid fa-house"></i>Home</a>
+      <a href="../about.html"><i class="fa-solid fa-address-card"></i>About</a>
+      <div class="mobile-service">
+        <a href="../services/service.html"><i class="fa-brands fa-digital-ocean"></i>Services</a>
+        <div class="mobile-sub-menu">
+          <a href="../services/seo.html"><i class="fa-solid fa-angles-right"></i>SEO</a>
+          <a href="../services/socialmedia.html"><i class="fa-solid fa-angles-right"></i>Social Media Marketing
+          </a>
+          <a href="#"><i class="fa-solid fa-angles-right"></i>Lead Generate
+          </a>
+          <a href="#"><i class="fa-solid fa-angles-right"></i>Web Designing &
+            Development</a>
+          <a href="#"><i class="fa-solid fa-angles-right"></i>Personal Branding</a>
+        </div>
+      </div>
+      <a href="../consultation.html"><i class="fa-solid fa-book"></i>Digital consultants</a>
+      <a href="#"><i class="fa-solid fa-book"></i>Med Grow (Coming Soon)</a>
+
+      <a href="../blog.html"><i class="fa-solid fa-book"></i>Blog</a>
+      <a href="./case.html"><i class="fa-solid fa-book"></i>Case Study</a>
+
+      <a href="../contact.html"><i class="fa-solid fa-phone-volume"></i>Contact</a>
+    </nav>
+    <div class="mobile-social">
+      <a href="https://wa.me/917373509585"><i class="fa-brands fa-whatsapp"></i></a>
+      <a
+        href="https://www.instagram.com/dgrowmarketingagency?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i
+          class="fa-brands fa-instagram"></i></a>
+      <a href="mailto:enquiry@dgrowmarketing.com"><i class="fa-solid fa-envelope"></i></a>
+      <a href="tel:+917373509585"><i class="fa-solid fa-phone"></i></a>
+    </div>
+  </div>
+  <!-- ==============================MOBILE MENU ============================ -->
+  <!-- ==============================HEADER ============================ -->
+  <!-- ==============================PAGE TOP SECTION ============================ -->
+  <div class="hero-section">
+    <div class="container">
+      <h1>SEO Service</h1>
+      <p>
+        Rank your website on Google's first page and pull the traffic towards
+        your website within 90 Days!
+      </p>
+      <p>
+        <a class="inner-menu" href="../../../index.html">Home <i class="fa-solid fa-angle-right"></i></a>
+        <a href="./service.html">Service</a>
+      </p>
+    </div>
+  </div>
+  <!-- ==============================PAGE TOP SECTION ============================ -->
+  <div class="about seo">
+    <!-- ==============================SECTION 2 ============================ -->
+    <!-- ==============================SECTION 2 ============================ -->
+    <div class="container">
+      <div class="seo-input-text">
+        <p>Comprehensive Website Audit Tool</p>
+        <h3>How does your site score?</h3>
+      </div>
+
+      <form method="post"
+        action="https://script.google.com/macros/s/AKfycbxTMzLiidLN-A3ZSF7_f1HLvJ6nkZ-cIHHHeBgupMNXLCMM90K14sBxtWlcOroxt6c_/exec"
+        onsubmit="handleSubmit(event)">
+        <div class="seo-inputs">
+          <input type="text" placeholder="Enter Your Website URL" name="webLink" required />
+          <button type="submit" class="seo-btn" id="seoSubmitBtn">
+            Send
+          </button>
+        </div>
+      </form>
+    </div>
+    <!-- ==============================SECTION 2 ============================ -->
+    <section class="section section2">
+      <div class="container">
+        <div class="right">
+          <div class="section-img">
+            <img src="../../images/seo.png" alt="" />
           </div>
-          <div class="left">
-            <div class="section-text">
-              <h3> Transform Your Business with Powerful SEO Services
-</h3>
-              <p>
-                <strong>Is your website not generating enough traffic? Are you frustrated with poor Google rankings, resulting in lost sales and leads?
-</strong>
-              </p>
-              <p>At D-Grow Marketing Agency, we understand the real challenges you face as a business owner. Your business deserves more visibility, and we are here to help you conquer search engines, drive high-quality traffic, and convert visitors into loyal customers.
-</p> <p>We specialize in solving SEO challenges for local businesses, e-commerce stores, and international brands, helping you thrive in a competitive digital world. <span class="red"> We provide the solutions to every business through SEO Service in India.</span>  
+        </div>
+        <div class="left">
+          <div class="section-text">
+            <h3> Transform Your Business with Powerful SEO Services </h3>
+            <p>
+              <strong>Is your website not generating enough traffic? Are you frustrated with poor Google rankings,
+                resulting in lost sales and leads?</strong>
+            </p>
+            <p>At D-Grow Marketing Agency, we understand the real challenges you face as a business owner. Your business
+              deserves more visibility, and we are here to help you conquer search engines, drive high-quality traffic,
+              and convert visitors into loyal customers.
+            </p>
+            <p>We specialize in solving SEO challenges for local businesses, e-commerce stores, and international
+              brands, helping you thrive in a competitive digital world. <span class="red"> We provide the solutions to
+                every business through SEO Service in India.</span>
+            </p>
+            <h4>Ready to see your website finally work for you?</h4>
+            <p>Let's transform your online presence today.</p>
+            <a href="../contact.html" class="btn">Book Your Free Consultation Now!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==============================SECTION 2 ============================ -->
+
+     <section class="dg-problem-section">
+  <div class="container">
+
+    <!-- LEFT CONTENT -->
+    <div class="dg-problem-header">
+      <h2>The Problem: Why Isn’t Your Website Bringing In Results?</h2>
+      <p>
+        As a business owner, you’ve probably faced one (or more) of these issues:
+      </p>
+    </div>
+
+    <!-- PROBLEM LIST -->
+    <div class="dg-problem-grid">
+
+      <div class="dg-problem-item">
+        <p>Your website isn’t ranking for important keywords, and your competitors are getting all the attention.</p>
+      </div>
+
+      <div class="dg-problem-item">
+        <p>You’re wasting money on ads because your website isn’t converting enough leads organically.</p>
+      </div>
+
+      <div class="dg-problem-item">
+        <p>Your website has low traffic, and your content isn’t being discovered by the right audience.</p>
+      </div>
+
+      <div class="dg-problem-item">
+        <p>Your local presence is weak, and you’re losing potential customers to local competitors.</p>
+      </div>
+
+      <div class="dg-problem-item">
+        <p>Your e-commerce store isn’t generating enough sales, even though you have quality products.</p>
+      </div>
+
+      <div class="dg-problem-item">
+        <p>Your global expansion is hindered, and you’re unable to reach international markets effectively.</p>
+      </div>
+
+    </div>
+
+    <!-- CLOSING LINE -->
+    <div class="dg-problem-footer">
+      <p>
+        These aren’t just small issues — they are growth blockers. If your business isn’t visible online,
+        you're missing out on valuable opportunities. But the good news is, there’s a solution.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+    <!-- ==============================SECTION 2============================ -->
+    <div class="about-section2">
+      <div class="container">
+        <div class="title">
+          <h2>Our Solution: SEO That Delivers Long-Term Results
+</h2>
+          <p>At D-Grow Marketing Agency, we don’t just focus on fixing your SEO problems—we provide comprehensive, results-driven strategies designed to transform your online presence. <span class="red">D-Grow is your go-to SEO service provider in India for results that rank and revenue that rises.. </span> 
+          </p> <br>
+          <p> <b>We Address the Key Issues Businesses Face:</b>
 </p>
-              <h4>Ready to see your website finally work for you?</h4>
-              <p>Let's transform your online presence today.</p>
-              <a href="../contact.html" class="btn"
-                >Book Your Free Consultation Now!</a
-              >
-            </div>
-          </div>
         </div>
-      </section>
-      <!-- ==============================SECTION 2 ============================ -->
-      <!-- ==============================SECTION 2============================ -->
-      <div class="about-section2">
-        <div class="container">
-          <div class="title">
-            <h2>Why D-Grow's SEO is Essential for Your Business?</h2>
-            <p>
-              Supercharge Your Business's Growth With the power of the Best SEO
-              Agency in Chennai to Dominate the Market
-            </p>
-          </div>
-          <div class="boxs1 boxs2">
-            <div class="box">
-              <div class="box1">
-                <div class="icon">
-                  <i class="fa-solid fa-lightbulb"></i>
-                </div>
-                <h4>
-                  Skyrocket Your <br />
-                  Visibility
-                </h4>
+        <div class="boxs1 boxs2">
+          <div class="box">
+            <div class="box1">
+              <div class="icon">
+                <i class="fa-solid fa-lightbulb"></i>
               </div>
-              <div class="box-text">
-                <p>
-                  Get noticed by the right audience and make your website the
-                  star of search results.
-                </p>
-              </div>
+              <h4>
+               Keyword Ranking Issues
+              </h4>
             </div>
-            <div class="box">
-              <div class="box1">
-                <div class="icon">
-                  <i class="fa-solid fa-paper-plane"></i>
-                </div>
-                <h4>
-                  Dominate Search <br />
-                  Rankings
-                </h4>
-              </div>
-              <div class="box-text">
-                <p>
-                  Secure top positions on search engines, outshine your
-                  competitors, and become the go-to brand.
-                </p>
-              </div>
-            </div>
-            <div class="box">
-              <div class="box1">
-                <div class="icon">
-                  <i class="fa-solid fa-map"></i>
-                </div>
-                <h4>
-                  Drive Targeted <br />
-                  Traffic
-                </h4>
-              </div>
-              <div class="box-text">
-                <p>
-                  Flood your site with visitors who are actively searching for
-                  what you offer, turning clicks into conversions.
-                </p>
-              </div>
-            </div>
-            <div class="box">
-              <div class="box1">
-                <div class="icon">
-                  <i class="fa-solid fa-image"></i>
-                </div>
-                <h4>
-                  Generate High-Quality<br />
-                  Leads
-                </h4>
-              </div>
-              <div class="box-text">
-                <p>
-                  Attract the right prospects ready to engage and buy, boosting
-                  your bottom line.
-                </p>
-              </div>
-            </div>
-            <div class="box">
-              <div class="box1">
-                <div class="icon">
-                  <i class="fa-solid fa-keyboard"></i>
-                </div>
-                <h4>Maximize ROI</h4>
-              </div>
-              <div class="box-text">
-                <p>
-                  Ensure every dollar you invest in SEO delivers measurable
-                  returns, fueling your business growth efficiently.
-                </p>
-              </div>
-            </div>
-            <div class="box">
-              <div class="box1">
-                <div class="icon">
-                  <i class="fa-solid fa-lemon"></i>
-                </div>
-                <h4>
-                  Build Unshakable <br />
-                  Credibility
-                </h4>
-              </div>
-              <div class="box-text">
-                <p>
-                  Position your brand as a trusted leader, earning the loyalty
-                  and trust of your customers.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- ==============================SECTION 2============================ -->
-      <!-- ==============================COUNTER ============================ -->
-      <div class="container">
-        <div class="counters">
-          <div class="counter">
-            <h2><span data-count="300">0</span>K</h2>
-            <h4>Organic Keywords Ranked</h4>
-            <div class="bg-img">
-              <img src="../../images/mobile-arrow.webp" alt="" />
-            </div>
-          </div>
-          <div class="counter">
-            <h2><span data-count="100">0</span>M</h2>
-            <h4>Monthly Organic Traffic Generated</h4>
-            <div class="bg-img">
-              <img src="../../images/mobile-arrow.webp" alt="" />
-            </div>
-          </div>
-          <div class="counter">
-            <h2><span data-count="60">0</span>DAYS</h2>
-            <h4>Rank on Google's 1st Page</h4>
-            <div class="bg-img tab">
-              <img src="../../images/mobile-arrow.webp" alt="" />
-            </div>
-          </div>
-          <div class="counter">
-            <h2><span data-count="45">0</span>%</h2>
-            <h4>Increase in Organic Conversions</h4>
-          </div>
-        </div>
-      </div>
-      <!-- ==============================COUNTER ============================ -->
-      <!-- ==============================CTA 4============================ -->
-      <div class="cta-4 seo-cta">
-        <div class="container">
-          <div class="cta-text">
-            <h2>Ready to Rank #1 on Google?</h2>
-            <p>Start Your Journey with Our Expert SEO Services Today!</p>
-            <div class="text">
+            <div class="box-text">
               <p>
-                <i class="fa-solid fa-hand-point-right"></i>
-                We make it possible to position your website at the top of the
-                search engine result page. And also we keep analyzing and
-                updating your
-              </p>
-              <p>
-                <i class="fa-solid fa-hand-point-right"></i>
-                website every month. If you have any doubt or queries feel free
-                to contact us. We have to help you.
-              </p>
-            </div>
-          </div>
-          <div class="cta-btn">
-            <a href="../contact.html" class="btn"
-              >Get Your Free Website Audit!</a
-            >
-          </div>
-        </div>
-      </div>
-      <!-- ==============================CTA 4============================ -->
-      <!-- ==============================SECTION 3============================ -->
-      <div class="section about-section3 seo-3">
-        <div class="container">
-          <div class="right">
-            <div class="section-img">
-              <img src="../../images/about.sidemenu.png" alt="" />
-            </div>
-          </div>
-          <div class="left seo-left">
-            <div class="seo-box">
-              <div class="text">
-                <h4>Healthcare Providers</h4>
-                <p>
-                  Enhance online presence to reach more patients and improve
-                  local search visibility.
-                </p>
-              </div>
-            </div>
-            <div class="seo-box">
-              <div class="text">
-                <h4>Legal Firms</h4>
-                <p>
-                  Gain more clients by ranking higher in search results for
-                  legal services.
-                </p>
-              </div>
-            </div>
-            <div class="seo-box">
-              <div class="text">
-                <h4>Education and Training</h4>
-                <p>
-                  Reach students and professionals looking for educational
-                  programs and training opportunities.
-                </p>
-              </div>
-            </div>
-            <div class="seo-box">
-              <div class="text">
-                <h4>Tech and Software Companies</h4>
-                <p>
-                  Enhance visibility for tech products, software solutions, and
-                  industry-related content.
-                </p>
-              </div>
-            </div>
-            <div class="seo-box">
-              <div class="text">
-                <h4>Professional Services</h4>
-                <p>
-                  Improve search rankings for consultants, coaches, and service
-                  providers in various fields.
-                </p>
-              </div>
-            </div>
-            <div class="seo-box">
-              <div class="text">
-                <h4>E-commerce Stores</h4>
-                <p>
-                  Increase online visibility and drive more traffic to your
-                  product pages.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- ==============================SECTION 3============================ -->
-      <!-- ==============================WORK ============================ -->
-      <div class="work">
-        <div class="container">
-          <div class="left">
-            <div class="step-box">
-              <div class="step">
-                <div class="step-list">
-                  <div class="inner-box"></div>
-                </div>
-                <div class="step-text">
-                  <h3>Comprehensive SEO Audit</h3>
-                  <p>
-                    Detailed analysis of your website's current SEO performance,
-                    including technical issues, keyword effectiveness, and user
-                    experience.
-                  </p>
-                </div>
-              </div>
-              <div class="step">
-                <div class="step-list">
-                  <div class="inner-box"></div>
-                </div>
-                <div class="step-text">
-                  <h3>Keyword Research & Strategy</h3>
-                  <p>
-                    In-depth research to identify high-value keywords and
-                    develop a targeted strategy to optimize content and attract
-                    relevant traffic.
-                  </p>
-                </div>
-              </div>
-              <div class="step">
-                <div class="step-list">
-                  <div class="inner-box"></div>
-                </div>
-                <div class="step-text">
-                  <h3>On-Page Optimization</h3>
-                  <p>
-                    Enhancements to your website's content, meta tags, headers,
-                    and internal linking to improve relevance and search engine
-                    rankings.
-                  </p>
-                </div>
-              </div>
-              <div class="step">
-                <div class="step-list">
-                  <div class="inner-box"></div>
-                </div>
-                <div class="step-text">
-                  <h3>SEO-Friendly Content Creation & Optimization</h3>
-                  <p>
-                    Development and refinement of high-quality, SEO-friendly
-                    content that engages users and boosts search engine
-                    visibility.
-                  </p>
-                </div>
-              </div>
-              <div class="step">
-                <div class="step-list">
-                  <div class="inner-box"></div>
-                </div>
-                <div class="step-text">
-                  <h3>Off Page SEO</h3>
-                  <p>
-                    Strategic acquisition of high-quality backlinks to increase
-                    domain authority and improve search engine rankings.
-                  </p>
-                </div>
-              </div>
-              <div class="step">
-                <div class="step-list">
-                  <div class="inner-box"></div>
-                </div>
-                <div class="step-text">
-                  <h3>Technical SEO Improvements</h3>
-                  <p>
-                    Fixes and optimizations for website speed,
-                    mobile-friendliness, and crawlability to ensure optimal
-                    performance and accessibility.
-                  </p>
-                </div>
-              </div>
-              <div class="step">
-                <div class="step-list">
-                  <div class="inner-box"></div>
-                </div>
-                <div class="step-text">
-                  <h3>Local SEO Optimization</h3>
-                  <p>
-                    Optimization for local search results, including Google My
-                    Business setup and local citations to attract nearby
-                    customers.
-                  </p>
-                </div>
-              </div>
-              <div class="step">
-                <div class="step-list">
-                  <div class="inner-box"></div>
-                </div>
-                <div class="step-text">
-                  <h3>Continuous Optimization & Support</h3>
-                  <p>
-                    Ongoing adjustments and support to adapt to changing search
-                    algorithms and market trends, ensuring long-term success.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="right">
-            <div class="">
-              <h2>What You'll Get from Our SEO Strategies?</h2>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab
-                odit repudiandae nulla exercitationem quas excepturi tempore
-                illo? Error fuga, repudiandae recusandae eaque eos
-                exercitationem corporis, delectus inventore perspiciatis
-                excepturi atque.
-              </p>
-            </div>
-            <img src="../../images/hero.png" alt="" />
-          </div>
-        </div>
-      </div>
-      <!-- ==============================WORK ============================ -->
-      <!-- ==============================images ============================ -->
-      <div class="container">
-        <div class="section-img">
-          <img src="../../images/didyou.png" alt="" />
-        </div>
-      </div>
-      <!-- ==============================images ============================ -->
-      <!-- ==============================CTA 4============================ -->
-      <div class="cta-4 seo-cta seo-cta-1">
-        <div class="container">
-          <div class="cta-text">
-            <h2>Still Not Sure Where to Start?</h2>
-            <p>
-              Get a Free SEO Audit to Uncover Your Website?s Hidden Potential!
-            </p>
-            <a href="../contact.html" class="btn">Book Now!</a>
-          </div>
-          <div class="cta-btn cta-btn-2">
-            <img src="../../images/cta2.png" alt="" />
-          </div>
-        </div>
-      </div>
-      <!-- ==============================CTA 4============================ -->
-      <!-- ==============================FOOTER============================ -->
-      <footer>
-        <div class="container">
-          <div class="footer-box">
-            <a href="../../index.html">Home </a>
-            <a href="../page/about.html">About Us </a>
-            <a href="#">Services </a>
-            <a href="#">SEO Service </a>
-            <a href="#">Social Media Marketing </a>
-            <a href="../page/contact.html">Contact Us</a>
-            <div class="social-icon">
-              <a href="#"></a>
-            </div>
-          </div>
-          <div class="footer-box address">
-            <img src="../images/d-grow-footer.png" alt="" />
-            <p>
-              Plot No. 141, SF No: 14/3 Radha Avenue Main Road, Valasaravakkam,
-              Chennai - 600087
-            </p>
-            <a href="#">+91 7373509585</a>
-            <a href="#"> enquiry@dgrowmarketing.com</a>
-          </div>
-        </div>
-        <hr />
-        <a href="">
-          <p class="copy">Copyright © 2024 D-Grow Marketing Agency</p></a
-        >
-      </footer>
-      <!-- ==============================FOOTER============================ -->
-      <!-- ==============================Float menu============================ -->
-      <button id="scrollToTop">
-        <a class="bg-icon" onclick="showSocial()" title="Social Media"
-          ><i class="fa-solid fa-share-alt"></i
-        ></a>
-        <a class="bg-icon" href="#" title="Go to top"
-          ><i class="fa-solid fa-arrow-up"></i
-        ></a>
+                 We’ll ensure your website ranks for high-converting keywords that attract quality traffic.
 
-        <div class="float-social">
-          <a
-            class="whatsapp"
-            href="https://wa.me/917373509585"
-            target="_blank"
-            title="WhatsApp"
-            ><i class="fa-brands fa-whatsapp"></i
-          ></a>
-          <a
-            class="insta"
-            href="https://www.instagram.com/dgrowmarketingagency?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-            target="_blank"
-            title="Instagram"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-          <a
-            class="env"
-            href="mailto:enquiry@dgrowmarketing.com"
-            target="_blank"
-            title="Email Me"
-            ><i class="fa-solid fa-envelope"></i
-          ></a>
-          <a
-            class="phone"
-            href="tel:+917373509585"
-            target="_blank"
-            title="Contact "
-            ><i class="fa-solid fa-phone"></i
-          ></a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box1">
+              <div class="icon">
+                <i class="fa-solid fa-paper-plane"></i>
+              </div>
+              <h4>
+               Low Traffic
+              </h4>
+            </div>
+            <div class="box-text">
+              <p> Our SEO strategies bring in targeted visitors, boosting your online visibility and organic search traffic.
+
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box1">
+              <div class="icon">
+                <i class="fa-solid fa-map"></i>
+              </div>
+              <h4>
+                Poor Conversion Rates
+
+              </h4>
+            </div>
+            <div class="box-text">
+              <p> We’ll optimize your website’s user experience, increasing conversions and sales without spending more on ads.
+
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box1">
+              <div class="icon">
+                <i class="fa-solid fa-image"></i>
+              </div>
+              <h4>
+                Weak Local Presence
+              </h4>
+            </div>
+            <div class="box-text">
+              <p> Our local SEO strategies will make your business the first choice in your city, helping you capture local customers.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box1">
+              <div class="icon">
+                <i class="fa-solid fa-keyboard"></i>
+              </div>
+              <h4> E-commerce Visibility Problems</h4>
+            </div>
+            <div class="box-text">
+              <p> We’ll optimize product pages, category structures, and checkout processes to increase your sales.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box1">
+              <div class="icon">
+                <i class="fa-solid fa-lemon"></i>
+              </div>
+              <h4>Limited Global Reach
+              </h4>
+            </div>
+            <div class="box-text">
+              <p> Our international SEO strategies ensure that your business ranks and attracts customers from anywhere in the world.
+
+              </p>
+            </div>
+          </div>
         </div>
-      </button>
+      </div>
     </div>
-    <!-- js -->
-    <script src="../../js/main.js"></script>
-    <script>
-      function handleSubmit(e) {
-        const btn = document.getElementById("seoSubmitBtn");
-        btn.textContent = "Sending...";
-        btn.disabled = true;
+    <!-- ==============================SECTION 2============================ -->
+    <section class="dg-seo-services">
+  <div class="container">
 
-        // Allow form to continue submitting, then wait for a moment before showing the alert
-        // Prevent default form submission to allow async fetch
-        e.preventDefault();
+    <!-- SECTION HEADER -->
+    <div class="dg-seo-header">
+      <h2>Our Comprehensive SEO Services</h2>
+      <p>
+        We provide a full range of SEO services that are tailored to solve your
+        unique business challenges. Here’s how we can help you:
+      </p>
+    </div>
 
-        const form = e.target;
-        const data = new FormData(form);
+    <!-- SERVICE BLOCKS -->
 
-        fetch(form.action, {
-          method: "POST",
-          body: data,
+    <!-- 1. WEBSITE SEO -->
+    <div class="dg-seo-block">
+      <h3>1. Website SEO – Boosting Your Online Visibility</h3>
+      <p>
+        Is your website working hard enough for you? We ensure that your website
+        is fully optimized for search engines, with a focus on:
+      </p>
+
+      <ul>
+        <li><strong>Website Audits:</strong> Comprehensive audits to identify and fix any technical issues holding you back.</li>
+        <li><strong>On-Page SEO:</strong> From title tags to content optimization, we’ll make sure your pages are search-engine friendly.</li>
+        <li><strong>Technical SEO:</strong> We’ll optimize site speed, mobile usability, and ensure search engines can crawl and index your site effectively.</li>
+        <li><strong>Conversion Optimization:</strong> Enhance user experience and ensure your website converts visitors into leads and sales.</li>
+      </ul>
+
+      <p class="dg-seo-note">
+        Fixing your website’s SEO is the first step to solving many of your online business problems.
+      </p>
+    </div>
+
+    <!-- 2. LOCAL SEO -->
+    <div class="dg-seo-block">
+      <h3>2. Local SEO – Capture Your Local Market</h3>
+      <p>
+        Are you struggling to show up for local searches in your city or region?
+        Local SEO is the solution to make your business visible to customers
+        searching for your services right now.
+      </p>
+
+      <ul>
+        <li><strong>Google My Business (GMB) Optimization:</strong> Setup and optimization to increase visibility in Google Maps and Local Search.</li>
+        <li><strong>Local Keyword Targeting:</strong> Identifying keywords your local customers are actively searching for.</li>
+        <li><strong>Local Citations & Backlinks:</strong> Building strong local authority to rank higher.</li>
+        <li><strong>Reputation Management:</strong> Managing reviews and ratings to improve trust.</li>
+      </ul>
+
+      <p class="dg-seo-note">
+        If you want your business to be the go-to for local customers, Local SEO is your key.
+      </p>
+    </div>
+
+    <!-- 3. ECOMMERCE SEO -->
+    <div class="dg-seo-block">
+      <h3>3. E-commerce SEO – Maximize Your Online Sales</h3>
+      <p>
+        If your e-commerce website isn’t performing, your sales are directly
+        affected. Our E-commerce SEO services are designed to:
+      </p>
+
+      <ul>
+        <li><strong>Product Page Optimization:</strong> SEO-friendly product descriptions, images, and metadata.</li>
+        <li><strong>Category Structure Optimization:</strong> Better category hierarchy for rankings and UX.</li>
+        <li><strong>Link Building for Authority:</strong> High-quality backlinks to boost rankings and traffic.</li>
+        <li><strong>Conversion Rate Optimization:</strong> Optimized sales funnels to convert visitors into buyers.</li>
+      </ul>
+
+      <p class="dg-seo-note">
+        You deserve to sell more online — and we can make that happen.
+      </p>
+    </div>
+
+    <!-- 4. INTERNATIONAL SEO -->
+    <div class="dg-seo-block">
+      <h3>4. International SEO – Go Global and Capture Worldwide Markets</h3>
+      <p>
+        Looking to take your business beyond borders? International SEO helps
+        businesses reach customers across multiple countries effectively.
+      </p>
+
+      <ul>
+        <li><strong>Multilingual SEO:</strong> Optimizing your website in multiple languages.</li>
+        <li><strong>Geo-targeting:</strong> Ranking for country-specific searches (US, UK, UAE, etc.).</li>
+        <li><strong>International Keyword Research:</strong> Identifying profitable keywords for global audiences.</li>
+        <li><strong>International Backlinking:</strong> Building authority with region-specific backlinks.</li>
+      </ul>
+
+      <p class="dg-seo-note">
+        Expand your global reach and grow your business internationally with proven strategies.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================================================================ -->
+
+<section class="dg-guarantee-section">
+  <div class="container dg-guarantee-grid">
+
+    <!-- LEFT CONTENT -->
+    <div class="dg-guarantee-content">
+      <h2>100-Day Guaranteed Ranking – We’re That Confident</h2>
+      <p>
+        We are so confident in our approach that we guarantee measurable ranking
+        improvements within 100 days.
+      </p>
+    </div>
+
+    <!-- RIGHT GUARANTEE BOXES -->
+    <div class="dg-guarantee-cards">
+
+      <div class="dg-guarantee-card">
+        <h4>100-Day Ranking Guarantee</h4>
+        <p>
+          We’ll work relentlessly to ensure your keywords start ranking in the
+          top results within 100 days.
+        </p>
+      </div>
+
+      <div class="dg-guarantee-card highlight">
+        <h4>No Results, No Cost</h4>
+        <p>
+          If we don’t meet the agreed-upon rankings, we continue working for free
+          until you see results.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- ==============================COUNTER ============================ -->
+    <div class="container">
+      <div class="title1"><h2>SEO That Delivers Measurable Results
+</h2>
+<p>Our SEO services are backed by real data, and we’ll show you the results:
+</p></div>
+      <div class="counters2 counters">
+        <div class="counter">
+          <h2><span data-count="93">0</span>%</h2>
+          <h4> online experiences begin with a search engine
+</h4>
+          <div class="bg-img">
+            <img src="../../images/mobile-arrow.webp" alt="" />
+          </div>
+        </div>
+        <div class="counter">
+          <h2><span data-count="68">0</span>%</h2>
+          <h4>online experiences involve a search engine clicking the top 5 results
+</h4>
+          <div class="bg-img">
+            <img src="../../images/mobile-arrow.webp" alt="" />
+          </div>
+        </div>
+        <div class="counter">
+          <h2><span data-count="14.6">0</span>%</h2>
+          <h4>conversion rate for SEO leads versus 1.7% for outbound leads
+</h4>
+          <div class="bg-img tab">
+            <img src="../../images/mobile-arrow.webp" alt="" />
+          </div>
+        </div>
+        <div class="counter">
+          <h2><span data-count="3">0</span>K</h2>
+          <h4>higher ROI from SEO efforts compared to paid ads</h4>
+          <div class="bg-img tab">
+            <img src="../../images/mobile-arrow.webp" alt="" />
+          </div>
+        </div>
+        <div class="counter">
+          <h2><span data-count="5">0</span>K</h2>
+          <h4> increase in organic traffic for our e-commerce clients within 6 months
+</h4>
+        </div>
+      </div>
+      <div class="title1"><p>SEO isn’t just an expense; it’s a long-term investment in your growth. When done right, the ROI far exceeds the cost.
+</p></div>
+    </div>
+    <!-- ==============================COUNTER ============================ -->
+
+    <section class="dg-case-section">
+  <div class="container">
+
+    <!-- HEADER -->
+    <div class="dg-case-header">
+      <h2>Client Success Stories</h2>
+      <p>Real businesses. Real growth. Proven SEO strategies.</p>
+    </div>
+
+    <!-- CASE GRID -->
+    <div class="dg-case-grid">
+
+      <!-- CASE 1 -->
+      <div class="dg-case-card">
+        <h3>Local Law Firm</h3>
+
+        <div class="dg-case-result">
+          <span>📈 Results</span>
+          <p>Increased local leads by <strong>150%</strong> in just 3 months</p>
+        </div>
+
+        <div class="dg-case-strategy">
+          <span>🎯 Key Strategy</span>
+          <p>
+            Optimized GMB profile, local citations, and targeted local keywords
+          </p>
+        </div>
+      </div>
+
+      <!-- CASE 2 -->
+      <div class="dg-case-card highlight">
+        <h3>E-commerce Fashion Store</h3>
+
+        <div class="dg-case-result">
+          <span>📈 Results</span>
+          <p>
+            <strong>200%</strong> increase in organic traffic,
+            <strong>100%</strong> increase in sales
+          </p>
+        </div>
+
+        <div class="dg-case-strategy">
+          <span>🎯 Key Strategy</span>
+          <p>
+            Product page optimization, backlink building, and conversion optimization
+          </p>
+        </div>
+      </div>
+
+      <!-- CASE 3 -->
+      <div class="dg-case-card">
+        <h3>SaaS Business Expanding Globally</h3>
+
+        <div class="dg-case-result">
+          <span>📈 Results</span>
+          <p>
+            <strong>250%</strong> increase in international traffic within 6 months
+          </p>
+        </div>
+
+        <div class="dg-case-strategy">
+          <span>🎯 Key Strategy</span>
+          <p>
+            Multilingual SEO, international keyword targeting, and global link building
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    
+    <!-- ==============================CTA 4============================ -->
+   
+    <!-- ==============================SECTION 3============================ -->
+   
+    <!-- ==============================WORK ============================ -->
+    <!-- ==============================images ============================ -->
+    <div class="container">
+      <div class="section-img">
+        <img src="../../images/didyou.png" alt="" />
+      </div>
+    </div>
+    <!-- ==============================images ============================ -->
+    <!-- ==============================CTA 4============================ -->
+    <div class="cta-4 seo-cta seo-cta-1">
+      <div class="container">
+        <div class="cta-text">
+          <h2> Let’s Talk About Your Business</h2>
+          <p>
+            Are you ready to solve your SEO problems, get found by your ideal customers, and drive real growth? Schedule a free consultation with our SEO experts today. 
+
+          </p>
+          <a href="../contact.html" class="btn">Book Now!</a>
+        </div>
+        <div class="cta-btn cta-btn-2">
+          <img src="../../images/cta2.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- ==============================CTA 4============================ -->
+    <!-- ==============================FOOTER============================ -->
+    <footer>
+      <div class="container">
+        <div class="footer-box">
+          <a href="/d-grownew/index.html">Home </a>
+          <a href="../about.html">About Us </a>
+          <a href="../services/service.html">Services </a>
+          <a href="./seo.html">SEO Service </a>
+          <a href="./socialmedia.html">Social Media Marketing </a>
+          <a href="../contact.html">Contact Us</a>
+          <div class="social-icon">
+            <a href="#"></a>
+          </div>
+        </div>
+        <div class="footer-box address">
+          <img src="/d-grownew/assets/images/d-grow-footer.png" alt="" />
+          <p>
+            Plot No. 141, SF No: 14/3 Radha Avenue Main Road, Valasaravakkam,
+            Chennai - 600087
+          </p>
+          <a href="#">+91 7373509585</a>
+          <a href="#"> enquiry@dgrowmarketing.com</a>
+        </div>
+      </div>
+      <hr />
+      <a href="">
+        <p class="copy">Copyright © 2024 D-Grow Marketing Agency</p>
+      </a>
+    </footer>
+    <!-- ==============================FOOTER============================ -->
+    <!-- ==============================Float menu============================ -->
+    <button id="scrollToTop">
+      <a class="bg-icon" onclick="showSocial()" title="Social Media"><i class="fa-solid fa-share-alt"></i></a>
+      <a class="bg-icon" href="#" title="Go to top"><i class="fa-solid fa-arrow-up"></i></a>
+
+      <div class="float-social">
+        <a class="whatsapp" href="https://wa.me/917373509585" target="_blank" title="WhatsApp"><i
+            class="fa-brands fa-whatsapp"></i></a>
+        <a class="insta"
+          href="https://www.instagram.com/dgrowmarketingagency?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a class="env" href="mailto:enquiry@dgrowmarketing.com" target="_blank" title="Email Me"><i
+            class="fa-solid fa-envelope"></i></a>
+        <a class="phone" href="tel:+917373509585" target="_blank" title="Contact "><i class="fa-solid fa-phone"></i></a>
+      </div>
+    </button>
+  </div>
+  <!-- js -->
+  <script src="../../js/main.js"></script>
+  <script>
+    function handleSubmit(e) {
+      const btn = document.getElementById("seoSubmitBtn");
+      btn.textContent = "Sending...";
+      btn.disabled = true;
+
+      // Allow form to continue submitting, then wait for a moment before showing the alert
+      // Prevent default form submission to allow async fetch
+      e.preventDefault();
+
+      const form = e.target;
+      const data = new FormData(form);
+
+      fetch(form.action, {
+        method: "POST",
+        body: data,
+      })
+        .then((response) => {
+          if (response.ok) {
+            alert("Form submitted successfully!");
+            location.reload();
+          } else {
+            alert("There was an error submitting the form.");
+          }
+          btn.textContent = "Send";
+          btn.disabled = false;
+          form.reset();
         })
-          .then((response) => {
-            if (response.ok) {
-              alert("Form submitted successfully!");
-              location.reload();
-            } else {
-              alert("There was an error submitting the form.");
-            }
-            btn.textContent = "Send";
-            btn.disabled = false;
-            form.reset();
-          })
-          .catch((error) => {
-            alert("Something went wrong!");
-            console.error(error);
-            btn.textContent = "Send";
-            btn.disabled = false;
-          });
-      }
-    </script>
-  </body>
+        .catch((error) => {
+          alert("Something went wrong!");
+          console.error(error);
+          btn.textContent = "Send";
+          btn.disabled = false;
+        });
+    }
+  </script>
+</body>
+
 </html>
